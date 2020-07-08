@@ -4,6 +4,18 @@
     "name": "OnSIP",
     "url": "https://sipjs.com/aboutus/"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "sip.js"
+  },
   "description": "A SIP library for JavaScript",
   "filename": "sip.min.js",
   "homepage": "https://sipjs.com",
@@ -21,17 +33,5 @@
     "type": "git",
     "url": "git+https://github.com/onsip/SIP.js.git"
   },
-  "version": "0.16.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "sip.js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.js"
-        ]
-      }
-    ]
-  }
+  "version": "0.17.0"
 }
