@@ -1,12 +1,22 @@
 {
-  "name": "stampit",
-  "description": "Create objects from reusable, composable behaviors.",
-  "version": "3.2.1",
   "author": {
     "name": "Eric Elliott",
     "url": "https://ericelliottjs.com"
   },
-  "license": "MIT",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "stampit.umd*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "stampit"
+  },
+  "description": "Create objects from reusable, composable behaviors.",
+  "filename": "stampit.umd.min.js",
   "keywords": [
     "object",
     "prototype",
@@ -19,21 +29,11 @@
     "class",
     "stamp"
   ],
+  "license": "MIT",
+  "name": "stampit",
   "repository": {
     "type": "git",
     "url": "git@github.com:stampit-org/stampit.git"
   },
-  "filename": "stampit.umd.min.js",
-  "autoupdate": {
-    "source": "npm",
-    "target": "stampit",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "stampit.umd*"
-        ]
-      }
-    ]
-  }
+  "version": "4.3.1"
 }
