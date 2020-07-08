@@ -1,10 +1,20 @@
 {
-  "name": "core.css",
-  "version": "3.0.0",
-  "filename": "css/core.min.css",
-  "description": "A lightweight foundation for building responsive websites.",
-  "homepage": "http://corecss.io/",
   "author": "Alec Rios",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "css/core*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/alecrios/core.git"
+  },
+  "description": "A lightweight foundation for building responsive websites.",
+  "filename": "css/core.min.css",
+  "homepage": "http://corecss.io/",
   "keywords": [
     "lightweight",
     "responsive",
@@ -13,21 +23,11 @@
     "reset",
     "framework"
   ],
+  "license": "MIT",
+  "name": "core.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/alecrios/core.git"
   },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/alecrios/core.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "css/core*"
-        ]
-      }
-    ]
-  },
-  "license": "MIT"
+  "version": "4.0.0"
 }
