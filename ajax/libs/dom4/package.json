@@ -1,27 +1,9 @@
 {
-  "name": "dom4",
-  "version": "3.0.0",
-  "description": "a fully tested and covered polyfill for new DOM Level 4 entries",
-  "keywords": [
-    "DOM",
-    "Level 4",
-    "classList",
-    "CustomEvent",
-    "matches",
-    "DOM4"
-  ],
   "author": {
     "name": "Andrea Giammarchi",
     "web": "http://webreflection.blogspot.com/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/WebReflection/dom4.git"
-  },
-  "filename": "dom4.js",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/WebReflection/dom4.git",
     "fileMap": [
       {
         "basePath": "build",
@@ -30,7 +12,25 @@
           "dom4.max.js"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/WebReflection/dom4.git"
   },
-  "license": "MIT"
+  "description": "a fully tested and covered polyfill for new DOM Level 4 entries",
+  "filename": "dom4.js",
+  "keywords": [
+    "DOM",
+    "Level 4",
+    "classList",
+    "CustomEvent",
+    "matches",
+    "DOM4"
+  ],
+  "license": "MIT",
+  "name": "dom4",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/WebReflection/dom4.git"
+  },
+  "version": "2.1.5"
 }
