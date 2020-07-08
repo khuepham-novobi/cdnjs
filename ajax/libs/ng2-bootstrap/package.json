@@ -1,6 +1,20 @@
 {
-  "name": "ng2-bootstrap",
-  "version": "1.6.2",
+  "author": {
+    "email": "valorkin@gmail.com",
+    "name": "Dmitriy Shekhovtsov"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "bundles",
+        "files": [
+          "**/ng2-bootstrap*.+(js|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "ng2-bootstrap"
+  },
   "description": "angular2 native bootstrap components",
   "filename": "ng2-bootstrap.umd.min.js",
   "keywords": [
@@ -9,25 +23,11 @@
     "angularjs",
     "twitter-bootstrap"
   ],
-  "author": {
-    "name": "Dmitriy Shekhovtsov",
-    "email": "valorkin@gmail.com"
-  },
   "license": "MIT",
+  "name": "ng2-bootstrap",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/valor-software/ng2-bootstrap.git"
   },
-  "autoupdate": {
-    "source": "npm",
-    "target": "ng2-bootstrap",
-    "fileMap": [
-      {
-        "basePath": "bundles",
-        "files": [
-          "**/ng2-bootstrap*.+(js|map)"
-        ]
-      }
-    ]
-  }
+  "version": "1.6.3"
 }
