@@ -1,12 +1,20 @@
 {
-  "name": "blaze",
-  "version": "3.6.3",
+  "author": "Gregory Pratt",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "blaze"
+  },
   "description": "Open Source CSS Framework",
   "filename": "blaze.min.css",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlazeCSS/blaze.git"
-  },
+  "homepage": "http://blazecss.com",
   "keywords": [
     "html5",
     "sass",
@@ -18,19 +26,11 @@
     "framework",
     "components"
   ],
-  "author": "Gregory Pratt",
   "license": "MIT",
-  "homepage": "http://blazecss.com",
-  "autoupdate": {
-    "source": "npm",
-    "target": "blaze",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "name": "blaze",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlazeCSS/blaze.git"
+  },
+  "version": "5.0.0-old"
 }
