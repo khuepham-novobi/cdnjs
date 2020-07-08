@@ -1,8 +1,19 @@
 {
-  "name": "angular-translate-loader-partial",
-  "filename": "angular-translate-loader-partial.min.js",
+  "author": "Pascal Precht",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/angular-translate/bower-angular-translate-loader-partial.git"
+  },
   "description": "angular-translate-loader-partial",
-  "version": "2.18.2",
+  "filename": "angular-translate-loader-partial.min.js",
   "homepage": "http://angular-translate.github.io",
   "keywords": [
     "framework",
@@ -12,22 +23,11 @@
     "angular.js",
     "angular-translate"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/angular-translate/bower-angular-translate-loader-partial.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "*.js"
-        ]
-      }
-    ]
-  },
   "license": "MIT",
+  "name": "angular-translate-loader-partial",
   "repository": {
     "type": "git",
     "url": "https://github.com/angular-translate/bower-angular-translate-loader-partial"
   },
-  "author": "Pascal Precht"
+  "version": "2.18.3"
 }
