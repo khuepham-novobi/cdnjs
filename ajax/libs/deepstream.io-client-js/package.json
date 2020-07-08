@@ -1,11 +1,20 @@
 {
-  "name": "deepstream.io-client-js",
+  "author": "deepstreamHub GmbH",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "deepstream.io-client-js"
+  },
   "description": "the javascript client for deepstream.io",
   "filename": "deepstream.min.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/deepstreamIO/deepstream.io-client-js.git"
-  },
+  "homepage": "http://deepstream.io",
   "keywords": [
     "deepstream",
     "realtime",
@@ -15,20 +24,11 @@
     "rpc",
     "streaming"
   ],
-  "author": "deepstreamHub GmbH",
   "license": "Apache-2.0",
-  "homepage": "http://deepstream.io",
-  "version": "2.3.3",
-  "autoupdate": {
-    "source": "npm",
-    "target": "deepstream.io-client-js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "name": "deepstream.io-client-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepstreamIO/deepstream.io-client-js.git"
+  },
+  "version": "2.3.4"
 }
