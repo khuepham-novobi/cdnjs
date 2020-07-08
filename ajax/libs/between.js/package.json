@@ -1,5 +1,17 @@
 {
   "author": "Alexander Buzin",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "between.js"
+  },
   "description": "Lightweight ES6 JavaScript tweening engine",
   "filename": "between.js",
   "homepage": "https://between.js.org/",
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "git+https://github.com/sasha240100/between.js.git"
   },
-  "version": "0.1.2",
-  "autoupdate": {
-    "source": "npm",
-    "target": "between.js",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "0.1.2-fix.2"
 }
