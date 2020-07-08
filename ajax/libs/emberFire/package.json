@@ -1,15 +1,6 @@
 {
-  "name": "emberFire",
-  "filename": "emberfire.min.js",
-  "version": "2.0.10",
-  "description": "The officially supported Ember binding for Firebase",
-  "keywords": [
-    "emberfire",
-    "emberfire.js"
-  ],
+  "author": "Firebase <support@firebase.com> (https://www.firebase.com/)",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/firebase/emberfire.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -17,12 +8,21 @@
           "**/*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/firebase/emberfire.git"
   },
+  "description": "The officially supported Ember binding for Firebase",
+  "filename": "emberfire.min.js",
+  "keywords": [
+    "emberfire",
+    "emberfire.js"
+  ],
+  "license": "MIT",
+  "name": "emberFire",
   "repository": {
     "type": "git",
     "url": "https://github.com/firebase/emberfire"
   },
-  "license": "MIT",
-  "author": "Firebase <support@firebase.com> (https://www.firebase.com/)"
+  "version": "3.0.0-rc.6"
 }
