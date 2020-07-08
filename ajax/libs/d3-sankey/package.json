@@ -3,6 +3,18 @@
     "name": "Mike Bostock",
     "url": "https://bost.ocks.org/mike"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "d3-sankey"
+  },
   "description": "Visualize flow between nodes in a directed acyclic network.",
   "filename": "d3-sankey.min.js",
   "homepage": "https://bost.ocks.org/mike/sankey/",
@@ -16,17 +28,5 @@
     "type": "git",
     "url": "git+https://github.com/d3/d3-sankey.git"
   },
-  "version": "0.12.2",
-  "autoupdate": {
-    "source": "npm",
-    "target": "d3-sankey",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "0.12.3"
 }
