@@ -1,21 +1,6 @@
 {
-  "name": "then-request",
-  "version": "2.2.0",
-  "filename": "request.min.js",
-  "description": "A request library that returns promises, inspired by request",
-  "license": "MIT",
-  "keywords": [
-    "request"
-  ],
   "author": "ForbesLindesay",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/then/then-request.git"
-  },
-  "namespace": "request",
   "autoupdate": {
-    "source": "npm",
-    "target": "then-request",
     "fileMap": [
       {
         "basePath": "dist",
@@ -23,6 +8,21 @@
           "*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "then-request"
+  },
+  "description": "A request library that returns promises, inspired by request",
+  "filename": "request.min.js",
+  "keywords": [
+    "request"
+  ],
+  "license": "MIT",
+  "name": "then-request",
+  "namespace": "request",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/then/then-request.git"
+  },
+  "version": "6.0.2"
 }
