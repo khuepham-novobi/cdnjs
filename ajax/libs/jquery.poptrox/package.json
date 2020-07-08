@@ -1,18 +1,5 @@
 {
-  "name": "jquery.poptrox",
-  "version": "2.5.1",
-  "description": "A lightbox gallery plugin for jQuery.",
-  "keywords": [
-    "jquery",
-    "gallery",
-    "lightbox"
-  ],
-  "homepage": "https://aj.lkn.io/",
-  "license": "MIT",
-  "filename": "jquery.poptrox.min.js",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/ajlkn/jquery.poptrox.git",
     "fileMap": [
       {
         "basePath": "",
@@ -20,10 +7,23 @@
           "jquery.poptrox*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/ajlkn/jquery.poptrox.git"
   },
+  "description": "A lightbox gallery plugin for jQuery.",
+  "filename": "jquery.poptrox.min.js",
+  "homepage": "https://aj.lkn.io/",
+  "keywords": [
+    "jquery",
+    "gallery",
+    "lightbox"
+  ],
+  "license": "MIT",
+  "name": "jquery.poptrox",
   "repository": {
     "type": "git",
     "url": "git://github.com/ajlkn/jquery.poptrox"
-  }
+  },
+  "version": "2.5.0"
 }
