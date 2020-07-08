@@ -1,5 +1,17 @@
 {
   "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "index.*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "query-string"
+  },
   "description": "Parse and stringify URL query strings",
   "filename": "index.js",
   "keywords": [
@@ -23,17 +35,5 @@
     "type": "git",
     "url": "https://github.com/SaneMethod/sindresorhus/query-string.git"
   },
-  "version": "6.13.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "query-string",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "index.*"
-        ]
-      }
-    ]
-  }
+  "version": "6.13.1"
 }
