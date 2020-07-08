@@ -1,28 +1,9 @@
 {
-  "name": "d3-dispatch",
-  "filename": "d3-dispatch.min.js",
-  "description": "Register named callbacks and call them with arguments.",
-  "keywords": [
-    "d3",
-    "d3-module",
-    "event",
-    "listener",
-    "dispatch"
-  ],
-  "homepage": "https://d3js.org/d3-dispatch/",
-  "license": "BSD-3-Clause",
   "author": {
     "name": "Mike Bostock",
     "url": "https://bost.ocks.org/mike"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3/d3-dispatch.git"
-  },
-  "version": "1.0.3",
   "autoupdate": {
-    "source": "npm",
-    "target": "d3-dispatch",
     "fileMap": [
       {
         "basePath": "build",
@@ -30,6 +11,25 @@
           "**/!(package.js|version.js)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "d3-dispatch"
+  },
+  "description": "Register named callbacks and call them with arguments.",
+  "filename": "d3-dispatch.min.js",
+  "homepage": "https://d3js.org/d3-dispatch/",
+  "keywords": [
+    "d3",
+    "d3-module",
+    "event",
+    "listener",
+    "dispatch"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "d3-dispatch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-dispatch.git"
+  },
+  "version": "1.0.6"
 }
