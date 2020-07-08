@@ -1,14 +1,19 @@
 {
-  "name": "bowser",
-  "filename": "bowser.min.js",
-  "description": "Lightweight browser detector",
-  "version": "1.9.4",
   "author": "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lancedikson/bowser.git"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "bowser*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "bowser"
   },
-  "license": "MIT",
+  "description": "Lightweight browser detector",
+  "filename": "bowser.min.js",
   "keywords": [
     "browser",
     "useragent",
@@ -19,16 +24,11 @@
     "ender",
     "sniff"
   ],
-  "autoupdate": {
-    "source": "npm",
-    "target": "bowser",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "bowser*"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "bowser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancedikson/bowser.git"
+  },
+  "version": "2.9.0"
 }
