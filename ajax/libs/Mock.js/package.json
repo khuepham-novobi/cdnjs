@@ -1,23 +1,6 @@
 {
-  "name": "Mock.js",
-  "filename": "mock-min.js",
-  "description": "Mock.js is a simulation data generator to help the front-end to develop and prototype separate from the back-end progress and reduce some monotony particularly while writing automated tests.",
-  "version": "1.0.0",
-  "homepage": "http://mockjs.com/",
-  "keywords": [
-    "mock",
-    "mockJSON",
-    "mockAjax"
-  ],
   "author": "nuysoft@gmail.com",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/nuysoft/Mock.git"
-  },
-  "license": "MIT",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/nuysoft/Mock.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -25,6 +8,23 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/nuysoft/Mock.git"
+  },
+  "description": "Mock.js is a simulation data generator to help the front-end to develop and prototype separate from the back-end progress and reduce some monotony particularly while writing automated tests.",
+  "filename": "mock-min.js",
+  "homepage": "http://mockjs.com/",
+  "keywords": [
+    "mock",
+    "mockJSON",
+    "mockAjax"
+  ],
+  "license": "MIT",
+  "name": "Mock.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nuysoft/Mock.git"
+  },
+  "version": "1.0.1-beta3"
 }
