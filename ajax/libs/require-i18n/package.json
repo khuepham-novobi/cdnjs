@@ -1,24 +1,6 @@
 {
-  "filename": "i18n.min.js",
-  "name": "require-i18n",
-  "version": "2.0.4",
-  "description": "An AMD loader plugin for loading internationalization/localization string resources.",
-  "keywords": [
-    "requirejs",
-    "i18n"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/requirejs/i18n"
-  },
-  "licenses": [
-    "BSD",
-    "MIT"
-  ],
   "author": "jrburke <jrburke@gmail.com>",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/requirejs/i18n.git",
     "fileMap": [
       {
         "basePath": "",
@@ -26,6 +8,24 @@
           "i18n*.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/requirejs/i18n.git"
+  },
+  "description": "An AMD loader plugin for loading internationalization/localization string resources.",
+  "filename": "i18n.min.js",
+  "keywords": [
+    "requirejs",
+    "i18n"
+  ],
+  "licenses": [
+    "BSD",
+    "MIT"
+  ],
+  "name": "require-i18n",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/requirejs/i18n"
+  },
+  "version": "2.0.6"
 }
