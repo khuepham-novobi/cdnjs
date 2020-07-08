@@ -1,11 +1,19 @@
 {
-  "title": "Shell.js",
-  "name": "shell.js",
-  "filename": "js/shell.min.js",
-  "version": "1.0.5",
-  "description": "A JavaScript and CSS library to create terminals",
   "author": "Davide Caruso  <davide.caruso93@gmail.com>",
-  "license": "MIT",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/davidecaruso/shell.js.git"
+  },
+  "description": "A JavaScript and CSS library to create terminals",
+  "filename": "js/shell.min.js",
   "keywords": [
     "shell",
     "terminal",
@@ -14,20 +22,12 @@
     "library",
     "plugin"
   ],
+  "license": "MIT",
+  "name": "shell.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/davidecaruso/shell.js.git"
   },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/davidecaruso/shell.js.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "title": "Shell.js",
+  "version": "3.2.0"
 }
