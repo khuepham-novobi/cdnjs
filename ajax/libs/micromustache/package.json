@@ -1,8 +1,19 @@
 {
-  "name": "micromustache",
-  "filename": "micromustache.min.js",
-  "version": "4.1.1",
+  "author": "Alex Ewerlöf",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "browser",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "micromustache"
+  },
   "description": "A faster and smaller subimplementation of the {{mustache}} template engine for JavaScript",
+  "filename": "micromustache.min.js",
   "keywords": [
     "template",
     "mustache",
@@ -11,22 +22,11 @@
     "template engine",
     "microlibrary"
   ],
+  "license": "MIT",
+  "name": "micromustache",
   "repository": {
     "type": "git",
     "url": "http://github.com/userpixel/micromustache.git"
   },
-  "author": "Alex Ewerlöf",
-  "license": "MIT",
-  "autoupdate": {
-    "source": "npm",
-    "target": "micromustache",
-    "fileMap": [
-      {
-        "basePath": "browser",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "7.1.0"
 }
