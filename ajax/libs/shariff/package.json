@@ -6,6 +6,18 @@
     "Erich Kramer <km@heise.de>",
     "Deniz Sesli <dzs@heise.de>"
   ],
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "shariff*.+(js|css)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "shariff"
+  },
   "description": "Shariff enables website users to share their favorite content without compromising their privacy.",
   "filename": "shariff.min.js",
   "homepage": "http://ct.de/-2467514",
@@ -20,17 +32,5 @@
     "type": "git",
     "url": "https://github.com/heiseonline/shariff"
   },
-  "version": "1.26.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "shariff",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "shariff*.+(js|css)"
-        ]
-      }
-    ]
-  }
+  "version": "3.2.1"
 }
