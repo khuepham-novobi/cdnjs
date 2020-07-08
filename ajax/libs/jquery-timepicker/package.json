@@ -1,28 +1,9 @@
 {
-  "name": "jquery-timepicker",
-  "version": "1.10.0",
-  "filename": "jquery.timepicker.min.css",
-  "title": "jquery-timepicker",
   "author": {
     "name": "Jon Thornton",
     "url": "https://github.com/jonthornton"
   },
-  "description": "A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.",
-  "keywords": [
-    "timepicker",
-    "time",
-    "picker",
-    "ui",
-    "google calendar"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jonthornton/jquery-timepicker.git"
-  },
-  "homepage": "http://jonthornton.github.com/jquery-timepicker/",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/jonthornton/jquery-timepicker.git",
     "fileMap": [
       {
         "basePath": "",
@@ -30,7 +11,26 @@
           "jquery.timepicker*.(!ts)"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/jonthornton/jquery-timepicker.git"
   },
-  "license": "MIT"
+  "description": "A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.",
+  "filename": "jquery.timepicker.min.css",
+  "homepage": "http://jonthornton.github.com/jquery-timepicker/",
+  "keywords": [
+    "timepicker",
+    "time",
+    "picker",
+    "ui",
+    "google calendar"
+  ],
+  "license": "MIT",
+  "name": "jquery-timepicker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonthornton/jquery-timepicker.git"
+  },
+  "title": "jquery-timepicker",
+  "version": "1.13.11"
 }
