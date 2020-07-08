@@ -1,7 +1,23 @@
 {
-  "name": "d3-time-format",
-  "filename": "d3-time-format.min.js",
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/!(package.js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "d3-time-format"
+  },
   "description": "A JavaScript time formatter and parser inspired by strftime and strptime.",
+  "filename": "d3-time-format.min.js",
+  "homepage": "https://d3js.org/d3-time-format/",
   "keywords": [
     "d3",
     "d3-module",
@@ -10,27 +26,11 @@
     "strftime",
     "strptime"
   ],
-  "homepage": "https://d3js.org/d3-time-format/",
   "license": "BSD-3-Clause",
-  "author": {
-    "name": "Mike Bostock",
-    "url": "https://bost.ocks.org/mike"
-  },
+  "name": "d3-time-format",
   "repository": {
     "type": "git",
     "url": "https://github.com/d3/d3-time-format.git"
   },
-  "version": "2.1.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "d3-time-format",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/!(package.js)"
-        ]
-      }
-    ]
-  }
+  "version": "2.2.3"
 }
