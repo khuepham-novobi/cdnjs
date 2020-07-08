@@ -1,12 +1,21 @@
 {
-  "name": "angularjs-nvd3-directives",
-  "version": "0.0.8",
-  "filename": "angularjs-nvd3-directives.min.js",
-  "description": "Angular.js directives for nvd3",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/angularjs-nvd3-directives/angularjs-nvd3-directives.git"
+  "author": {
+    "name": "Christian Maurer"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/angularjs-nvd3-directives/angularjs-nvd3-directives.git"
+  },
+  "description": "Angular.js directives for nvd3",
+  "filename": "angularjs-nvd3-directives.min.js",
   "keywords": [
     "angular.js",
     "nvd3.js",
@@ -19,20 +28,11 @@
     "svg",
     "charts"
   ],
-  "author": {
-    "name": "Christian Maurer"
-  },
   "license": "Apache License, v2.0",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/angularjs-nvd3-directives/angularjs-nvd3-directives.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "name": "angularjs-nvd3-directives",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angularjs-nvd3-directives/angularjs-nvd3-directives.git"
+  },
+  "version": "0.0.7"
 }
