@@ -1,25 +1,6 @@
 {
-  "name": "gyrejs",
-  "filename": "gyrejs.min.js",
-  "version": "0.4.1",
-  "description": "Experimental data fetching and state library geared towards ReactJS",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WRidder/gyrejs.git"
-  },
-  "keywords": [
-    "flux",
-    "reactjs",
-    "immutable",
-    "state",
-    "predictable"
-  ],
   "author": "Wilbert van de Ridder",
-  "license": "MIT",
-  "homepage": "http://gyre.js.org",
   "autoupdate": {
-    "source": "npm",
-    "target": "gyrejs",
     "fileMap": [
       {
         "basePath": "dist",
@@ -27,6 +8,25 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "gyrejs"
+  },
+  "description": "Experimental data fetching and state library geared towards ReactJS",
+  "filename": "gyrejs.min.js",
+  "homepage": "http://gyre.js.org",
+  "keywords": [
+    "flux",
+    "reactjs",
+    "immutable",
+    "state",
+    "predictable"
+  ],
+  "license": "MIT",
+  "name": "gyrejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WRidder/gyrejs.git"
+  },
+  "version": "0.6.5"
 }
