@@ -1,8 +1,19 @@
 {
-  "name": "planck-js",
-  "version": "0.2.7",
-  "filename": "planck.min.js",
+  "author": "Ali Shakiba",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/shakiba/planck.js.git"
+  },
   "description": "2D JavaScript physics engine for cross-platform HTML5 game development",
+  "filename": "planck.min.js",
   "homepage": "http://shakiba.me/planck.js",
   "keywords": [
     "box2d",
@@ -15,21 +26,10 @@
     "mobile"
   ],
   "license": "Zlib",
+  "name": "planck-js",
   "repository": {
     "type": "git",
     "url": "git://github.com/shakiba/planck.js.git"
   },
-  "author": "Ali Shakiba",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/shakiba/planck.js.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "0.3.0-rc.2"
 }
