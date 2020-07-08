@@ -1,5 +1,17 @@
 {
   "author": "Steven Schobert <spschobert@gmail.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "instafeed*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "instafeed.js"
+  },
   "description": "A simple Instagram javascript plugin for your website.",
   "filename": "instafeed.min.js",
   "keywords": [
@@ -12,17 +24,5 @@
     "type": "git",
     "url": "https://github.com/stevenschobert/instafeed.js.git"
   },
-  "version": "2.0.0-rc2",
-  "autoupdate": {
-    "source": "npm",
-    "target": "instafeed.js",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "instafeed*"
-        ]
-      }
-    ]
-  }
+  "version": "1.4.1"
 }
