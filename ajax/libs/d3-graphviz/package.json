@@ -3,6 +3,18 @@
     "name": "Magnus Jacobsson",
     "url": "https://github.com/magjac"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "*.@(js|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "d3-graphviz"
+  },
   "description": "Graphviz DOT rendering and animated transitions for D3",
   "filename": "d3-graphviz.min.js",
   "homepage": "https://github.com/magjac/d3-graphviz",
@@ -22,17 +34,5 @@
     "type": "git",
     "url": "git+https://github.com/magjac/d3-graphviz.git"
   },
-  "version": "3.0.6",
-  "autoupdate": {
-    "source": "npm",
-    "target": "d3-graphviz",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "*.@(js|map)"
-        ]
-      }
-    ]
-  }
+  "version": "3.1.0"
 }
