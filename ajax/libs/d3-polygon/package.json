@@ -1,7 +1,23 @@
 {
-  "name": "d3-polygon",
-  "filename": "d3-polygon.min.js",
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "d3-polygon"
+  },
   "description": "Operations for two-dimensional polygons.",
+  "filename": "d3-polygon.min.js",
+  "homepage": "https://d3js.org/d3-polygon/",
   "keywords": [
     "d3",
     "d3-module",
@@ -10,27 +26,11 @@
     "geometry",
     "graphics"
   ],
-  "homepage": "https://d3js.org/d3-polygon/",
   "license": "BSD-3-Clause",
-  "author": {
-    "name": "Mike Bostock",
-    "url": "https://bost.ocks.org/mike"
-  },
+  "name": "d3-polygon",
   "repository": {
     "type": "git",
     "url": "https://github.com/d3/d3-polygon.git"
   },
-  "version": "1.0.3",
-  "autoupdate": {
-    "source": "npm",
-    "target": "d3-polygon",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "1.0.6"
 }
