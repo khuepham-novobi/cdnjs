@@ -1,21 +1,6 @@
 {
-  "name": "multiselect",
-  "version": "2.2.9",
-  "filename": "js/multiselect.min.js",
-  "description": "jQuery multiselect plugin with two sides",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/crlcu/multiselect.git"
-  },
-  "keywords": [
-    "multiselect"
-  ],
   "author": "Adrian Crisan <adrian.crisan88@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://crlcu.github.io/multiselect/",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/crlcu/multiselect.git",
     "fileMap": [
       {
         "basePath": "",
@@ -23,6 +8,21 @@
           "js/**/multiselect*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/crlcu/multiselect.git"
+  },
+  "description": "jQuery multiselect plugin with two sides",
+  "filename": "js/multiselect.min.js",
+  "homepage": "https://crlcu.github.io/multiselect/",
+  "keywords": [
+    "multiselect"
+  ],
+  "license": "MIT",
+  "name": "multiselect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crlcu/multiselect.git"
+  },
+  "version": "2.5.7"
 }
