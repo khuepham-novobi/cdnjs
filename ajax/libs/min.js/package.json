@@ -1,9 +1,19 @@
 {
-  "name": "min.js",
-  "filename": "$.min.js",
-  "version": "0.2.3",
+  "author": "Remy Sharp",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/remy/min.js.git"
+  },
   "description": "A super tiny JavaScript library to execute simple DOM querying and hooking event listeners. Aims to return the raw DOM node for you to manipulate directly, using HTML5 (et al) tech like element.classList or element.innerHTML, etc.",
-  "license": "MIT",
+  "filename": "$.min.js",
   "keywords": [
     "min",
     "min.js",
@@ -12,21 +22,11 @@
     "dom",
     "events"
   ],
+  "license": "MIT",
+  "name": "min.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/remy/min.js.git"
   },
-  "author": "Remy Sharp",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/remy/min.js.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "0.1.0"
 }
