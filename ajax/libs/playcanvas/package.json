@@ -1,5 +1,17 @@
 {
   "author": "PlayCanvas <support@playcanvas.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build/output",
+        "files": [
+          "*.@(js|ts)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "playcanvas"
+  },
   "description": "PlayCanvas WebGL game engine",
   "filename": "playcanvas.min.js",
   "homepage": "https://playcanvas.com",
@@ -21,17 +33,5 @@
     "type": "git",
     "url": "git+https://github.com/playcanvas/engine.git"
   },
-  "version": "1.28.6",
-  "autoupdate": {
-    "source": "npm",
-    "target": "playcanvas",
-    "fileMap": [
-      {
-        "basePath": "build/output",
-        "files": [
-          "*.@(js|ts)"
-        ]
-      }
-    ]
-  }
+  "version": "1.31.0"
 }
