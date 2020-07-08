@@ -1,12 +1,19 @@
 {
-  "name": "angular-google-chart",
-  "filename": "ng-google-chart.min.js",
-  "version": "0.1.0",
-  "description": "Google Chart Tools AngularJS Directive Module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/angular-google-chart/angular-google-chart.git"
+  "author": "GitHub Contributors <https://github.com/angular-google-chart/angular-google-chart/graphs/contributors>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "ng-google-chart.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/angular-google-chart/angular-google-chart.git"
   },
+  "description": "Google Chart Tools AngularJS Directive Module",
+  "filename": "ng-google-chart.min.js",
   "keywords": [
     "angularjs",
     "chart",
@@ -15,17 +22,10 @@
     "module"
   ],
   "license": "MIT",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/angular-google-chart/angular-google-chart.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "ng-google-chart.js"
-        ]
-      }
-    ]
+  "name": "angular-google-chart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-google-chart/angular-google-chart.git"
   },
-  "author": "GitHub Contributors <https://github.com/angular-google-chart/angular-google-chart/graphs/contributors>"
+  "version": "1.0.0-beta.1"
 }
