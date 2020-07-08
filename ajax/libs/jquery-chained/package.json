@@ -1,25 +1,9 @@
 {
-  "name": "jquery-chained",
-  "filename": "jquery.chained.min.js",
-  "version": "1.0.1",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:tuupola/jquery_chained.git"
-  },
   "author": {
-    "name": "Mika Tuupola",
-    "email": "tuupola@appelsiini.net"
+    "email": "tuupola@appelsiini.net",
+    "name": "Mika Tuupola"
   },
-  "description": "Simple chained selects. You can choose from two different versions. Normal version uses uses classnames of select options to decide content of child select. It does not make any external AJAX(J) queries. Remote version makes external query and builds the child select from returned JSON response.",
-  "homepage": "http://www.appelsiini.net/projects/chained",
-  "keywords": [
-    "jquery-plugin",
-    "ecosystem:jquery"
-  ],
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "jquery-chained",
     "fileMap": [
       {
         "basePath": "",
@@ -27,6 +11,22 @@
           "jquery.chained*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "jquery-chained"
+  },
+  "description": "Simple chained selects. You can choose from two different versions. Normal version uses uses classnames of select options to decide content of child select. It does not make any external AJAX(J) queries. Remote version makes external query and builds the child select from returned JSON response.",
+  "filename": "jquery.chained.min.js",
+  "homepage": "http://www.appelsiini.net/projects/chained",
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "license": "MIT",
+  "name": "jquery-chained",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tuupola/jquery_chained.git"
+  },
+  "version": "2.0.0-beta.2"
 }
