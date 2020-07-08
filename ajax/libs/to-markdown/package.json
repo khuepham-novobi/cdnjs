@@ -1,19 +1,6 @@
 {
-  "name": "to-markdown",
-  "filename": "to-markdown.min.js",
-  "description": "HTML-to-Markdown converter",
-  "keywords": [
-    "markdown"
-  ],
   "author": "Dom Christie",
-  "version": "3.1.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/domchristie/to-markdown.git"
-  },
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/domchristie/to-markdown.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -21,7 +8,20 @@
           "*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/domchristie/to-markdown.git"
   },
-  "license": "MIT"
+  "description": "HTML-to-Markdown converter",
+  "filename": "to-markdown.min.js",
+  "keywords": [
+    "markdown"
+  ],
+  "license": "MIT",
+  "name": "to-markdown",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/domchristie/to-markdown.git"
+  },
+  "version": "6.0.0"
 }
