@@ -1,34 +1,9 @@
 {
-  "name": "upb",
-  "description": "A NodeJS, browser, Bower, AMD, and CommonJS library that generates and decodes UPB (Universal Powerline Bus) commands.",
-  "keywords": [
-    "upb",
-    "library",
-    "universal",
-    "powerline",
-    "bus",
-    "command",
-    "lib",
-    "lighting",
-    "switches",
-    "control"
-  ],
-  "homepage": "https://github.com/DaAwesomeP/node-upb/",
-  "license": "Apache-2.0",
-  "version": "1.2.3",
-  "filename": "upb.min.js",
-  "namespace": "upb",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DaAwesomeP/node-upb.git"
-  },
   "author": {
     "name": "DaAwesomeP",
     "url": "https://daawesomep.guthub.io/"
   },
   "autoupdate": {
-    "source": "npm",
-    "target": "upb",
     "fileMap": [
       {
         "basePath": "",
@@ -43,6 +18,31 @@
           ".map"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "upb"
+  },
+  "description": "A NodeJS, browser, Bower, AMD, and CommonJS library that generates and decodes UPB (Universal Powerline Bus) commands.",
+  "filename": "upb.min.js",
+  "homepage": "https://github.com/DaAwesomeP/node-upb/",
+  "keywords": [
+    "upb",
+    "library",
+    "universal",
+    "powerline",
+    "bus",
+    "command",
+    "lib",
+    "lighting",
+    "switches",
+    "control"
+  ],
+  "license": "Apache-2.0",
+  "name": "upb",
+  "namespace": "upb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaAwesomeP/node-upb.git"
+  },
+  "version": "2.0.1"
 }
