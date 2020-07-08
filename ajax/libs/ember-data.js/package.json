@@ -1,17 +1,5 @@
 {
-  "name": "ember-data.js",
-  "filename": "ember-data.min.js",
-  "version": "3.0.2",
-  "description": "A data layer for your Ember applications.",
-  "keywords": [
-    "ember",
-    "ember.js",
-    "ember-data",
-    "ember-data.js"
-  ],
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/components/ember-data.git",
     "fileMap": [
       {
         "basePath": "",
@@ -22,11 +10,23 @@
           "ember-data.js.map"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/components/ember-data.git"
   },
+  "description": "A data layer for your Ember applications.",
+  "filename": "ember-data.min.js",
+  "keywords": [
+    "ember",
+    "ember.js",
+    "ember-data",
+    "ember-data.js"
+  ],
+  "license": "MIT",
+  "name": "ember-data.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/emberjs/data"
   },
-  "license": "MIT"
+  "version": "2.18.3"
 }
