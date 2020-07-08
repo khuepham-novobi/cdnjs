@@ -1,12 +1,20 @@
 {
-  "name": "10up-sanitize.css",
-  "version": "11.0.1",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com> (https://jonneal.dev/)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "*.css"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "sanitize.css"
+  },
   "description": "Render elements consistently. Style with best practices.",
   "filename": "sanitize.min.css",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/csstools/sanitize.css"
-  },
+  "homepage": "https://csstools.github.io/sanitize.css/",
   "keywords": [
     "css",
     "cssnext",
@@ -19,19 +27,11 @@
     "stylelint",
     "stylus"
   ],
-  "author": "Jonathan Neal <jonathantneal@hotmail.com> (https://jonneal.dev/)",
   "license": "CC0-1.0",
-  "homepage": "https://csstools.github.io/sanitize.css/",
-  "autoupdate": {
-    "source": "npm",
-    "target": "sanitize.css",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "*.css"
-        ]
-      }
-    ]
-  }
+  "name": "10up-sanitize.css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/csstools/sanitize.css"
+  },
+  "version": "11.0.1"
 }
