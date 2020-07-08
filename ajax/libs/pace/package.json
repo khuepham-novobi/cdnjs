@@ -1,16 +1,9 @@
 {
-  "name": "pace",
-  "filename": "pace.min.js",
-  "version": "1.0.2",
-  "description": "Automatic page load progress bar",
-  "homepage": "http://github.hubspot.com/pace/",
-  "keywords": [
-    "pace",
-    "pace.js"
+  "authors": [
+    "Zack Bloom <zackbloom@gmail.com>",
+    "Adam Schwartz <adam.flynn.schwartz@gmail.com>"
   ],
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/HubSpot/pace.git",
     "fileMap": [
       {
         "basePath": "",
@@ -19,15 +12,22 @@
           "themes/*/*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/HubSpot/pace.git"
   },
+  "description": "Automatic page load progress bar",
+  "filename": "pace.min.js",
+  "homepage": "http://github.hubspot.com/pace/",
+  "keywords": [
+    "pace",
+    "pace.js"
+  ],
+  "license": "MIT",
+  "name": "pace",
   "repository": {
     "type": "git",
     "url": "https://github.com/HubSpot/pace"
   },
-  "license": "MIT",
-  "authors": [
-    "Zack Bloom <zackbloom@gmail.com>",
-    "Adam Schwartz <adam.flynn.schwartz@gmail.com>"
-  ]
+  "version": "0.7.8"
 }
