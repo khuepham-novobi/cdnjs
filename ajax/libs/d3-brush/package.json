@@ -1,27 +1,9 @@
 {
-  "name": "d3-brush",
-  "filename": "d3-brush.min.js",
-  "description": "Select a one- or two-dimensional region using the mouse or touch.",
-  "keywords": [
-    "d3",
-    "d3-module",
-    "brush",
-    "interaction"
-  ],
-  "homepage": "https://d3js.org/d3-brush/",
-  "license": "BSD-3-Clause",
   "author": {
     "name": "Mike Bostock",
     "url": "https://bost.ocks.org/mike"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3/d3-brush.git"
-  },
-  "version": "1.0.4",
   "autoupdate": {
-    "source": "npm",
-    "target": "d3-brush",
     "fileMap": [
       {
         "basePath": "build",
@@ -29,6 +11,24 @@
           "**/!(package.js)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "d3-brush"
+  },
+  "description": "Select a one- or two-dimensional region using the mouse or touch.",
+  "filename": "d3-brush.min.js",
+  "homepage": "https://d3js.org/d3-brush/",
+  "keywords": [
+    "d3",
+    "d3-module",
+    "brush",
+    "interaction"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "d3-brush",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-brush.git"
+  },
+  "version": "1.1.5"
 }
