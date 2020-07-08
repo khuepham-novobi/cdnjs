@@ -1,5 +1,23 @@
 {
   "author": "Javier Marquez",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      },
+      {
+        "basePath": "",
+        "files": [
+          "css/react-datetime*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-datetime"
+  },
   "description": "A lightweight but complete datetime picker React.js component.",
   "filename": "react-datetime.min.js",
   "keywords": [
@@ -16,23 +34,5 @@
     "type": "git",
     "url": "git+https://github.com/YouCanBookMe/react-datetime.git"
   },
-  "version": "3.0.0-beta.8",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-datetime",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      },
-      {
-        "basePath": "",
-        "files": [
-          "css/react-datetime*"
-        ]
-      }
-    ]
-  }
+  "version": "2.16.3"
 }
