@@ -1,8 +1,24 @@
 {
-  "name": "rot.js",
-  "version": "0.6.0",
-  "filename": "rot.min.js",
+  "author": {
+    "email": "ondrej.zara@gmail.com",
+    "name": "Ondřej Žára",
+    "url": "https://ondras.zarovi.cz/"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "rot*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/ondras/rot.js.git"
+  },
   "description": "A roguelike toolkit in JavaScript",
+  "filename": "rot.min.js",
+  "homepage": "https://ondras.github.io/rot.js/hp/",
   "keywords": [
     "ascii",
     "dungeon",
@@ -17,27 +33,11 @@
     "tiles",
     "rot-js"
   ],
-  "homepage": "https://ondras.github.io/rot.js/hp/",
   "license": "BSD-3-Clause",
-  "author": {
-    "name": "Ondřej Žára",
-    "email": "ondrej.zara@gmail.com",
-    "url": "https://ondras.zarovi.cz/"
-  },
+  "name": "rot.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ondras/rot.js.git"
   },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/ondras/rot.js.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "rot*"
-        ]
-      }
-    ]
-  }
+  "version": "2.1.4"
 }
