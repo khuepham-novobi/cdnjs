@@ -1,5 +1,17 @@
 {
   "author": "Google Inc.",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.scss|*.es.js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "videojs-ima"
+  },
   "description": "IMA SDK Plugin for Video.js ",
   "filename": "videojs.ima.min.js",
   "keywords": [
@@ -14,17 +26,5 @@
     "type": "git",
     "url": "https://github.com/googleads/videojs-ima"
   },
-  "version": "1.5.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "videojs-ima",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.scss|*.es.js)"
-        ]
-      }
-    ]
-  }
+  "version": "1.8.0"
 }
