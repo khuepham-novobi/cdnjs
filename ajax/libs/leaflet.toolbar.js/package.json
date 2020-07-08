@@ -1,12 +1,19 @@
 {
-  "name": "leaflet.toolbar.js",
-  "filename": "leaflet.toolbar.js",
-  "version": "0.3.0",
-  "description": "Flexible, extensible toolbars for Leaflet maps.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Leaflet/Leaflet.toolbar.git"
+  "author": "Justin Manley",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(leaflet.toolbar.min.+(css|js))"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "leaflet-toolbar"
   },
+  "description": "Flexible, extensible toolbars for Leaflet maps.",
+  "filename": "leaflet.toolbar.js",
   "keywords": [
     "maps",
     "leaflet",
@@ -17,17 +24,10 @@
     "user-interface"
   ],
   "license": "MIT",
-  "author": "Justin Manley",
-  "autoupdate": {
-    "source": "npm",
-    "target": "leaflet-toolbar",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(leaflet.toolbar.min.+(css|js))"
-        ]
-      }
-    ]
-  }
+  "name": "leaflet.toolbar.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leaflet/Leaflet.toolbar.git"
+  },
+  "version": "0.4.0-alpha.2"
 }
