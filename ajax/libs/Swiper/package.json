@@ -1,5 +1,18 @@
 {
   "author": "Vladimir Kharlampidi",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "js/swiper.*",
+          "css/swiper.*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "swiper"
+  },
   "description": "Most modern mobile touch slider and framework with hardware accelerated transitions",
   "filename": "js/swiper.min.js",
   "homepage": "http://www.idangero.us/sliders/swiper",
@@ -16,18 +29,5 @@
     "type": "git",
     "url": "https://github.com/nolimits4web/Swiper.git"
   },
-  "version": "5.4.5",
-  "autoupdate": {
-    "source": "npm",
-    "target": "swiper",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "js/swiper.*",
-          "css/swiper.*"
-        ]
-      }
-    ]
-  }
+  "version": "6.0.1"
 }
