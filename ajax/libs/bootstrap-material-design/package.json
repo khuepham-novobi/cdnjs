@@ -1,13 +1,19 @@
 {
-  "name": "bootstrap-material-design",
-  "title": "bootstrap-material",
-  "filename": "bootstrap-material-design.umd.min.js",
-  "version": "4.0.2",
-  "description": "Material Design for Bootstrap 3",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/FezVrasta/bootstrap-material-design.git"
+  "author": "Federico Zivolo",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/FezVrasta/bootstrap-material-design.git"
   },
+  "description": "Material Design for Bootstrap 3",
+  "filename": "bootstrap-material-design.umd.min.js",
   "keywords": [
     "material",
     "design",
@@ -18,18 +24,12 @@
     "browser",
     "framework"
   ],
-  "author": "Federico Zivolo",
   "license": "MIT",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/FezVrasta/bootstrap-material-design.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "name": "bootstrap-material-design",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FezVrasta/bootstrap-material-design.git"
+  },
+  "title": "bootstrap-material",
+  "version": "4.1.3"
 }
