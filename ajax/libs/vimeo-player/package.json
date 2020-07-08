@@ -1,5 +1,17 @@
 {
   "author": "Vimeo (https://vimeo.com)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.@(js|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "@vimeo/player"
+  },
   "description": "Interact with and control an embedded Vimeo Player.",
   "filename": "player.min.js",
   "homepage": "https://github.com/vimeo/player.js#readme",
@@ -19,17 +31,5 @@
     "type": "git",
     "url": "https://github.com/vimeo/player.js.git"
   },
-  "version": "2.12.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "@vimeo/player",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.@(js|map)"
-        ]
-      }
-    ]
-  }
+  "version": "2.12.1"
 }
