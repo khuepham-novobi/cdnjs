@@ -1,20 +1,5 @@
 {
-  "name": "cookie.js",
-  "version": "1.2.3",
-  "filename": "cookie.min.js",
-  "description": "A tiny JavaScript library that simplifies cookies.",
-  "keywords": [
-    "cookie",
-    "tiny"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/florian/cookie.js.git"
-  },
   "autoupdate": {
-    "source": "npm",
-    "target": "cookie_js",
     "fileMap": [
       {
         "basePath": "",
@@ -22,6 +7,21 @@
           "cookie*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "cookie_js"
+  },
+  "description": "A tiny JavaScript library that simplifies cookies.",
+  "filename": "cookie.min.js",
+  "keywords": [
+    "cookie",
+    "tiny"
+  ],
+  "license": "MIT",
+  "name": "cookie.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/florian/cookie.js.git"
+  },
+  "version": "1.4.0"
 }
