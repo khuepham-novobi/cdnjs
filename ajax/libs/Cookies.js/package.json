@@ -1,21 +1,6 @@
 {
-  "name": "Cookies.js",
-  "filename": "cookies.min.js",
-  "version": "1.2.1",
-  "description": "Client-Side Cookie Manipulation API",
-  "keywords": [
-    "javascript",
-    "cookies"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ScottHamper/Cookies.git"
-  },
-  "license": "UNLICENSE",
   "author": "Scott Hamper",
   "autoupdate": {
-    "source": "npm",
-    "target": "cookies-js",
     "fileMap": [
       {
         "basePath": "src",
@@ -24,6 +9,21 @@
           "cookies.min.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "cookies-js"
+  },
+  "description": "Client-Side Cookie Manipulation API",
+  "filename": "cookies.min.js",
+  "keywords": [
+    "javascript",
+    "cookies"
+  ],
+  "license": "UNLICENSE",
+  "name": "Cookies.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScottHamper/Cookies.git"
+  },
+  "version": "1.2.3"
 }
