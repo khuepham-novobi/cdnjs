@@ -1,24 +1,6 @@
 {
-  "name": "angular-svg-round-progressbar",
-  "version": "0.4.8",
-  "description": "AngularJS module that uses SVG to create a circular progressar",
-  "filename": "roundProgress.min.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/crisbeto/angular-svg-round-progressbar.git"
-  },
-  "keywords": [
-    "angular",
-    "progress",
-    "circle",
-    "round",
-    "svg"
-  ],
   "author": "crisbeto",
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "angular-svg-round-progressbar",
     "fileMap": [
       {
         "basePath": "build",
@@ -26,6 +8,24 @@
           "roundProgress*.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "angular-svg-round-progressbar"
+  },
+  "description": "AngularJS module that uses SVG to create a circular progressar",
+  "filename": "roundProgress.min.js",
+  "keywords": [
+    "angular",
+    "progress",
+    "circle",
+    "round",
+    "svg"
+  ],
+  "license": "MIT",
+  "name": "angular-svg-round-progressbar",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crisbeto/angular-svg-round-progressbar.git"
+  },
+  "version": "3.0.1"
 }
