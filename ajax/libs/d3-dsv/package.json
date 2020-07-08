@@ -1,26 +1,9 @@
 {
-  "name": "d3-dsv",
-  "filename": "d3-dsv.min.js",
-  "version": "1.0.8",
-  "description": "A parser and formatter for delimiter-separated values, such as CSV and TSV",
-  "keywords": [
-    "d3",
-    "dsv",
-    "csv",
-    "tsv"
-  ],
-  "license": "BSD-3-Clause",
   "author": {
     "name": "Mike Bostock",
     "url": "http://bost.ocks.org/mike"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/d3/d3-dsv.git"
-  },
   "autoupdate": {
-    "source": "npm",
-    "target": "d3-dsv",
     "fileMap": [
       {
         "basePath": "build",
@@ -28,6 +11,23 @@
           "**/!(package.js)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "d3-dsv"
+  },
+  "description": "A parser and formatter for delimiter-separated values, such as CSV and TSV",
+  "filename": "d3-dsv.min.js",
+  "keywords": [
+    "d3",
+    "dsv",
+    "csv",
+    "tsv"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "d3-dsv",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3/d3-dsv.git"
+  },
+  "version": "1.2.0"
 }
