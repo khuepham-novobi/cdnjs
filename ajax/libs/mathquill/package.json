@@ -1,25 +1,9 @@
 {
-  "name": "mathquill",
-  "filename": "mathquill.min.js",
-  "version": "0.10.1",
-  "description": "Easily type math in your webapp",
-  "keywords": [
-    "math",
-    "type"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mathquill/mathquill.git"
-  },
-  "homepage": "http://mathquill.com/",
   "author": {
     "name": "laughinghan",
     "url": "https://github.com/laughinghan"
   },
-  "license": "MPL-2.0",
   "autoupdate": {
-    "source": "npm",
-    "target": "mathquill",
     "fileMap": [
       {
         "basePath": "build",
@@ -27,6 +11,22 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "mathquill"
+  },
+  "description": "Easily type math in your webapp",
+  "filename": "mathquill.min.js",
+  "homepage": "http://mathquill.com/",
+  "keywords": [
+    "math",
+    "type"
+  ],
+  "license": "MPL-2.0",
+  "name": "mathquill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathquill/mathquill.git"
+  },
+  "version": "0.10.1-a"
 }
