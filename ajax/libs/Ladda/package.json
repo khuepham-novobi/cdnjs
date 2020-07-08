@@ -1,8 +1,10 @@
 {
-  "name": "Ladda",
+  "author": {
+    "email": "hakim.elhattab@gmail.com",
+    "name": "Hakim El Hattab",
+    "web": "http://hakim.se"
+  },
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/hakimel/Ladda.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -14,23 +16,21 @@
           "spin.min.js"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/hakimel/Ladda.git"
   },
-  "filename": "ladda.min.js",
-  "version": "1.0.6",
   "description": "Buttons with built-in loading indicators",
+  "filename": "ladda.min.js",
   "homepage": "http://lab.hakim.se/ladda",
+  "keywords": [
+    "Ladda"
+  ],
+  "license": "MIT",
+  "name": "Ladda",
   "repository": {
     "type": "git",
     "url": "git://github.com/hakimel/Ladda.git"
   },
-  "license": "MIT",
-  "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
-  },
-  "keywords": [
-    "Ladda"
-  ]
+  "version": "2.0.1"
 }
