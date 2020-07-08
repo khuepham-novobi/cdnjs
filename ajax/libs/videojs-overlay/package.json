@@ -1,21 +1,6 @@
 {
-  "name": "videojs-overlay",
-  "description": "A plugin to display simple overlays during video playback.",
   "author": "Brightcove, Inc.",
-  "version": "1.1.4",
-  "license": "Apache-2.0",
-  "keywords": [
-    "videojs",
-    "videojs-plugin"
-  ],
-  "filename": "videojs-overlay.min.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/brightcove/videojs-overlay.git"
-  },
   "autoupdate": {
-    "source": "git",
-    "target": "https://github.com/brightcove/videojs-overlay.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -23,6 +8,21 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "https://github.com/brightcove/videojs-overlay.git"
+  },
+  "description": "A plugin to display simple overlays during video playback.",
+  "filename": "videojs-overlay.min.js",
+  "keywords": [
+    "videojs",
+    "videojs-plugin"
+  ],
+  "license": "Apache-2.0",
+  "name": "videojs-overlay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brightcove/videojs-overlay.git"
+  },
+  "version": "2.1.4"
 }
