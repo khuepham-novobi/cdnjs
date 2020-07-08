@@ -1,12 +1,19 @@
 {
-  "name": "1000hz-bootstrap-validator",
-  "version": "0.11.9",
+  "author": "Cina Saffary",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/1000hz/bootstrap-validator.git"
+  },
   "description": "A user-friendly HTML5 Form validator for Bootstrap 3",
   "filename": "validator.min.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/1000hz/bootstrap-validator"
-  },
   "keywords": [
     "bootstrap",
     "bootstrap3",
@@ -16,18 +23,11 @@
     "validation",
     "plugin"
   ],
-  "author": "Cina Saffary",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/1000hz/bootstrap-validator.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
+  "license": "MIT",
+  "name": "1000hz-bootstrap-validator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1000hz/bootstrap-validator"
   },
-  "license": "MIT"
+  "version": "0.11.9"
 }
