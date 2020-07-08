@@ -1,5 +1,17 @@
 {
   "author": "Facebook",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "+(cjs|umd)/**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-is"
+  },
   "description": "Brand checking of React Elements.",
   "filename": "umd/react-is.production.min.js",
   "homepage": "https://reactjs.org/",
@@ -14,17 +26,5 @@
     "type": "git",
     "url": "git+https://github.com/facebook/react.git"
   },
-  "version": "0.0.0-experimental-7f28234f8",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-is",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "+(cjs|umd)/**/*"
-        ]
-      }
-    ]
-  }
+  "version": "16.13.1"
 }
