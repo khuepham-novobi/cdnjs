@@ -1,28 +1,9 @@
 {
-  "name": "d3-axis",
-  "filename": "d3-axis.min.js",
-  "description": "Displays automatic reference lines for scales.",
-  "keywords": [
-    "d3",
-    "d3-module",
-    "axis",
-    "scale",
-    "visualization"
-  ],
-  "homepage": "https://d3js.org/d3-axis/",
-  "license": "BSD-3-Clause",
   "author": {
     "name": "Mike Bostock",
     "url": "https://bost.ocks.org/mike"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3/d3-axis.git"
-  },
-  "version": "1.0.10",
   "autoupdate": {
-    "source": "npm",
-    "target": "d3-axis",
     "fileMap": [
       {
         "basePath": "build",
@@ -30,6 +11,25 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "d3-axis"
+  },
+  "description": "Displays automatic reference lines for scales.",
+  "filename": "d3-axis.min.js",
+  "homepage": "https://d3js.org/d3-axis/",
+  "keywords": [
+    "d3",
+    "d3-module",
+    "axis",
+    "scale",
+    "visualization"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "d3-axis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-axis.git"
+  },
+  "version": "1.0.12"
 }
