@@ -1,29 +1,10 @@
 {
-  "name": "pickadate.js",
-  "filename": "picker.js",
-  "version": "3.6.4",
-  "description": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker.",
-  "homepage": "http://amsul.github.io/pickadate.js",
-  "license": "MIT",
-  "keywords": [
-    "date",
-    "time",
-    "picker",
-    "input",
-    "responsive"
-  ],
   "author": {
-    "name": "Amsul",
     "email": "reach@amsul.ca",
+    "name": "Amsul",
     "url": "http://amsul.ca"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/amsul/pickadate.js.git"
-  },
   "autoupdate": {
-    "source": "npm",
-    "target": "pickadate",
     "fileMap": [
       {
         "basePath": "lib",
@@ -31,6 +12,25 @@
           "**/!(*.less)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "pickadate"
+  },
+  "description": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker.",
+  "filename": "picker.js",
+  "homepage": "http://amsul.github.io/pickadate.js",
+  "keywords": [
+    "date",
+    "time",
+    "picker",
+    "input",
+    "responsive"
+  ],
+  "license": "MIT",
+  "name": "pickadate.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amsul/pickadate.js.git"
+  },
+  "version": "5.0.0-alpha.3"
 }
