@@ -1,24 +1,6 @@
 {
-  "name": "Faker",
-  "filename": "faker.min.js",
-  "description": "Generate massive amounts of fake contextual data",
-  "version": "3.1.0",
   "author": "Marak Squires <marak.squires@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Marak/Faker.js.git"
-  },
-  "license": "MIT",
-  "keywords": [
-    "faker",
-    "fake",
-    "dummy",
-    "identity",
-    "test"
-  ],
   "autoupdate": {
-    "source": "npm",
-    "target": "faker",
     "fileMap": [
       {
         "basePath": "build/build",
@@ -26,6 +8,24 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "faker"
+  },
+  "description": "Generate massive amounts of fake contextual data",
+  "filename": "faker.min.js",
+  "keywords": [
+    "faker",
+    "fake",
+    "dummy",
+    "identity",
+    "test"
+  ],
+  "license": "MIT",
+  "name": "Faker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marak/Faker.js.git"
+  },
+  "version": "4.1.0"
 }
