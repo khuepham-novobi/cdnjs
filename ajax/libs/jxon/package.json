@@ -1,12 +1,19 @@
 {
-  "name": "jxon",
-  "version": "1.6.1",
+  "author": "MDN (https://developer.mozilla.org/en-US/docs/JXON)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "index.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "jxon"
+  },
   "description": "A complete, bidirectional, JXON library",
   "filename": "index.min.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tyrasd/JXON.git"
-  },
   "keywords": [
     "jxon",
     "bidirectional",
@@ -23,17 +30,10 @@
     "json2xml"
   ],
   "license": "GPL v3",
-  "author": "MDN (https://developer.mozilla.org/en-US/docs/JXON)",
-  "autoupdate": {
-    "source": "npm",
-    "target": "jxon",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "index.js"
-        ]
-      }
-    ]
-  }
+  "name": "jxon",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tyrasd/JXON.git"
+  },
+  "version": "2.0.0-beta.5"
 }
