@@ -1,13 +1,24 @@
 {
-  "name": "numbro",
-  "version": "2.0.5",
-  "description": "Format and manipulate numbers.",
-  "homepage": "http://numbrojs.com",
   "author": {
-    "name": "Benjamin Van Ryseghem",
     "email": "benjamin@vanryseghem.com",
+    "name": "Benjamin Van Ryseghem",
     "url": "https://benjamin.vanryseghem.com"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/BenjaminVanRyseghem/numbro.git"
+  },
+  "description": "Format and manipulate numbers.",
+  "filename": "numbro.min.js",
+  "homepage": "http://numbrojs.com",
   "keywords": [
     "numeral",
     "numbro",
@@ -17,22 +28,11 @@
     "money",
     "percentage"
   ],
+  "license": "MIT",
+  "name": "numbro",
   "repository": {
     "type": "git",
     "url": "https://github.com/BenjaminVanRyseghem/numbro"
   },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/BenjaminVanRyseghem/numbro.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  },
-  "filename": "numbro.min.js",
-  "license": "MIT"
+  "version": "2.3.1"
 }
