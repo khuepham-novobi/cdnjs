@@ -1,12 +1,20 @@
 {
-  "name": "algebra.js",
-  "filename": "algebra.min.js",
-  "version": "0.2.6",
-  "description": "Build, display, and solve algebraic equations.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nicolewhite/algebra.js.git"
+  "author": "Nicole White",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/nicolewhite/algebra.js.git"
   },
+  "description": "Build, display, and solve algebraic equations.",
+  "filename": "algebra.min.js",
+  "homepage": "http://algebra.js.org",
   "keywords": [
     "algebra",
     "math",
@@ -15,19 +23,11 @@
     "expressions",
     "latex"
   ],
-  "author": "Nicole White",
   "license": "MIT",
-  "homepage": "http://algebra.js.org",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/nicolewhite/algebra.js.git",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "name": "algebra.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolewhite/algebra.js.git"
+  },
+  "version": "0.2.5"
 }
