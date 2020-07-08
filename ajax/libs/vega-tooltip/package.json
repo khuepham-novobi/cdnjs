@@ -1,22 +1,6 @@
 {
-  "name": "vega-tooltip",
   "author": "Zening Qu, Sira Horradarn",
-  "filename": "vega-tooltip.min.js",
-  "description": "A tooltip plugin for Vega-lite and Vega visualizations.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vega/vega-tooltip.git"
-  },
-  "license": "BSD-3-Clause",
-  "keywords": [
-    "visualization",
-    "tooltip",
-    "plugin"
-  ],
-  "version": "0.23.0",
   "autoupdate": {
-    "source": "npm",
-    "target": "vega-tooltip",
     "fileMap": [
       {
         "basePath": "build",
@@ -24,6 +8,22 @@
           "**/vega-tooltip*.+(js|css|map)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "vega-tooltip"
+  },
+  "description": "A tooltip plugin for Vega-lite and Vega visualizations.",
+  "filename": "vega-tooltip.min.js",
+  "keywords": [
+    "visualization",
+    "tooltip",
+    "plugin"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "vega-tooltip",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vega/vega-tooltip.git"
+  },
+  "version": "0.23.1"
 }
