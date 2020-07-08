@@ -1,9 +1,20 @@
 {
-  "name": "videomail-client",
-  "filename": "videomail-client.min.js",
-  "version": "2.8.2",
-  "homepage": "https://videomail.io",
+  "author": "Michael Heuberger <michael.heuberger@binarykitchen.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/binarykitchen/videomail-client.git"
+  },
   "description": "A revolutionary node.js module which enables you to record videos directly in the browser.",
+  "filename": "videomail-client.min.js",
+  "homepage": "https://videomail.io",
   "keywords": [
     "webcam",
     "video",
@@ -14,21 +25,10 @@
     "recorder"
   ],
   "license": "MIT",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/binarykitchen/videomail-client.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  },
+  "name": "videomail-client",
   "repository": {
     "type": "git",
     "url": "https://github.com/binarykitchen/videomail-client"
   },
-  "author": "Michael Heuberger <michael.heuberger@binarykitchen.com>"
+  "version": "2.11.1"
 }
