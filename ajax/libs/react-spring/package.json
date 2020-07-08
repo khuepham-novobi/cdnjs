@@ -2,6 +2,18 @@
   "author": {
     "name": "Paul Henschel"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "*.@(js|ts)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-spring"
+  },
   "description": "A set of spring-physics based animation primitives",
   "homepage": "https://github.com/drcmda/react-spring#readme",
   "keywords": [
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "git+https://github.com/drcmda/react-spring.git"
   },
-  "version": "9.0.0-rc.3",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-spring",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "*.@(js|ts)"
-        ]
-      }
-    ]
-  }
+  "version": "8.0.27"
 }
