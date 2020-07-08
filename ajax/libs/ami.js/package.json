@@ -1,8 +1,23 @@
 {
-  "name": "ami.js",
-  "filename": "ami.min.js",
-  "version": "0.32.0",
+  "author": {
+    "name": "Nicolas Rannou",
+    "url": "https://github.com/NicolasRannou"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/!(*.gz)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "ami.js"
+  },
   "description": "AMI Medical Imaging (AMI) JS ToolKit for THREEJS",
+  "filename": "ami.min.js",
+  "homepage": "https://fnndsc.github.io/ami",
   "keywords": [
     "ami",
     "ami.js",
@@ -19,26 +34,11 @@
     "stl",
     "trk"
   ],
-  "homepage": "https://fnndsc.github.io/ami",
+  "license": "Apache-2.0",
+  "name": "ami.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/FNNDSC/ami"
   },
-  "license": "Apache-2.0",
-  "author": {
-    "name": "Nicolas Rannou",
-    "url": "https://github.com/NicolasRannou"
-  },
-  "autoupdate": {
-    "source": "npm",
-    "target": "ami.js",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/!(*.gz)"
-        ]
-      }
-    ]
-  }
+  "version": "0.0.22"
 }
