@@ -1,8 +1,25 @@
 {
-  "version": "0.2.0",
-  "license": "MIT",
-  "name": "query-result",
+  "author": {
+    "name": "Andrea Giammarchi",
+    "web": "http://webreflection.blogspot.com/"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "query-result.amd.js",
+          "query-result.js",
+          "query-result.max.amd.js",
+          "query-result.max.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/WebReflection/query-result.git"
+  },
   "description": "Rethinking the $",
+  "filename": "query-result.js",
   "keywords": [
     "querySelector",
     "querySelectorAll",
@@ -15,28 +32,11 @@
     "utility",
     "DOM"
   ],
-  "author": {
-    "name": "Andrea Giammarchi",
-    "web": "http://webreflection.blogspot.com/"
-  },
+  "license": "MIT",
+  "name": "query-result",
   "repository": {
     "type": "git",
     "url": "git://github.com/WebReflection/query-result.git"
   },
-  "filename": "query-result.js",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/WebReflection/query-result.git",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "query-result.amd.js",
-          "query-result.js",
-          "query-result.max.amd.js",
-          "query-result.max.js"
-        ]
-      }
-    ]
-  }
+  "version": "1.0.5"
 }
