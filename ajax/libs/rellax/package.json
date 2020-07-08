@@ -1,5 +1,17 @@
 {
   "author": "Moe Amaya <moe@dixonandmoe.com> (https://dixonandmoe.com)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "rellax*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "rellax"
+  },
   "description": "Lightweight, vanilla javascript parallax library",
   "filename": "rellax.min.js",
   "homepage": "https://dixonandmoe.com/rellax/",
@@ -13,17 +25,5 @@
     "type": "git",
     "url": "git+https://github.com/dixonandmoe/rellax.git"
   },
-  "version": "1.11.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "rellax",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "rellax*"
-        ]
-      }
-    ]
-  }
+  "version": "1.12.1"
 }
