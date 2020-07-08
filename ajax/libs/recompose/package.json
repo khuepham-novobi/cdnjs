@@ -1,17 +1,22 @@
 {
-  "name": "recompose",
-  "filename": "Recompose.min.js",
-  "version": "0.26.0",
   "author": {
-    "name": "Andrew Clark",
-    "email": "acdlite@me.com"
+    "email": "acdlite@me.com",
+    "name": "Andrew Clark"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/acdlite/recompose.git"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/!(*.+(json))"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "recompose"
   },
-  "license": "MIT",
   "description": "A React utility belt for function components and higher-order components",
+  "filename": "Recompose.min.js",
   "keywords": [
     "react",
     "higher-order",
@@ -21,16 +26,11 @@
     "utilities",
     "composition"
   ],
-  "autoupdate": {
-    "source": "npm",
-    "target": "recompose",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/!(*.+(json))"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "recompose",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acdlite/recompose.git"
+  },
+  "version": "0.30.0"
 }
