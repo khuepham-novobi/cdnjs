@@ -1,5 +1,17 @@
 {
   "author": "Wout Fierens <wout@mick-wout.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.node.*|*.zip)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "@svgdotjs/svg.js"
+  },
   "description": "A lightweight library for manipulating and animating SVG.",
   "filename": "svg.min.js",
   "homepage": "https://svgdotjs.github.io/",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "https://github.com/svgdotjs/svg.js/"
   },
-  "version": "3.0.15",
-  "autoupdate": {
-    "source": "npm",
-    "target": "@svgdotjs/svg.js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.node.*|*.zip)"
-        ]
-      }
-    ]
-  }
+  "version": "3.0.16"
 }
