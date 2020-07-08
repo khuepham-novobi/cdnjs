@@ -1,28 +1,9 @@
 {
-  "name": "d3-zoom",
-  "filename": "d3-zoom.min.js",
-  "description": "Pan and zoom SVG, HTML or Canvas using mouse or touch input.",
-  "keywords": [
-    "d3",
-    "d3-module",
-    "zoom",
-    "behavior",
-    "interaction"
-  ],
-  "homepage": "https://d3js.org/d3-zoom/",
-  "license": "BSD-3-Clause",
   "author": {
     "name": "Mike Bostock",
     "url": "https://bost.ocks.org/mike"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3/d3-zoom.git"
-  },
-  "version": "1.7.1",
   "autoupdate": {
-    "source": "npm",
-    "target": "d3-zoom",
     "fileMap": [
       {
         "basePath": "build",
@@ -30,6 +11,25 @@
           "**/!(package.js)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "d3-zoom"
+  },
+  "description": "Pan and zoom SVG, HTML or Canvas using mouse or touch input.",
+  "filename": "d3-zoom.min.js",
+  "homepage": "https://d3js.org/d3-zoom/",
+  "keywords": [
+    "d3",
+    "d3-module",
+    "zoom",
+    "behavior",
+    "interaction"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "d3-zoom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-zoom.git"
+  },
+  "version": "1.8.3"
 }
