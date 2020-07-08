@@ -1,20 +1,6 @@
 {
-  "filename": "ember.dialog.min.js",
-  "name": "ember-dialog",
-  "version": "1.2.5",
-  "description": "Allows you to create modal windows",
-  "keywords": [
-    "ember",
-    "ember.js",
-    "ember-dialog",
-    "dialog",
-    "modal",
-    "popup"
-  ],
-  "homepage": "http://wheely.github.io/ember-dialog/",
+  "author": "Milkov V. Vladimir <v.v.milkov@gmail.com>",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/wheely/ember-dialog.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -23,12 +9,26 @@
           "ember.dialog.min.js"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/wheely/ember-dialog.git"
   },
+  "description": "Allows you to create modal windows",
+  "filename": "ember.dialog.min.js",
+  "homepage": "http://wheely.github.io/ember-dialog/",
+  "keywords": [
+    "ember",
+    "ember.js",
+    "ember-dialog",
+    "dialog",
+    "modal",
+    "popup"
+  ],
+  "license": "MIT",
+  "name": "ember-dialog",
   "repository": {
     "type": "git",
     "url": "https://github.com/wheely/ember-dialog"
   },
-  "author": "Milkov V. Vladimir <v.v.milkov@gmail.com>",
-  "license": "MIT"
+  "version": "3.1.0"
 }
