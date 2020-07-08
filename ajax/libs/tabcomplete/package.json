@@ -1,25 +1,6 @@
 {
-  "name": "tabcomplete",
-  "version": "1.4.0",
-  "description": "Lightweight tab completion for inputs and textareas",
-  "filename": "tabcomplete.min.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/erming/tabcomplete"
-  },
-  "keywords": [
-    "tab",
-    "complete",
-    "hint",
-    "hinting",
-    "input",
-    "textarea"
-  ],
   "author": "Mattias Erming",
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "tabcomplete",
     "fileMap": [
       {
         "basePath": "",
@@ -28,6 +9,25 @@
           "tabcomplete.min.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "tabcomplete"
+  },
+  "description": "Lightweight tab completion for inputs and textareas",
+  "filename": "tabcomplete.min.js",
+  "keywords": [
+    "tab",
+    "complete",
+    "hint",
+    "hinting",
+    "input",
+    "textarea"
+  ],
+  "license": "MIT",
+  "name": "tabcomplete",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erming/tabcomplete"
+  },
+  "version": "1.5.3"
 }
