@@ -1,22 +1,8 @@
 {
-  "name": "chartkick",
-  "filename": "chartkick.min.js",
-  "version": "2.3.0",
-  "description": "Create beautiful JavaScript charts with minimal code",
-  "keywords": [
-    "charts"
-  ],
   "author": {
     "name": "ankane"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ankane/chartkick.js"
-  },
   "autoupdate": {
-    "source": "npm",
-    "target": "chartkick",
     "fileMap": [
       {
         "basePath": "",
@@ -24,6 +10,20 @@
           "chartkick*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "chartkick"
+  },
+  "description": "Create beautiful JavaScript charts with minimal code",
+  "filename": "chartkick.min.js",
+  "keywords": [
+    "charts"
+  ],
+  "license": "MIT",
+  "name": "chartkick",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankane/chartkick.js"
+  },
+  "version": "3.2.0"
 }
