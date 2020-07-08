@@ -3,6 +3,24 @@
     "name": "Jeffrey Heer",
     "url": "http://idl.cs.washington.edu"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "vega-embed*.+(js|css|map)"
+        ]
+      },
+      {
+        "basePath": "build",
+        "files": [
+          "**/vega-embed*.+(js|css|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "vega-embed"
+  },
   "description": "Publish Vega visualizations as embedded web components with interactive parameters.",
   "filename": "vega-embed.min.js",
   "keywords": [
@@ -18,23 +36,5 @@
     "type": "git",
     "url": "git@github.com:vega/vega-embed.git"
   },
-  "version": "6.9.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "vega-embed",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "vega-embed*.+(js|css|map)"
-        ]
-      },
-      {
-        "basePath": "build",
-        "files": [
-          "**/vega-embed*.+(js|css|map)"
-        ]
-      }
-    ]
-  }
+  "version": "6.9.2"
 }
