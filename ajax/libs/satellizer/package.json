@@ -1,18 +1,23 @@
 {
-  "name": "satellizer",
-  "filename": "satellizer.min.js",
-  "description": "Token-based AngularJS Authentication",
-  "version": "0.14.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sahat/satellizer.git"
-  },
   "author": {
-    "name": "Sahat Yalkabov",
     "email": "sahat@me.com",
+    "name": "Sahat Yalkabov",
     "url": "http://sahatyalkabov.com"
   },
-  "license": "MIT",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "satellizer*.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/sahat/satellizer.git"
+  },
+  "description": "Token-based AngularJS Authentication",
+  "filename": "satellizer.min.js",
   "keywords": [
     "authentication",
     "angularjs",
@@ -27,16 +32,11 @@
     "sign-in",
     "twitch"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/sahat/satellizer.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "satellizer*.js"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "satellizer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahat/satellizer.git"
+  },
+  "version": "0.15.5"
 }
