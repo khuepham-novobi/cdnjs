@@ -1,5 +1,17 @@
 {
   "author": "Brian Voelker <brian@webiswhatido.com> (http://webiswhatido.com)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "slimselect*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "slim-select"
+  },
   "description": "Slim vanilla javascript select dropdown",
   "filename": "slimselect.min.js",
   "homepage": "http://slimselectjs.com",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "git+https://github.com/brianvoe/slim-select.git"
   },
-  "version": "1.24.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "slim-select",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "slimselect*"
-        ]
-      }
-    ]
-  }
+  "version": "1.26.0"
 }
