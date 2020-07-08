@@ -1,8 +1,19 @@
 {
-  "name": "angular-translate",
-  "filename": "angular-translate.min.js",
+  "author": "Pascal Precht",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "angular-translate"
+  },
   "description": "i18n for your Angular apps, made easy",
-  "version": "2.18.2",
+  "filename": "angular-translate.min.js",
   "homepage": "http://angular-translate.github.io",
   "keywords": [
     "framework",
@@ -13,21 +24,10 @@
     "angular-translate"
   ],
   "license": "MIT",
+  "name": "angular-translate",
   "repository": {
     "type": "git",
     "url": "https://github.com/angular-translate/bower-angular-translate"
   },
-  "author": "Pascal Precht",
-  "autoupdate": {
-    "source": "npm",
-    "target": "angular-translate",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "2.18.3"
 }
