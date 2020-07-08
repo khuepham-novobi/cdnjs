@@ -1,5 +1,30 @@
 {
   "author": "Mark Warren <mwarren@metafloor.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "bwip*",
+          "freetype.js"
+        ]
+      },
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      },
+      {
+        "basePath": "fonts",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "bwip-js"
+  },
   "description": "Barcode generator supporting over 90 types and standards.",
   "filename": "bwip-js-min.js",
   "homepage": "http://bwip-js.metafloor.com/",
@@ -29,30 +54,5 @@
     "type": "git",
     "url": "https://github.com/metafloor/bwip-js.git"
   },
-  "version": "2.0.8",
-  "autoupdate": {
-    "source": "npm",
-    "target": "bwip-js",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "bwip*",
-          "freetype.js"
-        ]
-      },
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      },
-      {
-        "basePath": "fonts",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "2.0.9"
 }
