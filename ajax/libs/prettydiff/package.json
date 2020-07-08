@@ -1,13 +1,25 @@
 {
-  "name": "prettydiff",
-  "filename": "prettydiff.min.js",
   "author": {
-    "name": "Austin Cheney",
     "email": "info@prettydiff.com",
+    "name": "Austin Cheney",
     "url": "http://prettydiff.com/"
   },
-  "version": "2.2.8",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "prettydiff.js",
+          "prettydiff.min.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/prettydiff/prettydiff.git"
+  },
   "description": "Language aware code comparison tool for several web based languages. It also beautifies, minifies, and a few other things.",
+  "filename": "prettydiff.min.js",
+  "homepage": "http://prettydiff.com/",
   "keywords": [
     "diff",
     "prettydiff",
@@ -21,23 +33,11 @@
     "css",
     "javascript"
   ],
-  "homepage": "http://prettydiff.com/",
+  "license": "CC0-1.0",
+  "name": "prettydiff",
   "repository": {
     "type": "git",
     "url": "git://github.com/prettydiff/prettydiff.git"
   },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/prettydiff/prettydiff.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "prettydiff.js",
-          "prettydiff.min.js"
-        ]
-      }
-    ]
-  },
-  "license": "CC0-1.0"
+  "version": "101.0.0"
 }
