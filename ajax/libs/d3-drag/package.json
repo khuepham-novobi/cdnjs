@@ -1,28 +1,9 @@
 {
-  "name": "d3-drag",
-  "filename": "d3-drag.min.js",
-  "description": "Drag and drop SVG, HTML or Canvas using mouse or touch input.",
-  "keywords": [
-    "d3",
-    "d3-module",
-    "drag",
-    "behavior",
-    "interaction"
-  ],
-  "homepage": "https://d3js.org/d3-drag/",
-  "license": "BSD-3-Clause",
   "author": {
     "name": "Mike Bostock",
     "url": "https://bost.ocks.org/mike"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3/d3-drag.git"
-  },
-  "version": "1.2.1",
   "autoupdate": {
-    "source": "npm",
-    "target": "d3-drag",
     "fileMap": [
       {
         "basePath": "build",
@@ -30,6 +11,25 @@
           "**/!(package.js)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "d3-drag"
+  },
+  "description": "Drag and drop SVG, HTML or Canvas using mouse or touch input.",
+  "filename": "d3-drag.min.js",
+  "homepage": "https://d3js.org/d3-drag/",
+  "keywords": [
+    "d3",
+    "d3-module",
+    "drag",
+    "behavior",
+    "interaction"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "d3-drag",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-drag.git"
+  },
+  "version": "1.2.5"
 }
