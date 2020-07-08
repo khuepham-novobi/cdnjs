@@ -1,17 +1,6 @@
 {
-  "name": "sbt",
-  "version": "1.1.11.20151208-1200",
-  "filename": "sbt-core-dojo-amd.js",
-  "description": "Social Business Toolkit minified&aggregated files",
   "author": "IBM",
-  "homepage": "http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&name=Social%20Business%20Toolkit%20SDK",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/OpenNTF/SocialSDK.git"
-  },
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/OpenNTF/SocialSDK.git",
     "fileMap": [
       {
         "basePath": "assembly/cdnjs",
@@ -22,10 +11,21 @@
           "sbt-extra-controls-dojo-amd.js.uncompressed.js"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/OpenNTF/SocialSDK.git"
   },
-  "license": "Apache-2.0",
+  "description": "Social Business Toolkit minified&aggregated files",
+  "filename": "sbt-core-dojo-amd.js",
+  "homepage": "http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&name=Social%20Business%20Toolkit%20SDK",
   "keywords": [
     "sbt"
-  ]
+  ],
+  "license": "Apache-2.0",
+  "name": "sbt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenNTF/SocialSDK.git"
+  },
+  "version": "1.1.3-20150220"
 }
