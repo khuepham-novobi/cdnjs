@@ -1,28 +1,10 @@
 {
-  "name": "bootstrap-switch",
-  "filename": "js/bootstrap-switch.min.js",
-  "description": "Turn checkboxes and radio buttons into toggle switches.",
-  "version": "3.3.4",
-  "keywords": [
-    "bootstrap",
-    "switch",
-    "javascript",
-    "js"
-  ],
-  "homepage": "http://bootstrapswitch.com",
   "author": {
-    "name": "Mattia Larentis",
     "email": "mattia@larentis.eu",
+    "name": "Mattia Larentis",
     "url": "http://larentis.eu"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Bttstrp/bootstrap-switch.git"
-  },
-  "license": "Apache Version 2",
   "autoupdate": {
-    "source": "npm",
-    "target": "bootstrap-switch",
     "fileMap": [
       {
         "basePath": "dist",
@@ -30,6 +12,24 @@
           "*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "bootstrap-switch"
+  },
+  "description": "Turn checkboxes and radio buttons into toggle switches.",
+  "filename": "js/bootstrap-switch.min.js",
+  "homepage": "http://bootstrapswitch.com",
+  "keywords": [
+    "bootstrap",
+    "switch",
+    "javascript",
+    "js"
+  ],
+  "license": "Apache Version 2",
+  "name": "bootstrap-switch",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Bttstrp/bootstrap-switch.git"
+  },
+  "version": "3.4.0"
 }
