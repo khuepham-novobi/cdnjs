@@ -1,13 +1,18 @@
 {
-  "name": "aframe",
-  "version": "0.7.1",
-  "filename": "aframe.min.js",
-  "description": "Building blocks for the VR Web",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aframevr/aframe.git"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/aframe?(.min).js?(.map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "aframe"
   },
-  "license": "MIT",
+  "description": "Building blocks for the VR Web",
+  "filename": "aframe.min.js",
   "keywords": [
     "aframe",
     "vr",
@@ -17,16 +22,11 @@
     "components",
     "elements"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/aframevr/aframe.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/aframe?(.min).js?(.map)"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "aframe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aframevr/aframe.git"
+  },
+  "version": "1.0.4"
 }
