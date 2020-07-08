@@ -3,6 +3,18 @@
     "email": "alexsexton@gmail.com",
     "name": "Alex Sexton"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "lib",
+        "files": [
+          "messageformat.+(min.js|js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "messageformat"
+  },
   "description": "PluralFormat and SelectFormat Message and i18n Tool - A JavaScript Implemenation of the ICU standards.",
   "filename": "messageformat.min.js",
   "homepage": "https://messageformat.github.io/",
@@ -22,17 +34,5 @@
     "type": "git",
     "url": "git+https://github.com/SlexAxton/messageformat.js.git"
   },
-  "version": "3.0.0-beta.2",
-  "autoupdate": {
-    "source": "npm",
-    "target": "messageformat",
-    "fileMap": [
-      {
-        "basePath": "lib",
-        "files": [
-          "messageformat.+(min.js|js)"
-        ]
-      }
-    ]
-  }
+  "version": "2.3.0"
 }
