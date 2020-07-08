@@ -1,5 +1,17 @@
 {
   "author": "Jason Chen <jhchen7@gmail.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "quill"
+  },
   "description": "Cross browser rich text editor",
   "filename": "quill.min.js",
   "homepage": "http://quilljs.com",
@@ -14,17 +26,5 @@
     "type": "git",
     "url": "https://github.com/quilljs/quill"
   },
-  "version": "2.0.0-dev.4",
-  "autoupdate": {
-    "source": "npm",
-    "target": "quill",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "1.3.7"
 }
