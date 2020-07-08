@@ -1,13 +1,19 @@
 {
-  "name": "usertiming",
+  "author": "Nic Jansma",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "usertiming"
+  },
   "description": "W3C UserTiming polyfill",
   "filename": "usertiming.min.js",
-  "author": "Nic Jansma",
-  "version": "0.1.7",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nicjansma/usertiming.js.git"
-  },
   "keywords": [
     "usertiming",
     "polyfill",
@@ -16,16 +22,10 @@
     "performance"
   ],
   "license": "MIT",
-  "autoupdate": {
-    "source": "npm",
-    "target": "usertiming",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "name": "usertiming",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicjansma/usertiming.js.git"
+  },
+  "version": "0.1.8"
 }
