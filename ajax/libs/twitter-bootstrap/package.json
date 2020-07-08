@@ -1,5 +1,23 @@
 {
   "author": "Twitter, Inc.",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.@(js|css)"
+        ]
+      },
+      {
+        "basePath": "",
+        "files": [
+          "scss/**/*.scss"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "bootstrap"
+  },
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
   "filename": "js/bootstrap.min.js",
   "homepage": "http://getbootstrap.com/",
@@ -20,23 +38,5 @@
     "type": "git",
     "url": "https://github.com/twbs/bootstrap"
   },
-  "version": "5.0.0-alpha1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "bootstrap",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.@(js|css)"
-        ]
-      },
-      {
-        "basePath": "",
-        "files": [
-          "scss/**/*.scss"
-        ]
-      }
-    ]
-  }
+  "version": "4.5.0"
 }
