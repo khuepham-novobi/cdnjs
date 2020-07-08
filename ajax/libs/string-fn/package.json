@@ -1,25 +1,6 @@
 {
-  "name": "string-fn",
-  "filename": "webVersion.js",
-  "homepage": "https://selfrefactor.github.io/string-fn/",
-  "version": "2.10.2",
-  "description": "String manipulation library",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/selfrefactor/string-fn.git"
-  },
-  "keywords": [
-    "string",
-    "util",
-    "words",
-    "sentence",
-    "manipulation"
-  ],
   "author": "self_refactor",
-  "license": "ISC",
   "autoupdate": {
-    "source": "npm",
-    "target": "string-fn",
     "fileMap": [
       {
         "basePath": "",
@@ -27,6 +8,25 @@
           "webVersion.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "string-fn"
+  },
+  "description": "String manipulation library",
+  "filename": "webVersion.js",
+  "homepage": "https://selfrefactor.github.io/string-fn/",
+  "keywords": [
+    "string",
+    "util",
+    "words",
+    "sentence",
+    "manipulation"
+  ],
+  "license": "ISC",
+  "name": "string-fn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selfrefactor/string-fn.git"
+  },
+  "version": "2.12.0"
 }
