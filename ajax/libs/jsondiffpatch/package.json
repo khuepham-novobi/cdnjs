@@ -1,22 +1,6 @@
 {
-  "name": "jsondiffpatch",
-  "version": "0.2.5",
   "author": "Benjamin Eidelman <beneidel@gmail.com>",
-  "filename": "jsondiffpatch.min.js",
-  "description": "Diff & Patch for Javascript objects",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/benjamine/jsondiffpatch.git"
-  },
-  "keywords": [
-    "json",
-    "diff",
-    "patch"
-  ],
-  "license": "MIT",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/benjamine/jsondiffpatch.git",
     "fileMap": [
       {
         "basePath": "public/build",
@@ -24,6 +8,22 @@
           "jsondiffpatch*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/benjamine/jsondiffpatch.git"
+  },
+  "description": "Diff & Patch for Javascript objects",
+  "filename": "jsondiffpatch.min.js",
+  "keywords": [
+    "json",
+    "diff",
+    "patch"
+  ],
+  "license": "MIT",
+  "name": "jsondiffpatch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjamine/jsondiffpatch.git"
+  },
+  "version": "0.3.11"
 }
