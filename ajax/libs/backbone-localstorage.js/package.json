@@ -1,21 +1,6 @@
 {
-  "name": "backbone-localstorage.js",
-  "filename": "backbone.localStorage-min.js",
-  "version": "1.1.16",
-  "description": "A simple module to replace Backbone.sync with localStorage-based persistence. Models are given GUIDS, and saved into a JSON object. Simple as that.",
-  "keywords": [
-    "localstorage",
-    "backbone"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jeromegn/Backbone.localStorage"
-  },
   "author": "Jerome Gravel-Niquet <jeromegn@gmail.com> (http://jgn.me)",
   "autoupdate": {
-    "source": "npm",
-    "target": "backbone.localstorage",
     "fileMap": [
       {
         "basePath": "",
@@ -24,6 +9,21 @@
           "backbone.localStorage.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "backbone.localstorage"
+  },
+  "description": "A simple module to replace Backbone.sync with localStorage-based persistence. Models are given GUIDS, and saved into a JSON object. Simple as that.",
+  "filename": "backbone.localStorage-min.js",
+  "keywords": [
+    "localstorage",
+    "backbone"
+  ],
+  "license": "MIT",
+  "name": "backbone-localstorage.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeromegn/Backbone.localStorage"
+  },
+  "version": "2.0.2"
 }
