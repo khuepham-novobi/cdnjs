@@ -1,22 +1,8 @@
 {
-  "name": "doofinder",
-  "version": "5.12.2",
-  "filename": "doofinder.min.js",
-  "description": "Javascript Library for Doofinder Search API",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/doofinder/js-doofinder.git"
-  },
-  "keywords": [
-    "doofinder"
-  ],
   "author": {
     "name": "Kike Coslado"
   },
-  "license": "MIT",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/doofinder/js-doofinder.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -24,6 +10,20 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/doofinder/js-doofinder.git"
+  },
+  "description": "Javascript Library for Doofinder Search API",
+  "filename": "doofinder.min.js",
+  "keywords": [
+    "doofinder"
+  ],
+  "license": "MIT",
+  "name": "doofinder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doofinder/js-doofinder.git"
+  },
+  "version": "6.0.0-beta.4"
 }
