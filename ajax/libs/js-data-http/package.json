@@ -1,28 +1,9 @@
 {
-  "name": "js-data-http",
-  "description": "HTTP adapter for js-data.",
-  "version": "2.2.2",
-  "homepage": "http://www.js-data.io/docs/dshttpadapter",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/js-data/js-data-http.git"
-  },
   "author": {
-    "name": "Jason Dobry",
-    "email": "jason.dobry@gmail.com"
+    "email": "jason.dobry@gmail.com",
+    "name": "Jason Dobry"
   },
-  "keywords": [
-    "ajax",
-    "axios",
-    "rest",
-    "adapter",
-    "http"
-  ],
-  "filename": "js-data-http.min.js",
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "js-data-http",
     "fileMap": [
       {
         "basePath": "dist",
@@ -30,6 +11,25 @@
           "**/*.+(!ts)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "js-data-http"
+  },
+  "description": "HTTP adapter for js-data.",
+  "filename": "js-data-http.min.js",
+  "homepage": "http://www.js-data.io/docs/dshttpadapter",
+  "keywords": [
+    "ajax",
+    "axios",
+    "rest",
+    "adapter",
+    "http"
+  ],
+  "license": "MIT",
+  "name": "js-data-http",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js-data/js-data-http.git"
+  },
+  "version": "3.0.1"
 }
