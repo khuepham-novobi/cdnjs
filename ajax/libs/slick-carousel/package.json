@@ -1,22 +1,6 @@
 {
-  "name": "slick-carousel",
-  "version": "1.9.0",
-  "filename": "slick.min.js",
-  "description": "the last carousel you'll ever need",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kenwheeler/slick.git"
-  },
-  "keywords": [
-    "carousel",
-    "slick",
-    "responsive"
-  ],
   "author": "Ken Wheeler",
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "slick-carousel",
     "fileMap": [
       {
         "basePath": "slick",
@@ -27,6 +11,22 @@
           "ajax-loader.gif"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "slick-carousel"
+  },
+  "description": "the last carousel you'll ever need",
+  "filename": "slick.min.js",
+  "keywords": [
+    "carousel",
+    "slick",
+    "responsive"
+  ],
+  "license": "MIT",
+  "name": "slick-carousel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenwheeler/slick.git"
+  },
+  "version": "1.8.1"
 }
