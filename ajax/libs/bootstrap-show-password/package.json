@@ -1,26 +1,10 @@
 {
-  "filename": "bootstrap-show-password.min.js",
-  "name": "bootstrap-show-password",
-  "version": "1.1.2",
-  "description": "Show/hide password plugin for twitter bootstrap.",
   "author": {
-    "name": "zhixin wen",
     "email": "wenzhixin2010@gmail.com",
+    "name": "zhixin wen",
     "url": "http://wenzhixin.net.cn/"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wenzhixin/bootstrap-show-password.git"
-  },
-  "keywords": [
-    "bootstrap.password",
-    "show.password",
-    "hide.password"
-  ],
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/wenzhixin/bootstrap-show-password.git",
     "fileMap": [
       {
         "basePath": "",
@@ -28,6 +12,22 @@
           "bootstrap-show-password*.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/wenzhixin/bootstrap-show-password.git"
+  },
+  "description": "Show/hide password plugin for twitter bootstrap.",
+  "filename": "bootstrap-show-password.min.js",
+  "keywords": [
+    "bootstrap.password",
+    "show.password",
+    "hide.password"
+  ],
+  "license": "MIT",
+  "name": "bootstrap-show-password",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wenzhixin/bootstrap-show-password.git"
+  },
+  "version": "1.2.1"
 }
