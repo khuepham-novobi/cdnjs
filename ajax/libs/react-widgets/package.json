@@ -3,6 +3,18 @@
     "email": "monastic.panic@gmail.com",
     "name": "Jason"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-widgets"
+  },
   "description": "An à la carte set of polished, extensible, and accessible inputs built for React",
   "filename": "react-widgets.js",
   "homepage": "https://jquense.github.io/react-widgets/docs/",
@@ -30,17 +42,5 @@
     "type": "git",
     "url": "https://github.com/jquense/react-widgets"
   },
-  "version": "5.0.0-beta.18",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-widgets",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "4.5.0"
 }
