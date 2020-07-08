@@ -1,5 +1,17 @@
 {
   "author": "Michel Weststrate",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "lib",
+        "files": [
+          "**/mobx!(*.d.ts|*.flow|*.es6.js|.module.js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "mobx"
+  },
   "description": "Simple, scalable state management.",
   "filename": "mobx.min.js",
   "homepage": "https://mobxjs.github.io/mobx",
@@ -23,17 +35,5 @@
     "type": "git",
     "url": "git+https://github.com/mobxjs/mobx.git"
   },
-  "version": "4.15.4",
-  "autoupdate": {
-    "source": "npm",
-    "target": "mobx",
-    "fileMap": [
-      {
-        "basePath": "lib",
-        "files": [
-          "**/mobx!(*.d.ts|*.flow|*.es6.js|.module.js)"
-        ]
-      }
-    ]
-  }
+  "version": "5.15.4"
 }
