@@ -1,17 +1,23 @@
 {
-  "name": "photo-editor",
-  "version": "1.0.1",
-  "filename": "js/main.js",
-  "description": "A photo editing application based on the Cropper.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fengyuanchen/photo-editor"
-  },
   "author": {
     "name": "Fengyuan Chen",
     "url": "http://chenfengyuan.com"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "+(js|css)/main*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/fengyuanchen/photo-editor.git"
+  },
+  "description": "A photo editing application based on the Cropper.js",
+  "filename": "js/main.js",
+  "homepage": "https://fengyuanchen.github.io/photo-editor/",
   "keywords": [
     "photo",
     "editor",
@@ -25,17 +31,11 @@
     "web",
     "development"
   ],
-  "homepage": "https://fengyuanchen.github.io/photo-editor/",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/fengyuanchen/photo-editor.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "+(js|css)/main*"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "photo-editor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fengyuanchen/photo-editor"
+  },
+  "version": "1.1.5"
 }
