@@ -1,16 +1,23 @@
 {
-  "name": "react-autosuggest",
-  "version": "9.4.3",
-  "description": "WAI-ARIA compliant React autosuggest component",
-  "homepage": "http://react-autosuggest.js.org/",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/moroshko/react-autosuggest.git"
-  },
   "author": {
-    "name": "Misha Moroshko",
-    "email": "michael.moroshko@gmail.com"
+    "email": "michael.moroshko@gmail.com",
+    "name": "Misha Moroshko"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist/standalone",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-autosuggest"
+  },
+  "description": "WAI-ARIA compliant React autosuggest component",
+  "filename": "autosuggest.min.js",
+  "homepage": "http://react-autosuggest.js.org/",
   "keywords": [
     "autosuggest",
     "autocomplete",
@@ -31,17 +38,10 @@
     "react-component"
   ],
   "license": "MIT",
-  "filename": "autosuggest.min.js",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-autosuggest",
-    "fileMap": [
-      {
-        "basePath": "dist/standalone",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "name": "react-autosuggest",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moroshko/react-autosuggest.git"
+  },
+  "version": "10.0.2"
 }
