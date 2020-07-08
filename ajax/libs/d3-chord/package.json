@@ -1,7 +1,23 @@
 {
-  "name": "d3-chord",
-  "filename": "d3-chord.min.js",
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/!(package.js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "d3-chord"
+  },
   "description": "Visualize relationships or network flow with an aesthetically-pleasing circular layout.",
+  "filename": "d3-chord.min.js",
+  "homepage": "https://d3js.org/d3-chord/",
   "keywords": [
     "d3",
     "d3-module",
@@ -10,27 +26,11 @@
     "network",
     "flow"
   ],
-  "homepage": "https://d3js.org/d3-chord/",
   "license": "BSD-3-Clause",
-  "author": {
-    "name": "Mike Bostock",
-    "url": "https://bost.ocks.org/mike"
-  },
+  "name": "d3-chord",
   "repository": {
     "type": "git",
     "url": "https://github.com/d3/d3-chord.git"
   },
-  "version": "1.0.4",
-  "autoupdate": {
-    "source": "npm",
-    "target": "d3-chord",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/!(package.js)"
-        ]
-      }
-    ]
-  }
+  "version": "1.0.6"
 }
