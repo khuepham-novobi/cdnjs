@@ -1,24 +1,5 @@
 {
-  "name": "typeplate-starter-kit",
-  "version": "3.0.2",
-  "homepage": "http://typeplate.com",
-  "description": "A Typographic Starter Kit",
-  "filename": "css/typeplate.min.css",
-  "license": "CC-BY-3.0",
-  "keywords": [
-    "typeplate",
-    "starter",
-    "kit",
-    "typographic",
-    "pattern"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/typeplate/starter-kit.git"
-  },
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/typeplate/starter-kit.git",
     "fileMap": [
       {
         "basePath": "",
@@ -26,6 +7,25 @@
           "css/**/typeplate*.css"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/typeplate/starter-kit.git"
+  },
+  "description": "A Typographic Starter Kit",
+  "filename": "css/typeplate.min.css",
+  "homepage": "http://typeplate.com",
+  "keywords": [
+    "typeplate",
+    "starter",
+    "kit",
+    "typographic",
+    "pattern"
+  ],
+  "license": "CC-BY-3.0",
+  "name": "typeplate-starter-kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typeplate/starter-kit.git"
+  },
+  "version": "3.0.1"
 }
