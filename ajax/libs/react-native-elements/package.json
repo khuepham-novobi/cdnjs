@@ -1,24 +1,6 @@
 {
-  "name": "react-native-elements",
-  "version": "1.1.0",
-  "description": "React Native Elements & UI Toolkit",
-  "filename": "bundle.js",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/dabit3/React-Native-Elements.git"
-  },
-  "keywords": [
-    "react-native",
-    "reactjs",
-    "reactnative",
-    "bootstrap"
-  ],
   "author": "Nader Dabit",
-  "license": "MIT",
-  "homepage": "https://react-native-training.github.io/react-native-elements/",
   "autoupdate": {
-    "source": "npm",
-    "target": "react-native-elements",
     "fileMap": [
       {
         "basePath": "build",
@@ -26,6 +8,24 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "react-native-elements"
+  },
+  "description": "React Native Elements & UI Toolkit",
+  "filename": "bundle.js",
+  "homepage": "https://react-native-training.github.io/react-native-elements/",
+  "keywords": [
+    "react-native",
+    "reactjs",
+    "reactnative",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "name": "react-native-elements",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dabit3/React-Native-Elements.git"
+  },
+  "version": "2.0.4"
 }
