@@ -1,24 +1,6 @@
 {
-  "name": "leaflet-tilelayer-geojson",
-  "filename": "TileLayer.GeoJSON.min.js",
-  "version": "1.0.4",
-  "description": "Leaflet plugin to render GeoJSON data over tile layer",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/glenrobertson/leaflet-tilelayer-geojson.git"
-  },
-  "keywords": [
-    "Leaflet",
-    "leaflet.js",
-    "tile",
-    "tilelayer",
-    "geojson"
-  ],
   "author": "glenrobertson",
-  "license": "ISC",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/glenrobertson/leaflet-tilelayer-geojson.git",
     "fileMap": [
       {
         "basePath": "",
@@ -26,6 +8,24 @@
           "TileLayer.GeoJSON*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/glenrobertson/leaflet-tilelayer-geojson.git"
+  },
+  "description": "Leaflet plugin to render GeoJSON data over tile layer",
+  "filename": "TileLayer.GeoJSON.min.js",
+  "keywords": [
+    "Leaflet",
+    "leaflet.js",
+    "tile",
+    "tilelayer",
+    "geojson"
+  ],
+  "license": "ISC",
+  "name": "leaflet-tilelayer-geojson",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glenrobertson/leaflet-tilelayer-geojson.git"
+  },
+  "version": "1.0.2"
 }
