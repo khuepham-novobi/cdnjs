@@ -1,13 +1,19 @@
 {
-  "name": "d3fc",
-  "version": "11.0.0",
-  "filename": "d3fc.bundle.min.js",
-  "description": "A collection of components that make it easy to build interactive charts with D3",
   "author": "Scott Logic",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ScottLogic/d3fc"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.+(css|js|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "d3fc"
   },
+  "description": "A collection of components that make it easy to build interactive charts with D3",
+  "filename": "d3fc.bundle.min.js",
   "keywords": [
     "d3",
     "components",
@@ -16,16 +22,10 @@
     "graphs"
   ],
   "license": "MIT",
-  "autoupdate": {
-    "source": "npm",
-    "target": "d3fc",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.+(css|js|map)"
-        ]
-      }
-    ]
-  }
+  "name": "d3fc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScottLogic/d3fc"
+  },
+  "version": "15.0.8"
 }
