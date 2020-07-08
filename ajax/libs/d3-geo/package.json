@@ -1,28 +1,9 @@
 {
-  "name": "d3-geo",
-  "filename": "d3-geo.min.js",
-  "description": "Shapes and calculators for spherical coordinates.",
-  "keywords": [
-    "d3",
-    "d3-module",
-    "geo",
-    "maps",
-    "cartography"
-  ],
-  "homepage": "https://d3js.org/d3-geo/",
-  "license": "BSD-3-Clause",
   "author": {
     "name": "Mike Bostock",
     "url": "https://bost.ocks.org/mike"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3/d3-geo.git"
-  },
-  "version": "1.9.1",
   "autoupdate": {
-    "source": "npm",
-    "target": "d3-geo",
     "fileMap": [
       {
         "basePath": "build",
@@ -30,6 +11,25 @@
           "**/!(*.png|package.js)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "d3-geo"
+  },
+  "description": "Shapes and calculators for spherical coordinates.",
+  "filename": "d3-geo.min.js",
+  "homepage": "https://d3js.org/d3-geo/",
+  "keywords": [
+    "d3",
+    "d3-module",
+    "geo",
+    "maps",
+    "cartography"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "d3-geo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-geo.git"
+  },
+  "version": "1.12.1"
 }
