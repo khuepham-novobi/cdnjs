@@ -1,5 +1,17 @@
 {
   "author": "Tanner Linsley <@tannerlinsley>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "react-table*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-table"
+  },
   "description": "A fast, lightweight, opinionated table and datagrid built on React",
   "filename": "react-table.min.js",
   "homepage": "https://react-table.js.org/",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "https://github.com/tannerlinsley/react-table.git"
   },
-  "version": "7.1.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-table",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "react-table*"
-        ]
-      }
-    ]
-  }
+  "version": "7.2.2"
 }
