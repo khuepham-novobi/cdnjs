@@ -1,23 +1,5 @@
 {
-  "name": "breezejs",
-  "filename": "breeze.min.js",
-  "version": "1.5.7",
-  "description": "BreezeJS is a JavaScript library for managing data in data rich-client HTML/JS applications. Core features include client-side querying, caching, change-tracking, validation, batch saves.",
-  "homepage": "http://www.getbreezenow.com/",
-  "keywords": [
-    "data",
-    "BreezeJS",
-    "breeze",
-    "breeze.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Breeze/breeze.js.git"
-  },
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "breeze-client",
     "fileMap": [
       {
         "basePath": "build",
@@ -25,6 +7,24 @@
           "**/breeze*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "breeze-client"
+  },
+  "description": "BreezeJS is a JavaScript library for managing data in data rich-client HTML/JS applications. Core features include client-side querying, caching, change-tracking, validation, batch saves.",
+  "filename": "breeze.min.js",
+  "homepage": "http://www.getbreezenow.com/",
+  "keywords": [
+    "data",
+    "BreezeJS",
+    "breeze",
+    "breeze.js"
+  ],
+  "license": "MIT",
+  "name": "breezejs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Breeze/breeze.js.git"
+  },
+  "version": "2.0.7"
 }
