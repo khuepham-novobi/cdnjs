@@ -1,8 +1,19 @@
 {
-  "name": "angular-translate-handler-log",
-  "filename": "angular-translate-handler-log.min.js",
+  "author": "Pascal Precht",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/angular-translate/bower-angular-translate-handler-log.git"
+  },
   "description": "Uses angular's $log service to give a warning when trying to translate a translation id which doesn't exist.",
-  "version": "2.18.2",
+  "filename": "angular-translate-handler-log.min.js",
   "homepage": "http://angular-translate.github.io",
   "keywords": [
     "framework",
@@ -12,22 +23,11 @@
     "angular.js",
     "angular-translate"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/angular-translate/bower-angular-translate-handler-log.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "*.js"
-        ]
-      }
-    ]
-  },
   "license": "MIT",
+  "name": "angular-translate-handler-log",
   "repository": {
     "type": "git",
     "url": "https://github.com/angular-translate/bower-angular-translate-handler-log"
   },
-  "author": "Pascal Precht"
+  "version": "2.18.3"
 }
