@@ -1,22 +1,6 @@
 {
   "author": "Brent Jackson",
-  "description": "Open Source Icons for the Web",
-  "filename": "geomicons.min.js",
-  "keywords": [
-    "icons",
-    "css",
-    "svg"
-  ],
-  "license": "MIT",
-  "name": "geomicons-open",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jxnblk/geomicons-open.git"
-  },
-  "version": "3.0.0-beta.2",
   "autoupdate": {
-    "source": "npm",
-    "target": "geomicons-open",
     "fileMap": [
       {
         "basePath": "dist",
@@ -31,6 +15,22 @@
           "icons/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "geomicons-open"
+  },
+  "description": "Open Source Icons for the Web",
+  "filename": "geomicons.min.js",
+  "keywords": [
+    "icons",
+    "css",
+    "svg"
+  ],
+  "license": "MIT",
+  "name": "geomicons-open",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jxnblk/geomicons-open.git"
+  },
+  "version": "3.0.0-beta.1"
 }
