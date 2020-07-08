@@ -1,8 +1,22 @@
 {
-  "name": "immutable",
-  "filename": "immutable.min.js",
-  "version": "3.8.2",
+  "author": {
+    "name": "Lee Byron",
+    "url": "https://github.com/leebyron"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.ts|*.flow|*.es.js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "immutable"
+  },
   "description": "Immutable Data Collections",
+  "filename": "immutable.min.js",
   "keywords": [
     "immutable",
     "persistent",
@@ -15,25 +29,11 @@
     "sequence",
     "iteration"
   ],
+  "license": "BSD-3-Clause",
+  "name": "immutable",
   "repository": {
     "type": "git",
     "url": "https://github.com/facebook/immutable-js"
   },
-  "license": "BSD-3-Clause",
-  "author": {
-    "name": "Lee Byron",
-    "url": "https://github.com/leebyron"
-  },
-  "autoupdate": {
-    "source": "npm",
-    "target": "immutable",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.ts|*.flow|*.es.js)"
-        ]
-      }
-    ]
-  }
+  "version": "4.0.0-rc.12"
 }
