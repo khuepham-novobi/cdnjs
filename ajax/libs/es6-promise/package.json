@@ -1,22 +1,6 @@
 {
-  "name": "es6-promise",
-  "namespace": "es6-promise",
-  "version": "4.1.1",
-  "description": "A lightweight library that provides tools for organizing asynchronous code",
-  "filename": "es6-promise.min.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jakearchibald/es6-promise.git"
-  },
-  "keywords": [
-    "promises",
-    "futures"
-  ],
   "author": "Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)",
-  "license": "MIT",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/jakearchibald/es6-promise.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -24,6 +8,21 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "es6-promise"
+  },
+  "description": "A lightweight library that provides tools for organizing asynchronous code",
+  "filename": "es6-promise.min.js",
+  "keywords": [
+    "promises",
+    "futures"
+  ],
+  "license": "MIT",
+  "name": "es6-promise",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jakearchibald/es6-promise.git"
+  },
+  "version": "4.2.8"
 }
