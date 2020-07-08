@@ -1,26 +1,9 @@
 {
-  "name": "d3-quadtree",
-  "filename": "d3-quadtree.min.js",
-  "description": "Two-dimensional recursive spatial subdivision.",
-  "keywords": [
-    "d3",
-    "d3-module",
-    "quadtree"
-  ],
-  "homepage": "https://d3js.org/d3-quadtree/",
-  "license": "BSD-3-Clause",
   "author": {
     "name": "Mike Bostock",
     "url": "https://bost.ocks.org/mike"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3/d3-quadtree.git"
-  },
-  "version": "1.0.3",
   "autoupdate": {
-    "source": "npm",
-    "target": "d3-quadtree",
     "fileMap": [
       {
         "basePath": "build",
@@ -28,6 +11,23 @@
           "**/!(package.js)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "d3-quadtree"
+  },
+  "description": "Two-dimensional recursive spatial subdivision.",
+  "filename": "d3-quadtree.min.js",
+  "homepage": "https://d3js.org/d3-quadtree/",
+  "keywords": [
+    "d3",
+    "d3-module",
+    "quadtree"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "d3-quadtree",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-quadtree.git"
+  },
+  "version": "1.0.7"
 }
