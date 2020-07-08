@@ -3,6 +3,18 @@
     "email": "nperriault@mozilla.com",
     "name": "Nicolas Perriault"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.@(js|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-jsonschema-form"
+  },
   "description": "A simple React component capable of building HTML forms out of a JSON schema.",
   "filename": "react-jsonschema-form.js",
   "homepage": "https://github.com/mozilla-services/react-jsonschema-form#readme",
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "git+https://github.com/mozilla-services/react-jsonschema-form.git"
   },
-  "version": "2.0.0-alpha.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-jsonschema-form",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.@(js|map)"
-        ]
-      }
-    ]
-  }
+  "version": "1.8.1"
 }
