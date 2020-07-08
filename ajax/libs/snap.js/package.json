@@ -1,26 +1,9 @@
 {
-  "name": "snap.js",
-  "version": "1.9.3",
-  "filename": "snap.min.js",
-  "description": "",
-  "homepage": "",
   "author": {
     "name": "Jacob Kelley",
     "url": "http://jakiestfu.com/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jakiestfu/Snap.js.git"
-  },
-  "keywords": [
-    "mobile",
-    "menu",
-    "drag",
-    "UI"
-  ],
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/jakiestfu/Snap.js.git",
     "fileMap": [
       {
         "basePath": "",
@@ -29,7 +12,24 @@
           "snap.min.js"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/jakiestfu/Snap.js.git"
   },
-  "license": "MIT"
+  "description": "",
+  "filename": "snap.min.js",
+  "homepage": "",
+  "keywords": [
+    "mobile",
+    "menu",
+    "drag",
+    "UI"
+  ],
+  "license": "MIT",
+  "name": "snap.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jakiestfu/Snap.js.git"
+  },
+  "version": "2.0.0-rc1"
 }
