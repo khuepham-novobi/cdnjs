@@ -1,8 +1,19 @@
 {
-  "name": "angular-translate-storage-local",
-  "filename": "angular-translate-storage-local.min.js",
+  "author": "Pascal Precht",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/angular-translate/bower-angular-translate-storage-local.git"
+  },
   "description": "Abstraction layer for localStorage. This service is used when telling angular-translate to use localStorage as storage.",
-  "version": "2.18.2",
+  "filename": "angular-translate-storage-local.min.js",
   "homepage": "http://angular-translate.github.io",
   "keywords": [
     "framework",
@@ -12,22 +23,11 @@
     "angular.js",
     "angular-translate"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/angular-translate/bower-angular-translate-storage-local.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "*.js"
-        ]
-      }
-    ]
-  },
   "license": "MIT",
+  "name": "angular-translate-storage-local",
   "repository": {
     "type": "git",
     "url": "https://github.com/angular-translate/bower-angular-translate-storage-local"
   },
-  "author": "Pascal Precht"
+  "version": "2.18.3"
 }
