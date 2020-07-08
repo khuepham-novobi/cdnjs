@@ -1,15 +1,20 @@
 {
-  "name": "pixi-filters",
-  "version": "1.0.8",
-  "description": "Optional display filters to work with Pixi.js",
   "author": "Mat Groves",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "bin",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "pixi-filters"
+  },
+  "description": "Optional display filters to work with Pixi.js",
   "filename": "filters.min.js",
   "homepage": "https://pixijs.github.io/pixi-filters/docs/",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pixijs/pixi-filters.git"
-  },
   "keywords": [
     "pixi",
     "filter",
@@ -25,16 +30,11 @@
     "TiltShiftFilter",
     "TwistFilter"
   ],
-  "autoupdate": {
-    "source": "npm",
-    "target": "pixi-filters",
-    "fileMap": [
-      {
-        "basePath": "bin",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "pixi-filters",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixijs/pixi-filters.git"
+  },
+  "version": "3.1.1"
 }
