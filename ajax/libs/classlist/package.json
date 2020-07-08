@@ -1,25 +1,10 @@
 {
-  "name": "classlist",
-  "version": "1.2.201711092",
-  "filename": "classList.min.js",
-  "description": "Cross-browser full element.classList implementation.",
   "author": {
-    "name": "Eli Grey",
     "email": "me@eligrey.com",
+    "name": "Eli Grey",
     "url": "http://eligrey.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/eligrey/classList.js.git"
-  },
-  "keywords": [
-    "classlist",
-    "polyfill"
-  ],
-  "license": "Unlicense",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/eligrey/classList.js.git",
     "fileMap": [
       {
         "basePath": "",
@@ -28,6 +13,21 @@
           "classList.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/eligrey/classList.js.git"
+  },
+  "description": "Cross-browser full element.classList implementation.",
+  "filename": "classList.min.js",
+  "keywords": [
+    "classlist",
+    "polyfill"
+  ],
+  "license": "Unlicense",
+  "name": "classlist",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eligrey/classList.js.git"
+  },
+  "version": "1.2.20180112"
 }
