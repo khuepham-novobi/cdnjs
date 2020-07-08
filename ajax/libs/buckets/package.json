@@ -1,12 +1,18 @@
 {
-  "name": "buckets",
-  "description": "Buckets is a complete, fully tested and documented data structure library written in pure JavaScript.",
-  "version": "1.90.0",
-  "license": "APL-2",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mauriciosantos/Buckets-JS.git"
+  "author": "Mauricio Santos <mauriciosantoss@gmail.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "buckets?(.min).js?(.map)"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/mauriciosantos/Buckets-JS.git"
   },
+  "description": "Buckets is a complete, fully tested and documented data structure library written in pure JavaScript.",
   "filename": "buckets.min.js",
   "keywords": [
     "buckets",
@@ -24,17 +30,11 @@
     "dictionary",
     "map"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/mauriciosantos/Buckets-JS.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "buckets*.js"
-        ]
-      }
-    ]
+  "license": "APL-2",
+  "name": "buckets",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mauriciosantos/Buckets-JS.git"
   },
-  "author": "Mauricio Santos <mauriciosantoss@gmail.com>"
+  "version": "1.98.2"
 }
