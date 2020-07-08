@@ -1,12 +1,21 @@
 {
-  "name": "videojs-vast-vpaid",
-  "filename": "videojs_5.vast.vpaid.min.js",
-  "version": "2.0.2",
-  "description": "VAST plugin to use with video.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MailOnline/videojs-vast-vpaid"
+  "author": "Carlos Serrano <carlos.pastor@mailonline.co.uk>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "bin",
+        "files": [
+          "videojs*",
+          "*.swf",
+          "ie8fix*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "videojs-vast-vpaid"
   },
+  "description": "VAST plugin to use with video.js",
+  "filename": "videojs_5.vast.vpaid.min.js",
   "homepage": "https://mailonline.github.io/videojs-vast-vpaid/index_4.html",
   "keywords": [
     "vpaid",
@@ -19,19 +28,10 @@
     "iab"
   ],
   "license": "MIT",
-  "author": "Carlos Serrano <carlos.pastor@mailonline.co.uk>",
-  "autoupdate": {
-    "source": "npm",
-    "target": "videojs-vast-vpaid",
-    "fileMap": [
-      {
-        "basePath": "bin",
-        "files": [
-          "videojs*",
-          "*.swf",
-          "ie8fix*"
-        ]
-      }
-    ]
-  }
+  "name": "videojs-vast-vpaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MailOnline/videojs-vast-vpaid"
+  },
+  "version": "3.0.0-beta.8"
 }
