@@ -4,6 +4,18 @@
     "name": "Alexis Jacomy",
     "url": "http://jcml.io/"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "sigma"
+  },
   "description": "A JavaScript library dedicated to graph drawing.",
   "filename": "sigma.min.js",
   "homepage": "http://sigmajs.org/",
@@ -16,17 +28,5 @@
     "type": "git",
     "url": "https://github.com/jacomyal/sigma.js.git"
   },
-  "version": "2.0.0-alpha36",
-  "autoupdate": {
-    "source": "npm",
-    "target": "sigma",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "2.0.0-alpha32"
 }
