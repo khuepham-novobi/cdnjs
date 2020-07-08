@@ -1,28 +1,9 @@
 {
-  "name": "griddle-react",
-  "version": "0.8.2",
-  "filename": "Griddle.min.js",
-  "keywords": [
-    "react-component",
-    "grid",
-    "react",
-    "pagination",
-    "sort"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/GriddleGriddle/Griddle.git"
-  },
-  "description": "Griddle - A fast and flexible grid component for React.",
   "author": {
     "name": "ryanlanciaux",
     "url": "https://github.com/ryanlanciaux"
   },
-  "homepage": "https://griddlegriddle.github.io/Griddle/",
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "griddle-react",
     "fileMap": [
       {
         "basePath": "build",
@@ -30,6 +11,25 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "griddle-react"
+  },
+  "description": "Griddle - A fast and flexible grid component for React.",
+  "filename": "Griddle.min.js",
+  "homepage": "https://griddlegriddle.github.io/Griddle/",
+  "keywords": [
+    "react-component",
+    "grid",
+    "react",
+    "pagination",
+    "sort"
+  ],
+  "license": "MIT",
+  "name": "griddle-react",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GriddleGriddle/Griddle.git"
+  },
+  "version": "1.13.1"
 }
