@@ -1,14 +1,23 @@
 {
-  "name": "dio",
-  "filename": "dio.min.js",
-  "description": "Dio is a lightweight (~7kb) feature rich Virtual DOM framework",
-  "version": "7.1.0",
-  "homepage": "https://thysultan.com/dio",
-  "license": "MIT",
   "author": {
-    "name": "Sultan Tarimo",
-    "email": "sultantarimo@me.com"
+    "email": "sultantarimo@me.com",
+    "name": "Sultan Tarimo"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "dio!(.server)*.+(js|css|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "dio.js"
+  },
+  "description": "Dio is a lightweight (~7kb) feature rich Virtual DOM framework",
+  "filename": "dio.min.js",
+  "homepage": "https://thysultan.com/dio",
   "keywords": [
     "vdom",
     "virtual",
@@ -21,20 +30,11 @@
     "server",
     "browser"
   ],
+  "license": "MIT",
+  "name": "dio",
   "repository": {
     "type": "git",
     "url": "https://github.com/thysultan/dio.js"
   },
-  "autoupdate": {
-    "source": "npm",
-    "target": "dio.js",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "dio!(.server)*.+(js|css|map)"
-        ]
-      }
-    ]
-  }
+  "version": "9.1.1"
 }
