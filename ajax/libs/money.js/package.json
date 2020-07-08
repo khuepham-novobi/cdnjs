@@ -1,18 +1,6 @@
 {
-  "name": "money.js",
-  "filename": "money.min.js",
-  "version": "0.2.0",
-  "description": "JavaScript currency conversion library.",
-  "keywords": [
-    "accounting",
-    "number",
-    "money",
-    "currency",
-    "exchange"
-  ],
+  "author": "Open Exchange Rates <info@openexchangerates.org> (https://www.openexchangerates.org)",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/openexchangerates/money.js.git",
     "fileMap": [
       {
         "basePath": "",
@@ -21,12 +9,24 @@
           "money.min.js"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/openexchangerates/money.js.git"
   },
+  "description": "JavaScript currency conversion library.",
+  "filename": "money.min.js",
+  "keywords": [
+    "accounting",
+    "number",
+    "money",
+    "currency",
+    "exchange"
+  ],
+  "license": "MIT",
+  "name": "money.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/openexchangerates/money.js"
   },
-  "author": "Open Exchange Rates <info@openexchangerates.org> (https://www.openexchangerates.org)",
-  "license": "MIT"
+  "version": "0.1.3"
 }
