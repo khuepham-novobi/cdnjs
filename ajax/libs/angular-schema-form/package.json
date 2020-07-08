@@ -1,14 +1,20 @@
 {
-  "name": "angular-schema-form",
-  "version": "0.8.14",
-  "description": "Create complex forms from a JSON schema with angular.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/json-schema-form/angular-schema-form"
-  },
-  "homepage": "http://schemaform.io",
   "author": "Textalk",
-  "license": "MIT",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "angular-schema-form"
+  },
+  "description": "Create complex forms from a JSON schema with angular.",
+  "filename": "bootstrap-decorator.min.js",
+  "homepage": "http://schemaform.io",
   "keywords": [
     "angular",
     "angularjs",
@@ -17,17 +23,11 @@
     "json-schema",
     "schema"
   ],
-  "filename": "bootstrap-decorator.min.js",
-  "autoupdate": {
-    "source": "npm",
-    "target": "angular-schema-form",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "angular-schema-form",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/json-schema-form/angular-schema-form"
+  },
+  "version": "0.8.13"
 }
