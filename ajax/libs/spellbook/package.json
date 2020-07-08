@@ -1,12 +1,20 @@
 {
-  "name": "spellbook",
-  "version": "1.0.3",
-  "filename": "spellbook.js",
-  "description": "Javascript tools and Class extensions",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/warlock/spellbook.git"
+  "author": "Josep Subils <js@js.com> (http://js.gl)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "spellbook*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "spellbook"
   },
+  "description": "Javascript tools and Class extensions",
+  "filename": "spellbook.js",
+  "homepage": "http://www.spellbook.io",
   "keywords": [
     "spellbook",
     "extension",
@@ -22,19 +30,11 @@
     "promise",
     "promises"
   ],
-  "author": "Josep Subils <js@js.com> (http://js.gl)",
   "license": "MIT",
-  "homepage": "http://www.spellbook.io",
-  "autoupdate": {
-    "source": "npm",
-    "target": "spellbook",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "spellbook*"
-        ]
-      }
-    ]
-  }
+  "name": "spellbook",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warlock/spellbook.git"
+  },
+  "version": "1.2.4"
 }
