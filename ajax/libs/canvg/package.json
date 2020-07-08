@@ -1,8 +1,20 @@
 {
-  "name": "canvg",
+  "author": "Gabe Lerner <gabelerner@gmail.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "lib",
+        "files": [
+          "umd.js?(.map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "canvg"
+  },
   "description": "Javascript SVG parser and renderer on Canvas",
-  "version": "1.5",
-  "filename": "canvg.min.js",
+  "filename": "umd.js",
+  "homepage": "https://canvg.github.io/canvg/examples/index.htm",
   "keywords": [
     "javascript",
     "client",
@@ -10,23 +22,11 @@
     "svg",
     "canvas"
   ],
-  "author": "Gabe Lerner <gabelerner@gmail.com>",
+  "license": "MIT",
+  "name": "canvg",
   "repository": {
     "type": "git",
     "url": "git://github.com/gabelerner/canvg.git"
   },
-  "license": "MIT",
-  "homepage": "https://canvg.github.io/canvg/examples/index.htm",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/canvg/canvg.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "+(canvg|rgbcolor)*.+(js|map|css)"
-        ]
-      }
-    ]
-  }
+  "version": "3.0.6"
 }
