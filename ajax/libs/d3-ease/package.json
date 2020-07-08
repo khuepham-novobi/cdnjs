@@ -1,7 +1,23 @@
 {
-  "name": "d3-ease",
-  "filename": "d3-ease.min.js",
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "d3-ease"
+  },
   "description": "Easing functions for smooth animation.",
+  "filename": "d3-ease.min.js",
+  "homepage": "https://d3js.org/d3-ease/",
   "keywords": [
     "d3",
     "d3-module",
@@ -10,27 +26,11 @@
     "animation",
     "transition"
   ],
-  "homepage": "https://d3js.org/d3-ease/",
   "license": "BSD-3-Clause",
-  "author": {
-    "name": "Mike Bostock",
-    "url": "https://bost.ocks.org/mike"
-  },
+  "name": "d3-ease",
   "repository": {
     "type": "git",
     "url": "https://github.com/d3/d3-ease.git"
   },
-  "version": "1.0.3",
-  "autoupdate": {
-    "source": "npm",
-    "target": "d3-ease",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "1.0.6"
 }
