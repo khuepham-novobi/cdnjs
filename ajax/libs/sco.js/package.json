@@ -1,8 +1,19 @@
 {
-  "name": "sco.js",
-  "filename": "css/scojs.min.css",
-  "version": "1.1.0",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "css/sco*.css",
+          "js/sco*.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/terebentina/sco.js.git"
+  },
   "description": "Javascript extensions for Twitter Bootstrap. Rewrites bootstrap tabs, collapse, modal, tooltip components for easier usage and provides more plugins for your coding pleasure",
+  "filename": "css/scojs.min.css",
   "homepage": "http://terebentina.github.io/sco.js/",
   "keywords": [
     "scojs",
@@ -12,21 +23,10 @@
     "twitter-bootstrap"
   ],
   "license": "Apache-2.0",
+  "name": "sco.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/terebentina/sco.js/"
   },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/terebentina/sco.js.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "css/sco*.css",
-          "js/sco*.js"
-        ]
-      }
-    ]
-  }
+  "version": "1.0.2"
 }
