@@ -1,27 +1,10 @@
 {
-  "name": "grd",
-  "version": "1.2.3",
-  "filename": "grd.css",
-  "description": "A CSS grid framework using Flexbox.",
-  "keywords": [
-    "css",
-    "grid",
-    "flexbox"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/1000ch/grd"
-  },
-  "homepage": "https://1000ch.github.io/grd",
   "author": {
-    "name": "Shogo Sensui",
     "email": "shogo.sensui@gmail.com",
+    "name": "Shogo Sensui",
     "url": "https://github.com/1000ch"
   },
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "grd",
     "fileMap": [
       {
         "basePath": "dist",
@@ -29,6 +12,23 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "grd"
+  },
+  "description": "A CSS grid framework using Flexbox.",
+  "filename": "grd.css",
+  "homepage": "https://1000ch.github.io/grd",
+  "keywords": [
+    "css",
+    "grid",
+    "flexbox"
+  ],
+  "license": "MIT",
+  "name": "grd",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1000ch/grd"
+  },
+  "version": "1.4.0"
 }
