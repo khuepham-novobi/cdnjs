@@ -1,23 +1,6 @@
 {
-  "name": "vectorious",
-  "filename": "vectorious.min.js",
-  "version": "5.5.0",
-  "description": "A high performance linear algebra library.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mateogianolio/vectorious.git"
-  },
-  "keywords": [
-    "matrix",
-    "vector",
-    "linear",
-    "algebra"
-  ],
   "author": "Mateo Gianolio",
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "vectorious",
     "fileMap": [
       {
         "basePath": "dist",
@@ -25,6 +8,23 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "vectorious"
+  },
+  "description": "A high performance linear algebra library.",
+  "filename": "vectorious.min.js",
+  "keywords": [
+    "matrix",
+    "vector",
+    "linear",
+    "algebra"
+  ],
+  "license": "MIT",
+  "name": "vectorious",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mateogianolio/vectorious.git"
+  },
+  "version": "6.0.0-beta.11"
 }
