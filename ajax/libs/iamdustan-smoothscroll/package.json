@@ -1,29 +1,10 @@
 {
-  "title": "smoothscroll",
-  "name": "iamdustan-smoothscroll",
-  "filename": "smoothscroll.min.js",
-  "version": "0.4.0",
   "author": {
-    "name": "Dustan Kasten",
     "email": "dustan.kasten@gmail.com",
+    "name": "Dustan Kasten",
     "url": "https://iamdustan.com"
   },
-  "description": "Polyfill for smooth scroll behavior",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iamdustan/smoothscroll.git"
-  },
-  "keywords": [
-    "smooth",
-    "scroll",
-    "CSSOM",
-    "polyfill"
-  ],
-  "license": "MIT",
-  "homepage": "https://iamdustan.github.io/smoothscroll",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/iamdustan/smoothscroll.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -31,6 +12,25 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/iamdustan/smoothscroll.git"
+  },
+  "description": "Polyfill for smooth scroll behavior",
+  "filename": "smoothscroll.min.js",
+  "homepage": "https://iamdustan.github.io/smoothscroll",
+  "keywords": [
+    "smooth",
+    "scroll",
+    "CSSOM",
+    "polyfill"
+  ],
+  "license": "MIT",
+  "name": "iamdustan-smoothscroll",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdustan/smoothscroll.git"
+  },
+  "title": "smoothscroll",
+  "version": "0.4.4"
 }
