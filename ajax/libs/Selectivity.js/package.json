@@ -1,21 +1,6 @@
 {
-  "name": "Selectivity.js",
-  "version": "2.1.0",
-  "filename": "selectivity-full.min.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/arendjr/selectivity.git"
-  },
-  "license": "MIT",
-  "description": "Modular and light-weight selection library for jQuery and Zepto.js.",
-  "keywords": [
-    "custom",
-    "template",
-    "loading indicators"
-  ],
+  "author": "Arend van Beelen jr.",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/arendjr/selectivity.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -23,7 +8,22 @@
           "**/*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/arendjr/selectivity.git"
   },
-  "author": "Arend van Beelen jr."
+  "description": "Modular and light-weight selection library for jQuery and Zepto.js.",
+  "filename": "selectivity-full.min.js",
+  "keywords": [
+    "custom",
+    "template",
+    "loading indicators"
+  ],
+  "license": "MIT",
+  "name": "Selectivity.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arendjr/selectivity.git"
+  },
+  "version": "3.1.0"
 }
