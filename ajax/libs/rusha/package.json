@@ -1,23 +1,6 @@
 {
-  "name": "rusha",
-  "filename": "rusha.min.js",
-  "version": "0.8.7",
-  "description": "A high-performance pure-javascript SHA1 implementation suitable for large binary data.",
-  "keywords": [
-    "sha1",
-    "binary",
-    "crypto",
-    "hash"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/srijs/rusha"
-  },
   "author": "Sam Rijs",
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "rusha",
     "fileMap": [
       {
         "basePath": "",
@@ -25,6 +8,23 @@
           "rusha.!(sweet*)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "rusha"
+  },
+  "description": "A high-performance pure-javascript SHA1 implementation suitable for large binary data.",
+  "filename": "rusha.min.js",
+  "keywords": [
+    "sha1",
+    "binary",
+    "crypto",
+    "hash"
+  ],
+  "license": "MIT",
+  "name": "rusha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srijs/rusha"
+  },
+  "version": "0.8.13"
 }
