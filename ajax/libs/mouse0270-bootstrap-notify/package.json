@@ -1,11 +1,20 @@
 {
-  "name": "mouse0270-bootstrap-notify",
-  "version": "3.1.7",
-  "description": "This is a simple plugin that turns standard Bootstrap alerts into \"Growl-like\" notifications.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mouse0270/bootstrap-notify.git"
+  "author": "mouse0270 <rmcintosh@remabledesigns.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "bootstrap-notify*.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/mouse0270/bootstrap-notify.git"
   },
+  "description": "This is a simple plugin that turns standard Bootstrap alerts into \"Growl-like\" notifications.",
+  "filename": "bootstrap-notify.min.js",
+  "homepage": "http://bootstrap-notify.remabledesigns.com/",
   "keywords": [
     "bootstrap",
     "jquery",
@@ -16,20 +25,11 @@
     "message",
     "notice"
   ],
-  "author": "mouse0270 <rmcintosh@remabledesigns.com>",
   "license": "MIT",
-  "homepage": "http://bootstrap-notify.remabledesigns.com/",
-  "filename": "bootstrap-notify.min.js",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/mouse0270/bootstrap-notify.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "bootstrap-notify*.js"
-        ]
-      }
-    ]
-  }
+  "name": "mouse0270-bootstrap-notify",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mouse0270/bootstrap-notify.git"
+  },
+  "version": "3.1.3"
 }
