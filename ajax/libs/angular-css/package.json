@@ -1,5 +1,17 @@
 {
   "author": "Alex Castillo <alex@castillo.io> (http://castillo.io)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "angular-css"
+  },
   "description": "CSS on-demand for AngularJS",
   "filename": "angular-css.min.js",
   "homepage": "http://door3.github.io/angular-css",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "git://github.com/castillo-io/angular-css"
   },
-  "version": "1.0.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "angular-css",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "*.js"
-        ]
-      }
-    ]
-  }
+  "version": "1.0.8"
 }
