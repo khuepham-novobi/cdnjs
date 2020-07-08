@@ -1,24 +1,6 @@
 {
-  "name": "gpu.js",
-  "version": "1.10.4",
-  "filename": "gpu.min.js",
-  "description": "GPU Accelerated JavaScript",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gpujs/gpu.js.git"
-  },
-  "keywords": [
-    "gpgpu",
-    "GPU",
-    "webgl",
-    "accelerate"
-  ],
   "author": "The gpu.js Team",
-  "license": "MIT",
-  "homepage": "http://gpu.rocks/",
   "autoupdate": {
-    "source": "npm",
-    "target": "gpu.js",
     "fileMap": [
       {
         "basePath": "bin",
@@ -26,6 +8,24 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "gpu.js"
+  },
+  "description": "GPU Accelerated JavaScript",
+  "filename": "gpu.min.js",
+  "homepage": "http://gpu.rocks/",
+  "keywords": [
+    "gpgpu",
+    "GPU",
+    "webgl",
+    "accelerate"
+  ],
+  "license": "MIT",
+  "name": "gpu.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpujs/gpu.js.git"
+  },
+  "version": "2.9.4"
 }
