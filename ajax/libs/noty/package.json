@@ -1,27 +1,9 @@
 {
-  "name": "noty",
-  "filename": "noty.min.js",
-  "version": "3.1.4",
-  "description": "Noty is a library that makes it easy to create alert - success - error - warning - information - confirmation messages as an alternative the standard alert dialog. Each notification is added to a queue. (Optional)",
-  "homepage": "https://ned.im/noty",
-  "keywords": [
-    "noty",
-    "notification",
-    "alert",
-    "confirmation"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/needim/noty.git"
-  },
   "author": {
     "name": "Nedim Arabacı",
     "url": "https://ned.im"
   },
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "noty",
     "fileMap": [
       {
         "basePath": "lib",
@@ -29,6 +11,24 @@
           "noty*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "noty"
+  },
+  "description": "Noty is a library that makes it easy to create alert - success - error - warning - information - confirmation messages as an alternative the standard alert dialog. Each notification is added to a queue. (Optional)",
+  "filename": "noty.min.js",
+  "homepage": "https://ned.im/noty",
+  "keywords": [
+    "noty",
+    "notification",
+    "alert",
+    "confirmation"
+  ],
+  "license": "MIT",
+  "name": "noty",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/needim/noty.git"
+  },
+  "version": "3.2.0-beta"
 }
