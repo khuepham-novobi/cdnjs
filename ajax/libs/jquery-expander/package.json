@@ -4,7 +4,20 @@
     "name": "Karl Swedberg",
     "url": "http://www.learningjquery.com/"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery-expander*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "jquery-expander"
+  },
   "description": "Expand and collapse HTML content",
+  "filename": "jquery.expander.min.js",
   "homepage": "https://kswedberg.github.io/jquery-expander/",
   "keywords": [
     "jquery-plugin",
@@ -17,22 +30,9 @@
   ],
   "license": "MIT",
   "name": "jquery-expander",
-  "filename": "jquery.expander.min.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kswedberg/jquery-expander.git"
   },
-  "version": "1.7.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "jquery-expander",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "jquery-expander*"
-        ]
-      }
-    ]
-  }
+  "version": "2.0.1"
 }
