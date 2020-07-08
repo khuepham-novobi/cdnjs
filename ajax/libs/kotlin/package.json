@@ -1,5 +1,17 @@
 {
   "author": "JetBrains",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "*.@(js|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "kotlin"
+  },
   "description": "Standard Library for Kotlin Applications",
   "filename": "kotlin.js",
   "homepage": "http://kotlinlang.org",
@@ -16,17 +28,5 @@
     "type": "git",
     "url": "git+https://git@github.com/JetBrains/kotlin.git"
   },
-  "version": "1.4.0-M2",
-  "autoupdate": {
-    "source": "npm",
-    "target": "kotlin",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "*.@(js|map)"
-        ]
-      }
-    ]
-  }
+  "version": "1.3.72"
 }
