@@ -1,17 +1,6 @@
 {
-  "name": "gridstack.js",
-  "filename": "gridstack.min.js",
-  "version": "0.4.0",
-  "description": "gridstack.js is a jQuery plugin for widget layout",
-  "keywords": [
-    "grid",
-    "jQuery",
-    "widgets",
-    "layout"
-  ],
+  "author": "Pavel Reznikov <pashka.reznikov@gmail.com>",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/troolee/gridstack.js.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -19,12 +8,23 @@
           "*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/troolee/gridstack.js.git"
   },
+  "description": "gridstack.js is a jQuery plugin for widget layout",
+  "filename": "gridstack.min.js",
+  "keywords": [
+    "grid",
+    "jQuery",
+    "widgets",
+    "layout"
+  ],
+  "license": "MIT",
+  "name": "gridstack.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/troolee/gridstack.js.git"
   },
-  "license": "MIT",
-  "author": "Pavel Reznikov <pashka.reznikov@gmail.com>"
+  "version": "1.1.2"
 }
