@@ -1,5 +1,17 @@
 {
   "author": "Param Aggarwal",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "!(es){,/**}"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-dropzone"
+  },
   "description": "Simple HTML5 drag-drop zone with React.js",
   "filename": "index.js",
   "homepage": "https://react-dropzone.js.org/",
@@ -19,17 +31,5 @@
     "type": "git",
     "url": "git+https://github.com/react-dropzone/react-dropzone.git"
   },
-  "version": "10.2.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-dropzone",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "!(es){,/**}"
-        ]
-      }
-    ]
-  }
+  "version": "11.0.1"
 }
