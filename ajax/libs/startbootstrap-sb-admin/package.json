@@ -2,6 +2,20 @@
   "author": {
     "name": "Start Bootstrap"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "css/*.css",
+          "js/*.js",
+          "scss/*.scss"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "startbootstrap-sb-admin"
+  },
   "description": "A one page app landing page HTML theme for Bootstrap.",
   "filename": "css/sb-admin.min.css",
   "homepage": "https://startbootstrap.com/template-overviews/sb-admin",
@@ -21,19 +35,5 @@
     "type": "git",
     "url": "git+https://github.com/BlackrockDigital/startbootstrap-sb-admin.git"
   },
-  "version": "5.1.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "startbootstrap-sb-admin",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "css/*.css",
-          "js/*.js",
-          "scss/*.scss"
-        ]
-      }
-    ]
-  }
+  "version": "6.0.1"
 }
