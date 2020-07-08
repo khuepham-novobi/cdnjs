@@ -1,22 +1,6 @@
 {
-  "name": "angular-chartist.js",
-  "version": "4.3.4",
-  "filename": "angular-chartist.min.js",
-  "description": "Angular directive for Chartist.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/paradox41/angular-chartist.js"
-  },
-  "keywords": [
-    "angular",
-    "chartist.js",
-    "directive"
-  ],
   "author": "Will <will.soto9+github@gmail.com>",
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "angular-chartist.js",
     "fileMap": [
       {
         "basePath": "dist",
@@ -24,6 +8,22 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "angular-chartist.js"
+  },
+  "description": "Angular directive for Chartist.js",
+  "filename": "angular-chartist.min.js",
+  "keywords": [
+    "angular",
+    "chartist.js",
+    "directive"
+  ],
+  "license": "MIT",
+  "name": "angular-chartist.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paradox41/angular-chartist.js"
+  },
+  "version": "5.0.0-beta.2"
 }
