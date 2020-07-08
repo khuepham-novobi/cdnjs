@@ -1,5 +1,17 @@
 {
   "author": "Arthur Clemens",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "polythene-standalone*js*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "polythene"
+  },
   "description": "Modular implementation of Material Design for Mithril.",
   "filename": "polythene-standalone.js",
   "homepage": "https://polythene.js.org/#/polythene",
@@ -13,17 +25,5 @@
     "type": "git",
     "url": "https://github.com/ArthurClemens/Polythene.git"
   },
-  "version": "1.5.6",
-  "autoupdate": {
-    "source": "npm",
-    "target": "polythene",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "polythene-standalone*js*"
-        ]
-      }
-    ]
-  }
+  "version": "1.7.4"
 }
