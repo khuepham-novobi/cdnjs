@@ -1,15 +1,20 @@
 {
-  "name": "egjs",
-  "version": "1.5.0",
-  "filename": "eg.min.js",
-  "description": "Set of UI interactions, effects and utilities components library.",
-  "homepage": "https://naver.github.io/egjs",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/naver/egjs"
-  },
   "author": "NAVER corp",
-  "license": "MIT",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/naver/egjs.git"
+  },
+  "description": "Set of UI interactions, effects and utilities components library.",
+  "filename": "eg.min.js",
+  "homepage": "https://naver.github.io/egjs",
   "keywords": [
     "egjs",
     "flicking",
@@ -24,16 +29,11 @@
     "javascript",
     "jQuery"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/naver/egjs.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "egjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naver/egjs"
+  },
+  "version": "2.2.0"
 }
