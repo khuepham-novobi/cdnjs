@@ -1,28 +1,9 @@
 {
-  "name": "d3-time",
-  "filename": "d3-time.min.js",
-  "description": "A calculator for humanity’s peculiar conventions of time.",
-  "keywords": [
-    "d3",
-    "d3-module",
-    "time",
-    "interval",
-    "calendar"
-  ],
-  "homepage": "https://d3js.org/d3-time/",
-  "license": "BSD-3-Clause",
   "author": {
     "name": "Mike Bostock",
     "url": "https://bost.ocks.org/mike"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3/d3-time.git"
-  },
-  "version": "1.0.8",
   "autoupdate": {
-    "source": "npm",
-    "target": "d3-time",
     "fileMap": [
       {
         "basePath": "build",
@@ -30,6 +11,25 @@
           "**/!(package.js)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "d3-time"
+  },
+  "description": "A calculator for humanity’s peculiar conventions of time.",
+  "filename": "d3-time.min.js",
+  "homepage": "https://d3js.org/d3-time/",
+  "keywords": [
+    "d3",
+    "d3-module",
+    "time",
+    "interval",
+    "calendar"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "d3-time",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-time.git"
+  },
+  "version": "1.1.0"
 }
