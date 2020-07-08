@@ -1,14 +1,19 @@
 {
-  "name": "js-xss",
-  "filename": "xss.min.js",
-  "version": "0.3.3",
-  "description": "Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist",
   "author": "Zongmin Lei <leizongmin@gmail.com> (http://ucdok.com)",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/leizongmin/js-xss.git"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/*.!(html)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "xss"
   },
-  "license": "MIT",
+  "description": "Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist",
+  "filename": "xss.min.js",
   "homepage": "http://jsxss.com",
   "keywords": [
     "sanitization",
@@ -25,16 +30,11 @@
     "injection",
     "whitelist"
   ],
-  "autoupdate": {
-    "source": "npm",
-    "target": "xss",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/*.!(html)"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "js-xss",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leizongmin/js-xss.git"
+  },
+  "version": "1.0.7"
 }
