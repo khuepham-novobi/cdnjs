@@ -1,20 +1,6 @@
 {
-  "name": "ember-charts",
-  "version": "1.2.0",
-  "filename": "ember-charts.min.css",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Addepar/ember-charts.git"
-  },
-  "keywords": [
-    "ember",
-    "charts",
-    "d3"
-  ],
-  "license": "MIT",
+  "author": "Addepar",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/Addepar/ember-charts.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -22,8 +8,22 @@
           "*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/Addepar/ember-charts.git"
   },
   "description": "A powerful and easy to use charting library for Ember.js.",
-  "author": "Addepar"
+  "filename": "ember-charts.min.css",
+  "keywords": [
+    "ember",
+    "charts",
+    "d3"
+  ],
+  "license": "MIT",
+  "name": "ember-charts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Addepar/ember-charts.git"
+  },
+  "version": "3.0.2"
 }
