@@ -1,23 +1,6 @@
 {
-  "name": "nipplejs",
-  "version": "0.7.3",
-  "filename": "nipplejs.min.js",
-  "description": "A virtual joystick for touch capable interfaces",
   "author": "Yoann Moinet <yoann.moinet@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yoannmoinet/nipplejs.git"
-  },
-  "homepage": "https://yoannmoinet.github.io/nipplejs",
-  "keywords": [
-    "virtual",
-    "joystick",
-    "touch"
-  ],
   "autoupdate": {
-    "source": "git",
-    "target": "https://github.com/yoannmoinet/nipplejs.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -25,6 +8,23 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "https://github.com/yoannmoinet/nipplejs.git"
+  },
+  "description": "A virtual joystick for touch capable interfaces",
+  "filename": "nipplejs.min.js",
+  "homepage": "https://yoannmoinet.github.io/nipplejs",
+  "keywords": [
+    "virtual",
+    "joystick",
+    "touch"
+  ],
+  "license": "MIT",
+  "name": "nipplejs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoannmoinet/nipplejs.git"
+  },
+  "version": "0.8.0"
 }
