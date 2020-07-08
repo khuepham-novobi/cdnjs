@@ -1,5 +1,17 @@
 {
   "author": "Eugene Rodionov (https://github.com/theaqua)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "redux-logger"
+  },
   "description": "Logger for Redux",
   "filename": "redux-logger.js",
   "keywords": [
@@ -14,17 +26,5 @@
     "type": "git",
     "url": "git://github.com/theaqua/redux-logger.git"
   },
-  "version": "4.0.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "redux-logger",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "3.0.6"
 }
