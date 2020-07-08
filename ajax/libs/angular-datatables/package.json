@@ -1,22 +1,6 @@
 {
-  "name": "angular-datatables",
-  "description": "Angular module that provides a datatable directive along with datatable options helpers.",
-  "version": "2.1.0",
-  "filename": "angular-datatables.js",
   "author": "l-lin",
-  "keywords": [
-    "datatable",
-    "angular"
-  ],
-  "homepage": "https://l-lin.github.io/angular-datatables",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/l-lin/angular-datatables.git"
-  },
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "angular-datatables",
     "fileMap": [
       {
         "basePath": "dist",
@@ -24,6 +8,22 @@
           "**/!(*.ts)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "angular-datatables"
+  },
+  "description": "Angular module that provides a datatable directive along with datatable options helpers.",
+  "filename": "angular-datatables.js",
+  "homepage": "https://l-lin.github.io/angular-datatables",
+  "keywords": [
+    "datatable",
+    "angular"
+  ],
+  "license": "MIT",
+  "name": "angular-datatables",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/l-lin/angular-datatables.git"
+  },
+  "version": "9.0.2"
 }
