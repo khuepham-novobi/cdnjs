@@ -1,5 +1,17 @@
 {
   "author": "Microsoft Corporation",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "+(min|min-maps)/**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "monaco-editor"
+  },
   "description": "A browser based code editor",
   "filename": "min/vs/editor/editor.main.js",
   "homepage": "https://microsoft.github.io/monaco-editor/",
@@ -16,17 +28,5 @@
     "type": "git",
     "url": "git+https://github.com/Microsoft/monaco-editor.git"
   },
-  "version": "0.19.2",
-  "autoupdate": {
-    "source": "npm",
-    "target": "monaco-editor",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "+(min|min-maps)/**/*"
-        ]
-      }
-    ]
-  }
+  "version": "0.20.0"
 }
