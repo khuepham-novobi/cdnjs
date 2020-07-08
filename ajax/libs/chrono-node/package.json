@@ -1,24 +1,6 @@
 {
-  "name": "chrono-node",
-  "filename": "chrono.min.js",
-  "version": "1.4.3",
-  "description": "A natural language date parser in Javascript",
-  "keywords": [
-    "parser",
-    "time",
-    "npl",
-    "chrono"
-  ],
-  "homepage": "https://wanasit.github.io/pages/chrono/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wanasit/chrono.git"
-  },
-  "license": "MIT",
   "author": "Wanasit Tanakitrungruang",
   "autoupdate": {
-    "source": "npm",
-    "target": "chrono-node",
     "fileMap": [
       {
         "basePath": "",
@@ -26,6 +8,24 @@
           "chrono.!(*json)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "chrono-node"
+  },
+  "description": "A natural language date parser in Javascript",
+  "filename": "chrono.min.js",
+  "homepage": "https://wanasit.github.io/pages/chrono/",
+  "keywords": [
+    "parser",
+    "time",
+    "npl",
+    "chrono"
+  ],
+  "license": "MIT",
+  "name": "chrono-node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wanasit/chrono.git"
+  },
+  "version": "2.0.2"
 }
