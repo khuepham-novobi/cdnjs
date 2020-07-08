@@ -1,12 +1,21 @@
 {
-  "name": "bottleneck",
-  "filename": "bottleneck.min.js",
-  "version": "2.12.2",
-  "description": "Async rate limiter",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SGrondin/bottleneck"
+  "author": {
+    "name": "Simon Grondin"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "bottleneck*.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/SGrondin/bottleneck.git"
+  },
+  "description": "Async rate limiter",
+  "filename": "bottleneck.min.js",
   "keywords": [
     "async rate limiter",
     "rate limiter",
@@ -20,20 +29,11 @@
     "load",
     "ddos"
   ],
-  "author": {
-    "name": "Simon Grondin"
-  },
   "license": "MIT",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/SGrondin/bottleneck.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "bottleneck*.js"
-        ]
-      }
-    ]
-  }
+  "name": "bottleneck",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SGrondin/bottleneck"
+  },
+  "version": "2.19.5"
 }
