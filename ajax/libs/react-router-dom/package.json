@@ -3,6 +3,18 @@
     "Michael Jackson",
     "Ryan Florence"
   ],
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "umd",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-router-dom"
+  },
   "description": "DOM bindings for React Router",
   "filename": "react-router-dom.min.js",
   "homepage": "https://reacttraining.com/react-router/",
@@ -20,17 +32,5 @@
     "type": "git",
     "url": "https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom"
   },
-  "version": "0.0.0-experimental-ffd8c7d0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-router-dom",
-    "fileMap": [
-      {
-        "basePath": "umd",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "5.2.0"
 }
