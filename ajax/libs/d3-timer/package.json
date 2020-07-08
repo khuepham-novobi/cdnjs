@@ -1,7 +1,23 @@
 {
-  "name": "d3-timer",
-  "filename": "d3-timer.min.js",
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "d3-timer"
+  },
   "description": "An efficient queue capable of managing thousands of concurrent animations.",
+  "filename": "d3-timer.min.js",
+  "homepage": "https://d3js.org/d3-timer/",
   "keywords": [
     "d3",
     "d3-module",
@@ -12,27 +28,11 @@
     "setTimeout",
     "setInterval"
   ],
-  "homepage": "https://d3js.org/d3-timer/",
   "license": "BSD-3-Clause",
-  "author": {
-    "name": "Mike Bostock",
-    "url": "https://bost.ocks.org/mike"
-  },
+  "name": "d3-timer",
   "repository": {
     "type": "git",
     "url": "https://github.com/d3/d3-timer.git"
   },
-  "version": "1.0.7",
-  "autoupdate": {
-    "source": "npm",
-    "target": "d3-timer",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "1.0.10"
 }
