@@ -1,8 +1,19 @@
 {
-  "name": "js-cookie",
-  "version": "2.2.1",
-  "filename": "js.cookie.min.js",
+  "author": "Klaus Hartl",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "src",
+        "files": [
+          "js.cookie.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/js-cookie/js-cookie.git"
+  },
   "description": "A simple, lightweight JavaScript API for handling cookies",
+  "filename": "js.cookie.min.js",
   "keywords": [
     "cookie",
     "cookies",
@@ -13,22 +24,11 @@
     "js-cookie",
     "browserify"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/js-cookie/js-cookie.git",
-    "fileMap": [
-      {
-        "basePath": "src",
-        "files": [
-          "js.cookie.js"
-        ]
-      }
-    ]
-  },
+  "license": "MIT",
+  "name": "js-cookie",
   "repository": {
     "type": "git",
     "url": "git://github.com/js-cookie/js-cookie.git"
   },
-  "license": "MIT",
-  "author": "Klaus Hartl"
+  "version": "3.0.0-rc.0"
 }
