@@ -4,6 +4,18 @@
     "name": "Anton Kovalyov",
     "url": "http://anton.kovalyov.net/"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "jshint.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "jshint"
+  },
   "description": "Static analysis tool for JavaScript",
   "filename": "jshint.min.js",
   "homepage": "http://jshint.com/",
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "https://github.com/jshint/jshint.git"
   },
-  "version": "2.11.0-rc1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "jshint",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "jshint.js"
-        ]
-      }
-    ]
-  }
+  "version": "2.11.1"
 }
