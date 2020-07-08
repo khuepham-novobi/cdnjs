@@ -1,14 +1,23 @@
 {
-  "name": "jquery-visible",
-  "version": "1.2.0",
-  "filename": "jquery.visible.min.js",
-  "description": "Quickly check if an element is within the browsers visible viewport, regardless of scroll position. If a user can see this element, the function will return true.",
-  "license": "MIT",
   "author": {
-    "name": "Sam Sehnert",
     "email": "sam@customd.com",
-    "homepage": "https://www.customd.com/articles/13/checking-if-an-element-is-visible-on-screen-using-jquery"
+    "homepage": "https://www.customd.com/articles/13/checking-if-an-element-is-visible-on-screen-using-jquery",
+    "name": "Sam Sehnert"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.visible*.js"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/customd/jquery-visible.git"
+  },
+  "description": "Quickly check if an element is within the browsers visible viewport, regardless of scroll position. If a user can see this element, the function will return true.",
+  "filename": "jquery.visible.min.js",
   "keywords": [
     "visible",
     "viewport",
@@ -22,20 +31,11 @@
     "hidden",
     "hide"
   ],
+  "license": "MIT",
+  "name": "jquery-visible",
   "repository": {
     "type": "git",
     "url": "git://github.com/customd/jquery-visible.git"
   },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/customd/jquery-visible.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "jquery.visible*.js"
-        ]
-      }
-    ]
-  }
+  "version": "1.3.0-rc.1"
 }
