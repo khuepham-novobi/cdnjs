@@ -1,17 +1,23 @@
 {
-  "name": "react-sortable-hoc",
-  "filename": "react-sortable-hoc.min.js",
-  "version": "0.9.0",
-  "description": "Set of higher-order components to turn any list into a sortable, touch-friendly, animated list",
   "author": {
-    "name": "Clauderic Demers",
-    "email": "me@ced.io"
+    "email": "me@ced.io",
+    "name": "Clauderic Demers"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/clauderic/react-sortable-hoc.git"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist/umd",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-sortable-hoc"
   },
+  "description": "Set of higher-order components to turn any list into a sortable, touch-friendly, animated list",
+  "filename": "react-sortable-hoc.min.js",
+  "homepage": "https://clauderic.github.io/react-sortable-hoc/",
   "keywords": [
     "react",
     "reactjs",
@@ -33,17 +39,11 @@
     "grid",
     "higher-order-component"
   ],
-  "homepage": "https://clauderic.github.io/react-sortable-hoc/",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-sortable-hoc",
-    "fileMap": [
-      {
-        "basePath": "dist/umd",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "react-sortable-hoc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clauderic/react-sortable-hoc.git"
+  },
+  "version": "1.11.0"
 }
