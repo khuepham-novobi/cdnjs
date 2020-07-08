@@ -1,20 +1,5 @@
 {
-  "name": "valjs",
-  "filename": "jquery.valjs.min.js",
-  "version": "1.2",
-  "description": "Another jQuery Form Validation plugin",
-  "homepage": "http://valjs.io",
-  "keywords": [
-    "validation",
-    "jquery"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dlid/jquery-valjs.git"
-  },
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/dlid/jquery-valjs.git",
     "fileMap": [
       {
         "basePath": "",
@@ -23,7 +8,22 @@
           "jquery.valjs.js"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/dlid/jquery-valjs.git"
   },
-  "license": "MIT"
+  "description": "Another jQuery Form Validation plugin",
+  "filename": "jquery.valjs.min.js",
+  "homepage": "http://valjs.io",
+  "keywords": [
+    "validation",
+    "jquery"
+  ],
+  "license": "MIT",
+  "name": "valjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlid/jquery-valjs.git"
+  },
+  "version": "0.7.3"
 }
