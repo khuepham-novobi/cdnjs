@@ -1,23 +1,6 @@
 {
-  "name": "algoliasearch.zendesk-hc",
-  "version": "2.29.0",
-  "filename": "algoliasearch.zendesk-hc.min.js",
-  "description": "Algolia Search for Zendesk's Help Center",
   "author": "Algolia <support@algolia.com>",
-  "keywords": [
-    "algolia",
-    "search",
-    "zendesk",
-    "help center"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/algolia/algoliasearch-zendesk.git"
-  },
   "autoupdate": {
-    "source": "npm",
-    "target": "algoliasearch.zendesk-hc",
     "fileMap": [
       {
         "basePath": "dist",
@@ -25,6 +8,23 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "algoliasearch.zendesk-hc"
+  },
+  "description": "Algolia Search for Zendesk's Help Center",
+  "filename": "algoliasearch.zendesk-hc.min.js",
+  "keywords": [
+    "algolia",
+    "search",
+    "zendesk",
+    "help center"
+  ],
+  "license": "MIT",
+  "name": "algoliasearch.zendesk-hc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/algolia/algoliasearch-zendesk.git"
+  },
+  "version": "1.9.0"
 }
