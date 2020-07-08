@@ -1,20 +1,6 @@
 {
-  "name": "ng-jsoneditor",
-  "filename": "ng-jsoneditor.min.js",
-  "version": "1.51",
-  "description": "Angular version of the insanely cool jsoneditor",
-  "keywords": [
-    "jsoneditor",
-    "angular",
-    "ng"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/angular-tools/ng-jsoneditor.git"
-  },
+  "author": "angular-tools <dev@minutephp.com>",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/angular-tools/ng-jsoneditor.git",
     "fileMap": [
       {
         "basePath": "",
@@ -22,8 +8,22 @@
           "ng-jsoneditor!(*min.min*)*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/angular-tools/ng-jsoneditor.git"
   },
+  "description": "Angular version of the insanely cool jsoneditor",
+  "filename": "ng-jsoneditor.min.js",
+  "keywords": [
+    "jsoneditor",
+    "angular",
+    "ng"
+  ],
   "license": "Artistic-2.0",
-  "author": "angular-tools <dev@minutephp.com>"
+  "name": "ng-jsoneditor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-tools/ng-jsoneditor.git"
+  },
+  "version": "1.0.0"
 }
