@@ -1,23 +1,6 @@
 {
-  "name": "expect",
-  "version": "1.20.2",
-  "description": "Write better assertions",
-  "license": "MIT",
-  "keywords": [
-    "expect",
-    "assert",
-    "test",
-    "spec"
-  ],
-  "filename": "expect.min.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mjackson/expect.git"
-  },
   "author": "Michael Jackson",
   "autoupdate": {
-    "source": "npm",
-    "target": "expect",
     "fileMap": [
       {
         "basePath": "umd",
@@ -25,6 +8,23 @@
           "*.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "expect"
+  },
+  "description": "Write better assertions",
+  "filename": "expect.min.js",
+  "keywords": [
+    "expect",
+    "assert",
+    "test",
+    "spec"
+  ],
+  "license": "MIT",
+  "name": "expect",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjackson/expect.git"
+  },
+  "version": "26.1.0"
 }
