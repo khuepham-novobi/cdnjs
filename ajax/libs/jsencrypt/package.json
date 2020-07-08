@@ -1,27 +1,10 @@
 {
-  "name": "jsencrypt",
-  "filename": "jsencrypt.min.js",
-  "version": "2.3.1",
-  "description": "A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation.",
   "author": {
-    "name": "Travis Tidwell",
     "email": "travist349@gmail.com",
+    "name": "Travis Tidwell",
     "url": "https://github.com/travist"
   },
-  "keywords": [
-    "OpenSSL",
-    "RSA",
-    "Javascript encryption"
-  ],
-  "license": "MIT",
-  "homepage": "http://www.travistidwell.com/jsencrypt",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/travist/jsencrypt.git"
-  },
   "autoupdate": {
-    "source": "npm",
-    "target": "jsencrypt",
     "fileMap": [
       {
         "basePath": "bin",
@@ -29,6 +12,23 @@
           "jsencrypt*.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "jsencrypt"
+  },
+  "description": "A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation.",
+  "filename": "jsencrypt.min.js",
+  "homepage": "http://www.travistidwell.com/jsencrypt",
+  "keywords": [
+    "OpenSSL",
+    "RSA",
+    "Javascript encryption"
+  ],
+  "license": "MIT",
+  "name": "jsencrypt",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/travist/jsencrypt.git"
+  },
+  "version": "3.0.0-rc.1"
 }
