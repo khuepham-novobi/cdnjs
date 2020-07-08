@@ -1,25 +1,6 @@
 {
-  "name": "Jouele",
-  "filename": "jouele.js",
-  "description": "Jouele is a simple and beautiful audio player for the web. ",
-  "version": "2.3.0",
   "author": "Ilya Birman",
-  "keywords": [
-    "jquery",
-    "jouele",
-    "jplayer",
-    "audio",
-    "player"
-  ],
-  "homepage": "http://ilyabirman.net/projects/jouele/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ilyabirman/Jouele.git"
-  },
-  "license": "MIT",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/ilyabirman/Jouele.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -27,6 +8,25 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/ilyabirman/Jouele.git"
+  },
+  "description": "Jouele is a simple and beautiful audio player for the web. ",
+  "filename": "jouele.js",
+  "homepage": "http://ilyabirman.net/projects/jouele/",
+  "keywords": [
+    "jquery",
+    "jouele",
+    "jplayer",
+    "audio",
+    "player"
+  ],
+  "license": "MIT",
+  "name": "Jouele",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilyabirman/Jouele.git"
+  },
+  "version": "3.0.6"
 }
