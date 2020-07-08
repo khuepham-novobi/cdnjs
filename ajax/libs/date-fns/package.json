@@ -1,22 +1,6 @@
 {
-  "name": "date-fns",
-  "version": "1.30.1",
-  "filename": "date_fns.min.js",
-  "description": "Modern JavaScript date utility library",
   "author": "Sasha Koss <koss@nocorp.me>",
-  "license": "MIT",
-  "keywords": [
-    "date",
-    "helper"
-  ],
-  "homepage": "https://date-fns.org/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/date-fns/date-fns.git"
-  },
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/date-fns/date-fns.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -24,6 +8,22 @@
           "**/!(*.json)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/date-fns/date-fns.git"
+  },
+  "description": "Modern JavaScript date utility library",
+  "filename": "date_fns.min.js",
+  "homepage": "https://date-fns.org/",
+  "keywords": [
+    "date",
+    "helper"
+  ],
+  "license": "MIT",
+  "name": "date-fns",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/date-fns/date-fns.git"
+  },
+  "version": "2.14.0"
 }
