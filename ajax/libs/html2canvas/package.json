@@ -1,23 +1,10 @@
 {
-  "name": "html2canvas",
-  "filename": "html2canvas.min.js",
-  "version": "0.4.1",
-  "description": "Screenshots with JavaScript",
-  "homepage": "http://html2canvas.hertzen.com/",
-  "keywords": [
-    "canvas",
-    "screenshot",
-    "html5"
-  ],
   "author": {
-    "name": "Niklas von Hertzen",
     "email": "niklasvh@gmail.com",
+    "name": "Niklas von Hertzen",
     "url": "http://hertzen.com"
   },
-  "license": "MIT",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/niklasvh/html2canvas.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -28,10 +15,23 @@
           "html2canvas.svg.min.js"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/niklasvh/html2canvas.git"
   },
+  "description": "Screenshots with JavaScript",
+  "filename": "html2canvas.min.js",
+  "homepage": "http://html2canvas.hertzen.com/",
+  "keywords": [
+    "canvas",
+    "screenshot",
+    "html5"
+  ],
+  "license": "MIT",
+  "name": "html2canvas",
   "repository": {
     "type": "git",
     "url": "https://github.com/niklasvh/html2canvas.git"
-  }
+  },
+  "version": "1.0.0-rc.5"
 }
