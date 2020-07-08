@@ -1,25 +1,10 @@
 {
-  "name": "syn",
-  "version": "0.4.1",
-  "filename": "amd/syn.min.js",
   "author": {
-    "name": "Bitovi",
     "email": "contact@bitovi.com",
+    "name": "Bitovi",
     "web": "http://bitovi.com/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:bitovi/syn.git"
-  },
-  "license": "MIT",
-  "keywords": [
-    "simulate",
-    "synthetic events",
-    "event"
-  ],
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/bitovi/syn.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -27,7 +12,22 @@
           "**/*"
         ]
       }
-    ]
+    ],
+    "source": "npm",
+    "target": "syn"
   },
-  "description": "Standalone Synthetic Event Library"
+  "description": "Standalone Synthetic Event Library",
+  "filename": "amd/syn.min.js",
+  "keywords": [
+    "simulate",
+    "synthetic events",
+    "event"
+  ],
+  "license": "MIT",
+  "name": "syn",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bitovi/syn.git"
+  },
+  "version": "0.15.0"
 }
