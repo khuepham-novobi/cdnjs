@@ -1,19 +1,9 @@
 {
-  "name": "device.js",
-  "filename": "device.min.js",
-  "version": "0.2.7",
-  "description": "Device.js makes it easy to write conditional CSS _and/or_ JavaScript based on device operating system (iOS, Android, Blackberry, Windows, Firefox OS, MeeGo, AppleTV, etc), orientation (Portrait vs. Landscape), and type (Tablet vs. Mobile).",
   "author": {
-    "name": "Matthew Hudson",
-    "email": "matthud@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/matthewhudson/device.js.git"
+    "email": "matthud@gmail.com",
+    "name": "Matthew Hudson"
   },
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/matthewhudson/device.js.git",
     "fileMap": [
       {
         "basePath": "lib",
@@ -21,10 +11,20 @@
           "*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/matthewhudson/device.js.git"
   },
-  "license": "MIT",
+  "description": "Device.js makes it easy to write conditional CSS _and/or_ JavaScript based on device operating system (iOS, Android, Blackberry, Windows, Firefox OS, MeeGo, AppleTV, etc), orientation (Portrait vs. Landscape), and type (Tablet vs. Mobile).",
+  "filename": "device.min.js",
   "keywords": [
     "device.js"
-  ]
+  ],
+  "license": "MIT",
+  "name": "device.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewhudson/device.js.git"
+  },
+  "version": "0.10.1"
 }
