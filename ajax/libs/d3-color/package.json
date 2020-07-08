@@ -1,7 +1,23 @@
 {
-  "name": "d3-color",
-  "filename": "d3-color.min.js",
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "d3-color"
+  },
   "description": "Color spaces! RGB, HSL, Cubehelix, Lab and HCL (Lch).",
+  "filename": "d3-color.min.js",
+  "homepage": "https://d3js.org/d3-color/",
   "keywords": [
     "d3",
     "d3-module",
@@ -13,27 +29,11 @@
     "lch",
     "cubehelix"
   ],
-  "homepage": "https://d3js.org/d3-color/",
   "license": "BSD-3-Clause",
-  "author": {
-    "name": "Mike Bostock",
-    "url": "https://bost.ocks.org/mike"
-  },
+  "name": "d3-color",
   "repository": {
     "type": "git",
     "url": "https://github.com/d3/d3-color.git"
   },
-  "version": "1.2.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "d3-color",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "1.4.1"
 }
