@@ -1,15 +1,5 @@
 {
-  "name": "raven.js",
-  "filename": "raven.min.js",
-  "version": "3.26.2",
-  "description": "JavaScript client for the Sentry realtime event logging and aggregation platform.",
-  "keywords": [
-    "raven",
-    "sentry"
-  ],
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/getsentry/raven-js.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -17,11 +7,21 @@
           "**/!(*.json)"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/getsentry/raven-js.git"
   },
+  "description": "JavaScript client for the Sentry realtime event logging and aggregation platform.",
+  "filename": "raven.min.js",
+  "keywords": [
+    "raven",
+    "sentry"
+  ],
+  "license": "BSD-2-Clause",
+  "name": "raven.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/getsentry/raven-js.git"
   },
-  "license": "BSD-2-Clause"
+  "version": "5.19.1"
 }
