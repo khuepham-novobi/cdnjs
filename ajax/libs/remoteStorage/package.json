@@ -1,10 +1,19 @@
 {
-  "name": "remoteStorage",
-  "version": "0.14.0",
-  "filename": "remotestorage.min.js",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "release/stable",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "remotestoragejs"
+  },
   "description": "JavaScript library for integrating remoteStorage",
+  "filename": "remotestorage.min.js",
   "homepage": "http://remotestorage.io/",
-  "license": "MIT",
   "keywords": [
     "remoteStorage",
     "unhosted",
@@ -15,20 +24,11 @@
     "oauth",
     "CORS"
   ],
+  "license": "MIT",
+  "name": "remoteStorage",
   "repository": {
     "type": "git",
     "url": "https://github.com/remotestorage/remotestorage.js"
   },
-  "autoupdate": {
-    "source": "npm",
-    "target": "remotestoragejs",
-    "fileMap": [
-      {
-        "basePath": "release/stable",
-        "files": [
-          "*.js"
-        ]
-      }
-    ]
-  }
+  "version": "1.2.3"
 }
