@@ -1,9 +1,4 @@
 {
-  "name": "keen-js",
-  "filename": "keen.umd.min.js",
-  "version": "5.0.5",
-  "description": "Keen IO JavaScript SDK",
-  "license": "MIT",
   "authors": [
     "Dustin Larimer <dustin@keen.io>",
     "André Luis Leal Cardoso Junior <andrehjr@gmail.com>",
@@ -17,6 +12,20 @@
     "Micah Wolfe <micah@keen.io>",
     "Tim Schiller <timothy.schiller@gmail.com>"
   ],
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/keen/keen-js.git"
+  },
+  "description": "Keen IO JavaScript SDK",
+  "filename": "keen.umd.min.js",
   "keywords": [
     "analytics",
     "metrics",
@@ -28,20 +37,11 @@
     "keen.io",
     "keen-io"
   ],
+  "license": "MIT",
+  "name": "keen-js",
   "repository": {
     "type": "git",
     "url": "https://github.com/keen/keen-js.git"
   },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/keen/keen-js.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*"
-        ]
-      }
-    ]
-  }
+  "version": "6.0.1"
 }
