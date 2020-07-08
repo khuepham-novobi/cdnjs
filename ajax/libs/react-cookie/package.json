@@ -1,19 +1,6 @@
 {
-  "name": "react-cookie",
-  "filename": "react-cookie.min.js",
-  "version": "0.4.9",
-  "description": "Load and save cookies within your React application",
-  "keywords": [
-    "cookie",
-    "cookies",
-    "react",
-    "reactjs",
-    "jsx"
-  ],
-  "namespace": "reactCookie",
+  "author": "Benoit Tremblay <trembl.ben@gmail.com>",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/eXon/react-cookie.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -21,12 +8,25 @@
           "*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/eXon/react-cookie.git"
   },
+  "description": "Load and save cookies within your React application",
+  "filename": "react-cookie.min.js",
+  "keywords": [
+    "cookie",
+    "cookies",
+    "react",
+    "reactjs",
+    "jsx"
+  ],
+  "license": "MIT",
+  "name": "react-cookie",
+  "namespace": "reactCookie",
   "repository": {
     "type": "git",
     "url": "git://github.com/eXon/react-cookie.git"
   },
-  "license": "MIT",
-  "author": "Benoit Tremblay <trembl.ben@gmail.com>"
+  "version": "4.0.3"
 }
