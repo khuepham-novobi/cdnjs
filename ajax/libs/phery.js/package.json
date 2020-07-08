@@ -1,9 +1,23 @@
 {
-  "name": "phery.js",
-  "filename": "phery.min.js",
-  "version": "2.7.4",
+  "author": {
+    "name": "Paulo Cesar",
+    "url": "http://github.com/pocesar"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "phery*.+(js|css|map)"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/pheryjs/phery.git"
+  },
   "description": "The bridge from jQuery to PHP, and vice-versa through AJAX.",
-  "license": "MIT",
+  "filename": "phery.min.js",
+  "homepage": "http://phery-php-ajax.net",
   "keywords": [
     "AJAX",
     "event",
@@ -21,25 +35,11 @@
     "HTML5",
     "JSON"
   ],
+  "license": "MIT",
+  "name": "phery.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/pheryjs/phery.git"
   },
-  "homepage": "http://phery-php-ajax.net",
-  "author": {
-    "name": "Paulo Cesar",
-    "url": "http://github.com/pocesar"
-  },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/pheryjs/phery.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "phery*.+(js|css|map)"
-        ]
-      }
-    ]
-  }
+  "version": "3.0.0-alpha.5"
 }
