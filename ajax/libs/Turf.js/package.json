@@ -1,5 +1,17 @@
 {
   "author": "morganherlocker",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "turf.+(js|min.js)?(.map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "@turf/turf"
+  },
   "description": "a node.js library for performing geospatial operations with geojson",
   "filename": "turf.min.js",
   "keywords": [
@@ -35,17 +47,5 @@
     "type": "git",
     "url": "https://github.com/turfjs/turf.git"
   },
-  "version": "6.2.0-alpha.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "@turf/turf",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "turf.+(js|min.js)?(.map)"
-        ]
-      }
-    ]
-  }
+  "version": "5.1.6"
 }
