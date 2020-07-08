@@ -1,23 +1,9 @@
 {
-  "name": "random-js",
-  "filename": "random.min.js",
-  "description": "A mathematically correct random number generator library for JavaScript.",
-  "version": "1.0.8",
   "author": {
-    "name": "Cameron Kenneth Knight",
-    "email": "ckknight@gmail.com"
-  },
-  "keywords": [
-    "random"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ckknight/random-js.git"
+    "email": "ckknight@gmail.com",
+    "name": "Cameron Kenneth Knight"
   },
   "autoupdate": {
-    "source": "npm",
-    "target": "random-js",
     "fileMap": [
       {
         "basePath": "lib",
@@ -25,6 +11,20 @@
           "random*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "random-js"
+  },
+  "description": "A mathematically correct random number generator library for JavaScript.",
+  "filename": "random.min.js",
+  "keywords": [
+    "random"
+  ],
+  "license": "MIT",
+  "name": "random-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckknight/random-js.git"
+  },
+  "version": "2.1.0"
 }
