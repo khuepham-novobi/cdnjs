@@ -1,5 +1,17 @@
 {
   "author": "Jeanine Adkisson",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "parsimmon"
+  },
   "description": "A monadic LL(infinity) parser combinator library",
   "filename": "parsimmon.umd.min.js",
   "keywords": [
@@ -14,17 +26,5 @@
     "type": "git",
     "url": "https://github.com/jneen/parsimmon"
   },
-  "version": "1.13.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "parsimmon",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "1.14.0"
 }
