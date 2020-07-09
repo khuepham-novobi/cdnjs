@@ -1,22 +1,6 @@
 {
-  "filename": "jquery.webui-popover.min.js",
-  "name": "webui-popover",
-  "description": "A enhancement popover plugin for Bootstrap ,but you can use it stand-alone without Bootstrap!",
   "author": "Sandy Duan <sanddywalker@gmail.com>",
-  "version": "2.1.15",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sandywalker/webui-popover"
-  },
-  "keywords": [
-    "popover",
-    "jquery-plugin",
-    "ecosystem:jquery"
-  ],
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/sandywalker/webui-popover.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -24,6 +8,22 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/sandywalker/webui-popover.git"
+  },
+  "description": "A enhancement popover plugin for Bootstrap ,but you can use it stand-alone without Bootstrap!",
+  "filename": "jquery.webui-popover.min.js",
+  "keywords": [
+    "popover",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "license": "MIT",
+  "name": "webui-popover",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandywalker/webui-popover"
+  },
+  "version": "1.2.18"
 }
