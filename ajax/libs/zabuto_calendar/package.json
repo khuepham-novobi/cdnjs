@@ -1,9 +1,22 @@
 {
-  "name": "zabuto_calendar",
-  "filename": "zabuto_calendar.min.js",
-  "version": "1.6.4",
+  "author": {
+    "name": "Anke Heijnen",
+    "url": "http://zabuto.com"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "zabuto_calendar*.+(js|css|map)"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/zabuto/calendar.git"
+  },
   "description": "jQuery plugin for Bootstrap to add a month calendar to your page.",
-  "license": "MIT",
+  "filename": "zabuto_calendar.min.js",
   "keywords": [
     "calendar",
     "agenda",
@@ -16,24 +29,11 @@
     "ajax",
     "json"
   ],
-  "author": {
-    "name": "Anke Heijnen",
-    "url": "http://zabuto.com"
-  },
+  "license": "MIT",
+  "name": "zabuto_calendar",
   "repository": {
     "type": "git",
     "url": "git@github.com:zabuto/calendar.git"
   },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/zabuto/calendar.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "zabuto_calendar*.+(js|css|map)"
-        ]
-      }
-    ]
-  }
+  "version": "2.0.0-alpha"
 }
