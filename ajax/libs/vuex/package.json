@@ -1,5 +1,17 @@
 {
   "author": "Evan You",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "vuex"
+  },
   "description": "state management for Vue.js",
   "filename": "vuex.min.js",
   "homepage": "https://vuex.vuejs.org/",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "git+https://github.com/vuejs/vuex.git"
   },
-  "version": "4.0.0-beta.4",
-  "autoupdate": {
-    "source": "npm",
-    "target": "vuex",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.js"
-        ]
-      }
-    ]
-  }
+  "version": "3.5.1"
 }
