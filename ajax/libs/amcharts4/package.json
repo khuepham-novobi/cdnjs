@@ -1,5 +1,17 @@
 {
   "author": "amCharts <contact@amcharts.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "{,lang/,plugins/,themes/,.internal/**/}*.@(js|ts|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "@amcharts/amcharts4"
+  },
   "description": "The most advanced amCharts charting library for JavaScript and TypeScript apps.",
   "filename": "core.min.js",
   "homepage": "https://www.amcharts.com/",
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "https://github.com/amcharts/amcharts4.git"
   },
-  "version": "4.9.28",
-  "autoupdate": {
-    "source": "npm",
-    "target": "@amcharts/amcharts4",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "{,lang/,plugins/,themes/,.internal/**/}*.@(js|ts|map)"
-        ]
-      }
-    ]
-  }
+  "version": "4.9.29"
 }
