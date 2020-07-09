@@ -1,23 +1,6 @@
 {
-  "name": "xls",
-  "filename": "xls.min.js",
-  "version": "0.7.6",
-  "description": "Excel 5.0/95 and 97-2004 spreadsheet (BIFF5 XLS / BIFF8 XLS / XML 2003) parser",
-  "license": "Apache License, Version 2.0",
-  "keywords": [
-    "excel",
-    "spreadsheet",
-    "xls",
-    "parser"
-  ],
   "author": "SheetJS",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SheetJS/js-xls.git"
-  },
   "autoupdate": {
-    "source": "npm",
-    "target": "xlsjs",
     "fileMap": [
       {
         "basePath": "dist",
@@ -26,6 +9,23 @@
           "*.map"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "xlsjs"
+  },
+  "description": "Excel 5.0/95 and 97-2004 spreadsheet (BIFF5 XLS / BIFF8 XLS / XML 2003) parser",
+  "filename": "xls.min.js",
+  "keywords": [
+    "excel",
+    "spreadsheet",
+    "xls",
+    "parser"
+  ],
+  "license": "Apache License, Version 2.0",
+  "name": "xls",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SheetJS/js-xls.git"
+  },
+  "version": "1.0.1"
 }
