@@ -1,5 +1,17 @@
 {
   "author": "Jeff Sagal <sagalbot@gmail.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "vue-select"
+  },
   "description": "A native Vue.js select component that provides similar functionality to Select2/Chosen without the overhead of jQuery.",
   "filename": "vue-select.js",
   "homepage": "https://sagalbot.github.io/vue-select/",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "git://github.com/sagalbot/vue-select.git"
   },
-  "version": "3.10.5",
-  "autoupdate": {
-    "source": "npm",
-    "target": "vue-select",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "3.10.6"
 }
