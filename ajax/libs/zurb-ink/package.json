@@ -1,8 +1,19 @@
 {
-  "name": "zurb-ink",
-  "filename": "ink.min.css",
-  "version": "1.0.5",
+  "author": "ZURB",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "css",
+        "files": [
+          "ink.css"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/zurb/ink.git"
+  },
   "description": "Ink is a responsive email framework for making emails that look great on any device.",
+  "filename": "ink.min.css",
   "homepage": "http://zurb.com/ink",
   "keywords": [
     "ink",
@@ -11,22 +22,11 @@
     "html",
     "zurb"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/zurb/ink.git",
-    "fileMap": [
-      {
-        "basePath": "css",
-        "files": [
-          "ink.css"
-        ]
-      }
-    ]
-  },
+  "license": "MIT",
+  "name": "zurb-ink",
   "repository": {
     "type": "git",
     "url": "https://github.com/zurb/ink.git"
   },
-  "license": "MIT",
-  "author": "ZURB"
+  "version": "2.2.1"
 }
