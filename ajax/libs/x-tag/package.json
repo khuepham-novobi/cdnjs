@@ -1,23 +1,6 @@
 {
-  "name": "x-tag",
-  "filename": "x-tag-core.min.js",
-  "description": "The X-Tag core library",
-  "version": "1.5.11",
   "author": "Daniel Buchner",
-  "keywords": [
-    "x-tag",
-    "core",
-    "W3C"
-  ],
-  "license": "MIT",
-  "homepage": "https://x-tag.github.io",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/x-tag/core.git"
-  },
   "autoupdate": {
-    "source": "npm",
-    "target": "x-tag",
     "fileMap": [
       {
         "basePath": "dist",
@@ -25,6 +8,23 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "x-tag"
+  },
+  "description": "The X-Tag core library",
+  "filename": "x-tag-core.min.js",
+  "homepage": "https://x-tag.github.io",
+  "keywords": [
+    "x-tag",
+    "core",
+    "W3C"
+  ],
+  "license": "MIT",
+  "name": "x-tag",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/x-tag/core.git"
+  },
+  "version": "2.0.3-beta"
 }
