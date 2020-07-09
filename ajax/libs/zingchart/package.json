@@ -1,12 +1,21 @@
 {
-  "name": "zingchart",
-  "filename": "zingchart.min.js",
-  "version": "2.8.6",
-  "description": "A npm package for easy downloading of ZingChart.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zingchart/ZingChart.git"
+  "author": {
+    "name": "ZingChart"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "client",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "zingchart"
+  },
+  "description": "A npm package for easy downloading of ZingChart.",
+  "filename": "zingchart.min.js",
   "keywords": [
     "zingchart",
     "chart",
@@ -15,23 +24,14 @@
     "charts",
     "html5"
   ],
-  "author": {
-    "name": "ZingChart"
-  },
   "license": {
     "name": "ZingChart Branded License",
     "url": "https://www.zingchart.com/buy/details/branded-license/"
   },
-  "autoupdate": {
-    "source": "npm",
-    "target": "zingchart",
-    "fileMap": [
-      {
-        "basePath": "client",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "name": "zingchart",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zingchart/ZingChart.git"
+  },
+  "version": "2.9.0"
 }
