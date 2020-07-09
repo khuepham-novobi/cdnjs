@@ -3,6 +3,18 @@
     "email": "kawakazu80@gmail.com",
     "name": "kazuya kawaguchi"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.!(md)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "vue-i18n"
+  },
   "description": "Internationalization plugin for Vue.js",
   "filename": "vue-i18n.min.js",
   "keywords": [
@@ -18,17 +30,5 @@
     "type": "git",
     "url": "git+https://github.com/kazupon/vue-i18n.git"
   },
-  "version": "9.0.0-alpha.12",
-  "autoupdate": {
-    "source": "npm",
-    "target": "vue-i18n",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.!(md)"
-        ]
-      }
-    ]
-  }
+  "version": "8.18.2"
 }
