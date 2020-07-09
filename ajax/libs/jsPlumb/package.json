@@ -1,5 +1,23 @@
 {
   "author": "Simon Porritt",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      },
+      {
+        "basePath": "",
+        "files": [
+          "css/jsplumbtoolkit-defaults.css"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "jsplumb"
+  },
   "description": "Visual connectivity for webapps",
   "filename": "js/jsplumb.min.js",
   "homepage": "http://jsplumbtoolkit.com",
@@ -21,23 +39,5 @@
     "type": "git",
     "url": "https://github.com/jsplumb/jsPlumb.git"
   },
-  "version": "2.13.3",
-  "autoupdate": {
-    "source": "npm",
-    "target": "jsplumb",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      },
-      {
-        "basePath": "",
-        "files": [
-          "css/jsplumbtoolkit-defaults.css"
-        ]
-      }
-    ]
-  }
+  "version": "2.13.4"
 }
