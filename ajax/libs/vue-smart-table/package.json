@@ -1,14 +1,19 @@
 {
-  "name": "vue-smart-table",
-  "version": "2.5.0",
-  "filename": "vue-smart-table.min.js",
-  "description": "A table with dynamic components for vue.js",
   "author": "Andrea Passaglia <gurghet@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gurghet/vue-smart-table.git"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist/static",
+        "files": [
+          "**/*vue*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "vue-smart-table"
   },
+  "description": "A table with dynamic components for vue.js",
+  "filename": "vue-smart-table.min.js",
   "keywords": [
     "vue",
     "vuejs",
@@ -17,16 +22,11 @@
     "grid",
     "smart"
   ],
-  "autoupdate": {
-    "source": "npm",
-    "target": "vue-smart-table",
-    "fileMap": [
-      {
-        "basePath": "dist/static",
-        "files": [
-          "**/*vue*"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "vue-smart-table",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gurghet/vue-smart-table.git"
+  },
+  "version": "2.6.0-beta5"
 }
