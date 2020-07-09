@@ -1,20 +1,6 @@
 {
-  "name": "wysihtml",
-  "version": "0.5.5",
-  "filename": "wysihtml.min.js",
-  "description": "Open source rich text editor for the modern web.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Voog/wysihtml"
-  },
   "author": "VOOG, XING AG",
-  "license": "MIT",
-  "keywords": [
-    "wysihtml"
-  ],
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/Voog/wysihtml.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -28,6 +14,20 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "git://github.com/Voog/wysihtml.git"
+  },
+  "description": "Open source rich text editor for the modern web.",
+  "filename": "wysihtml.min.js",
+  "keywords": [
+    "wysihtml"
+  ],
+  "license": "MIT",
+  "name": "wysihtml",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Voog/wysihtml"
+  },
+  "version": "0.6.0-beta1"
 }
