@@ -31,5 +31,5 @@
     "type": "git",
     "url": "git+https://github.com/vuikit/vuikit.git"
   },
-  "version": "0.9.0-beta3"
+  "version": "0.8.10"
 }
