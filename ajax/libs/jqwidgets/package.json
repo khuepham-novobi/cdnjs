@@ -4,6 +4,23 @@
     "name": "jQWidgets",
     "url": "http://www.jqwidgets.com/"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jqwidgets/**/*.*",
+          "jqwidgets-ng/**/*.*",
+          "jqwidgets-react/*.*",
+          "jqwidgets-react-tsx/*/*.*",
+          "jqwidgets-ts/*.*",
+          "jqwidgets-vue/*.*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "jqwidgets-scripts"
+  },
   "description": "jQWidgets is an advanced jQuery, Angular, React, ASP .NET MVC, Custom Elements and HTML5 UI framework.",
   "filename": "jqwidgets/jqx-all.js",
   "homepage": "http://www.jqwidgets.com/",
@@ -119,22 +136,5 @@
     "type": "git",
     "url": "git://github.com/jqwidgets/jQWidgets"
   },
-  "version": "9.1.6",
-  "autoupdate": {
-    "source": "npm",
-    "target": "jqwidgets-scripts",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "jqwidgets/**/*.*",
-          "jqwidgets-ng/**/*.*",
-          "jqwidgets-react/*.*",
-          "jqwidgets-react-tsx/*/*.*",
-          "jqwidgets-ts/*.*",
-          "jqwidgets-vue/*.*"
-        ]
-      }
-    ]
-  }
+  "version": "10.0.0"
 }
