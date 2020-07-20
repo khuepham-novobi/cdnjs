@@ -3,6 +3,18 @@
     "name": "Algolia, Inc.",
     "url": "https://www.algolia.com"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "umd",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-instantsearch"
+  },
   "description": "⚡ Lightning-fast search for React and React Native apps, by Algolia",
   "filename": "Core.min.js",
   "homepage": "https://community.algolia.com/react-instantsearch/",
@@ -21,17 +33,5 @@
     "type": "git",
     "url": "https://github.com/algolia/react-instantsearch/"
   },
-  "version": "6.6.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-instantsearch",
-    "fileMap": [
-      {
-        "basePath": "umd",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "6.7.0"
 }
