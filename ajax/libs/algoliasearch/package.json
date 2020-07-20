@@ -3,6 +3,18 @@
     "name": "Algolia SAS",
     "url": "https://www.algolia.com"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "algoliasearch"
+  },
   "description": "AlgoliaSearch API JavaScript client",
   "filename": "algoliasearch.min.js",
   "keywords": [
@@ -19,17 +31,5 @@
     "type": "git",
     "url": "https://github.com/algolia/algoliasearch-client-js"
   },
-  "version": "4.3.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "algoliasearch",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.js"
-        ]
-      }
-    ]
-  }
+  "version": "4.3.1"
 }
