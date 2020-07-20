@@ -1,5 +1,17 @@
 {
   "author": "Joshfire & tchapi",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "lib",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "jsonform"
+  },
   "description": "Client-side JavaScript library that generates HTML forms from structured data models expressed using a JSON schema, possibly completed by a form layout description.",
   "filename": "jsonform.js",
   "homepage": "https://github.com/jsonform/jsonform#readme",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "git+https://github.com/jsonform/jsonform.git"
   },
-  "version": "2.2.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "jsonform",
-    "fileMap": [
-      {
-        "basePath": "lib",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "2.2.1"
 }
