@@ -1,5 +1,17 @@
 {
   "author": "Mozilla",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "localforage"
+  },
   "description": "Offline storage, improved.",
   "filename": "localforage.min.js",
   "keywords": [
@@ -14,17 +26,5 @@
     "type": "git",
     "url": "git://github.com/mozilla/localForage.git"
   },
-  "version": "1.7.4",
-  "autoupdate": {
-    "source": "npm",
-    "target": "localforage",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.js"
-        ]
-      }
-    ]
-  }
+  "version": "1.8.0"
 }
