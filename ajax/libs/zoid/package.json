@@ -1,5 +1,17 @@
 {
   "author": "The kraken.js team at PayPal",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "zoid"
+  },
   "description": "Cross domain components.",
   "filename": "zoid.min.js",
   "homepage": "https://github.com/krakenjs/zoid#readme",
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "git://github.com/krakenjs/zoid.git"
   },
-  "version": "9.0.46",
-  "autoupdate": {
-    "source": "npm",
-    "target": "zoid",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "9.0.47"
 }
