@@ -1,24 +1,6 @@
 {
-  "name": "webcomponentsjs",
-  "title": "webcomponentsjs",
-  "filename": "custom-elements-es5-adapter.js",
-  "version": "2.4.3",
-  "homepage": "http://webcomponents.org",
-  "keywords": [
-    "webcomponents",
-    "polyfill",
-    "shim"
-  ],
-  "license": "BSD-3-Clause",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/webcomponents/webcomponentsjs"
-  },
-  "description": "webcomponents.js",
   "author": "The Polymer Authors",
   "autoupdate": {
-    "source": "npm",
-    "target": "@webcomponents/webcomponentsjs",
     "fileMap": [
       {
         "basePath": "",
@@ -26,6 +8,24 @@
           "!(gulpfile).+(js|map)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "@webcomponents/webcomponentsjs"
+  },
+  "description": "webcomponents.js",
+  "filename": "custom-elements-es5-adapter.js",
+  "homepage": "http://webcomponents.org",
+  "keywords": [
+    "webcomponents",
+    "polyfill",
+    "shim"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "webcomponentsjs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webcomponents/webcomponentsjs"
+  },
+  "title": "webcomponentsjs",
+  "version": "2.4.4"
 }
