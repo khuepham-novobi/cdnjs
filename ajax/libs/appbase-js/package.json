@@ -1,5 +1,17 @@
 {
   "author": "Sacheendra Talluri",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.gz|*.br|*.es.js|*.cjs.js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "appbase-js"
+  },
   "description": "Appbase.io streaming client lib for Javascript",
   "filename": "appbase.js",
   "homepage": "http://docs.appbase.io/scalr/javascript/nodejs-intro.html",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "https://github.com/appbaseio/appbase-js.git"
   },
-  "version": "4.1.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "appbase-js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.gz|*.br|*.es.js|*.cjs.js)"
-        ]
-      }
-    ]
-  }
+  "version": "4.1.1"
 }
