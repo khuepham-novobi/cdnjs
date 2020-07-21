@@ -1,23 +1,6 @@
 {
-  "name": "react-card-flip",
-  "version": "1.0.10",
-  "filename": "react-card-flip.min.js",
-  "description": "React component for card flipping animation.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/AaronCCWong/react-card-flip.git"
-  },
-  "keywords": [
-    "react",
-    "react-component",
-    "react-card-flip"
-  ],
   "author": "Aaron Wong <aarn.wong@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://aaronccwong.github.io/react-card-flip/",
   "autoupdate": {
-    "source": "npm",
-    "target": "react-card-flip",
     "fileMap": [
       {
         "basePath": "lib",
@@ -25,6 +8,23 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "react-card-flip"
+  },
+  "description": "React component for card flipping animation.",
+  "filename": "react-card-flip.min.js",
+  "homepage": "https://aaronccwong.github.io/react-card-flip/",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-card-flip"
+  ],
+  "license": "MIT",
+  "name": "react-card-flip",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AaronCCWong/react-card-flip.git"
+  },
+  "version": "1.0.11"
 }
