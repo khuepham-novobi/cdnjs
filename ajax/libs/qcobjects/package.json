@@ -1,5 +1,17 @@
 {
   "author": "Jean Machuca <correojean@gmail.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "QCObjects.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "qcobjects"
+  },
   "bugs": {
     "url": "https://github.com/QuickGroup/QCObjects/issues"
   },
@@ -49,17 +61,5 @@
     "type": "git",
     "url": "git+https://github.com/QuickGroup/QCObjects.git"
   },
-  "version": "2.2.450",
-  "autoupdate": {
-    "source": "npm",
-    "target": "qcobjects",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "QCObjects.js"
-        ]
-      }
-    ]
-  }
+  "version": "2.2.452"
 }
