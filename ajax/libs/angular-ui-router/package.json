@@ -1,17 +1,23 @@
 {
-  "name": "angular-ui-router",
-  "description": "State-based routing for AngularJS",
-  "version": "1.0.26",
-  "filename": "angular-ui-router.min.js",
-  "homepage": "https://angular-ui.github.com/",
   "author": {
     "name": "Karsten Sperling",
     "url": "https://github.com/ksperling"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/angular-ui/ui-router.git"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "release",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "@uirouter/angularjs"
   },
+  "description": "State-based routing for AngularJS",
+  "filename": "angular-ui-router.min.js",
+  "homepage": "https://angular-ui.github.com/",
   "keywords": [
     "angular",
     "ui",
@@ -22,16 +28,10 @@
     "state-tree"
   ],
   "license": "MIT",
-  "autoupdate": {
-    "source": "npm",
-    "target": "@uirouter/angularjs",
-    "fileMap": [
-      {
-        "basePath": "release",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "name": "angular-ui-router",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-ui/ui-router.git"
+  },
+  "version": "1.0.27"
 }
