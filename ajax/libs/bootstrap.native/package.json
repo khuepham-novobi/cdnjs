@@ -1,5 +1,17 @@
 {
   "author": "dnp_theme",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "bootstrap.native"
+  },
   "description": "Native Javascript for Bootstrap 3, the sweetest Javascript library without jQuery.",
   "filename": "bootstrap-native.min.js",
   "homepage": "http://thednp.github.io/bootstrap.native/",
@@ -16,17 +28,5 @@
     "type": "git",
     "url": "git+https://github.com/thednp/bootstrap.native.git"
   },
-  "version": "3.0.9",
-  "autoupdate": {
-    "source": "npm",
-    "target": "bootstrap.native",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "3.0.10"
 }
