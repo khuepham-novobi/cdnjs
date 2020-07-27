@@ -1,5 +1,21 @@
 {
-  "author": "Microsoft and other contributors",
+  "authors": [
+    {
+      "name": "Microsoft and other contributors"
+    }
+  ],
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.ts)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "@pnp/pnpjs"
+  },
   "description": "pnp - rollup library of core functionality (mimics sp-pnp-js)",
   "filename": "pnpjs.es5.umd.min.js",
   "keywords": [
@@ -16,17 +32,5 @@
     "type": "git",
     "url": "git://github.com/pnp/pnp"
   },
-  "version": "2.0.6",
-  "autoupdate": {
-    "source": "npm",
-    "target": "@pnp/pnpjs",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.ts)"
-        ]
-      }
-    ]
-  }
+  "version": "2.0.7"
 }
