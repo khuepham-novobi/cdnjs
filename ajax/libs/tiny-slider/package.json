@@ -1,22 +1,11 @@
 {
-  "name": "tiny-slider",
-  "filename": "min/tiny-slider.js",
-  "version": "2.9.2",
-  "description": "Vanilla javascript slider for all purposes, inspired by Owl Carousel.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ganlanyuan/tiny-slider.git"
-  },
-  "keywords": [
-    "vanilla javascript",
-    "tiny slider",
-    "slider"
+  "authors": [
+    {
+      "email": "ganlanyuan@gmail.com",
+      "name": "ganlanyuan"
+    }
   ],
-  "author": "ganlanyuan <ganlanyuan@gmail.com>",
-  "license": "MIT",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/ganlanyuan/tiny-slider.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -24,7 +13,23 @@
           "**/*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/ganlanyuan/tiny-slider.git"
   },
-  "homepage": "https://ganlanyuan.github.io/tiny-slider/"
+  "description": "Vanilla javascript slider for all purposes, inspired by Owl Carousel.",
+  "filename": "min/tiny-slider.js",
+  "homepage": "https://ganlanyuan.github.io/tiny-slider/",
+  "keywords": [
+    "vanilla javascript",
+    "tiny slider",
+    "slider"
+  ],
+  "license": "MIT",
+  "name": "tiny-slider",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganlanyuan/tiny-slider.git"
+  },
+  "version": "2.9.3"
 }
