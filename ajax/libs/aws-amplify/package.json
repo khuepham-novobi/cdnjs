@@ -1,7 +1,9 @@
 {
-  "author": {
-    "name": "Amazon Web Services"
-  },
+  "authors": [
+    {
+      "name": "Amazon Web Services"
+    }
+  ],
   "autoupdate": {
     "fileMap": [
       {
@@ -24,5 +26,5 @@
     "type": "git",
     "url": "git+https://github.com/aws-amplify/amplify-js.git"
   },
-  "version": "3.0.21"
+  "version": "3.0.22"
 }
