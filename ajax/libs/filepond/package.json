@@ -3,6 +3,18 @@
     "name": "PQINA",
     "url": "https://pqina.nl/"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.@(js|css)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "filepond"
+  },
   "description": "FilePond, Where files go to stretch their bits.",
   "filename": "filepond.min.js",
   "homepage": "https://pqina.nl/filepond/",
@@ -23,17 +35,5 @@
     "type": "git",
     "url": "git+https://github.com/pqina/filepond.git"
   },
-  "version": "4.18.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "filepond",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.@(js|css)"
-        ]
-      }
-    ]
-  }
+  "version": "4.19.0"
 }
