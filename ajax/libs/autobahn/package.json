@@ -1,5 +1,9 @@
 {
-  "author": "Crossbar.io Technologies GmbH",
+  "authors": [
+    {
+      "name": "Crossbar.io Technologies GmbH"
+    }
+  ],
   "autoupdate": {
     "fileMap": [
       {
@@ -35,5 +39,5 @@
     "type": "git",
     "url": "git://github.com/crossbario/autobahn-js.git"
   },
-  "version": "20.6.1"
+  "version": "20.7.1"
 }
