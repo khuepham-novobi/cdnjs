@@ -1,5 +1,11 @@
 {
-  "author": "Yotam Mann <yotammann@gmail.com> (http://yotammann.info/)",
+  "authors": [
+    {
+      "email": "yotammann@gmail.com",
+      "name": "Yotam Mann",
+      "url": "http://yotammann.info/"
+    }
+  ],
   "autoupdate": {
     "fileMap": [
       {
@@ -32,5 +38,5 @@
     "type": "git",
     "url": "https://github.com/Tonejs/Tone.js.git"
   },
-  "version": "14.7.38"
+  "version": "14.7.39"
 }
