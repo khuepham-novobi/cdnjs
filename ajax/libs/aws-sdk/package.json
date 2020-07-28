@@ -1,8 +1,10 @@
 {
-  "author": {
-    "name": "Amazon Web Services",
-    "url": "http://aws.amazon.com/"
-  },
+  "authors": [
+    {
+      "name": "Amazon Web Services",
+      "url": "http://aws.amazon.com/"
+    }
+  ],
   "autoupdate": {
     "fileMap": [
       {
@@ -61,5 +63,5 @@
     "type": "git",
     "url": "git://github.com/aws/aws-sdk-js.git"
   },
-  "version": "2.721.0"
+  "version": "2.722.0"
 }
