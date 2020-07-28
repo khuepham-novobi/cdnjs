@@ -1,7 +1,21 @@
 {
-  "author": {
-    "email": "nexxy@particle.io",
-    "name": "Emily Rose"
+  "authors": [
+    {
+      "email": "nexxy@particle.io",
+      "name": "Emily Rose"
+    }
+  ],
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "particle-api-js"
   },
   "description": "Particle API Client",
   "filename": "particle.min.js",
@@ -18,17 +32,5 @@
     "type": "git",
     "url": "git+https://github.com/spark/particle-api-js.git"
   },
-  "version": "9.0.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "particle-api-js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "9.0.2"
 }
