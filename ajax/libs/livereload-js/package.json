@@ -34,5 +34,5 @@
     "type": "git",
     "url": "git://github.com/livereload/livereload-js.git"
   },
-  "version": "3.2.5"
+  "version": "3.3.0"
 }
