@@ -1,8 +1,17 @@
 {
   "authors": [
-    "Adam Wathan <adam.wathan@gmail.com>",
-    "Jonathan Reinink <jonathan@reinink.ca>",
-    "David Hemphill <davidlee.hemphill@gmail.com>"
+    {
+      "email": "adam.wathan@gmail.com",
+      "name": "Adam Wathan"
+    },
+    {
+      "email": "jonathan@reinink.ca",
+      "name": "Jonathan Reinink"
+    },
+    {
+      "email": "davidlee.hemphill@gmail.com",
+      "name": "David Hemphill"
+    }
   ],
   "autoupdate": {
     "fileMap": [
@@ -34,5 +43,5 @@
     "type": "git",
     "url": "https://github.com/tailwindcss/tailwindcss"
   },
-  "version": "1.5.2"
+  "version": "1.6.0"
 }
