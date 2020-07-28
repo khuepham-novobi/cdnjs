@@ -1,7 +1,9 @@
 {
-  "author": {
-    "name": "Microsoft"
-  },
+  "authors": [
+    {
+      "name": "Microsoft"
+    }
+  ],
   "autoupdate": {
     "fileMap": [
       {
@@ -29,5 +31,5 @@
     "type": "git",
     "url": "git+https://github.com/Microsoft/PowerBI-JavaScript.git"
   },
-  "version": "2.13.3"
+  "version": "2.14.0"
 }
