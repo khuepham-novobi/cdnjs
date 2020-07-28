@@ -1,9 +1,11 @@
 {
-  "author": {
-    "email": "matteo@manzinello.dev",
-    "name": "Matteo Manzinello",
-    "url": "https://matteomanzinello.com"
-  },
+  "authors": [
+    {
+      "email": "matteo@manzinello.dev",
+      "name": "Matteo Manzinello",
+      "url": "https://matteomanzinello.com"
+    }
+  ],
   "autoupdate": {
     "fileMap": [
       {
@@ -36,5 +38,5 @@
     "type": "git",
     "url": "git+https://github.com/manzinello/mailgo.git"
   },
-  "version": "0.9.12"
+  "version": "0.9.13"
 }
