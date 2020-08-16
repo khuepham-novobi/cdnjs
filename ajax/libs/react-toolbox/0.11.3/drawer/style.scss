@@ -1,0 +1,72 @@
+@import "../base";
+@import "./config";
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: $z-index-high;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.active {
+  pointer-events: all;
+  > .content {
+    transition-delay: $animation-delay;
+    transform: translateX(0);
+  }
+  > .overlay {
+    opacity: $color-overlay-opacity;
+  }
+}
+
+.left {
+  > .content {
+    left: 0;
+    border-right: 1px solid $drawer-border-color;
+  }
+  &:not(.active) > .content {
+    transform: translateX(- 100%);
+  }
+}
+
+.right {
+  > .content {
+    right: 0;
+    border-left: 1px solid $drawer-border-color;
+  }
+  &:not(.active) > .content {
+    transform: translateX(100%);
+  }
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: $drawer-overlay-color;
+  opacity: 0;
+  transition-timing-function: $animation-curve-default;
+  transition-duration: $animation-duration;
+  transition-property: opacity;
+}
+
+.content {
+  @include shadow-2dp();
+  position: absolute;
+  top: 0;
+  display: block;
+  width: $drawer-width;
+  height: 100%;
+  overflow-y: scroll;
+  color: $drawer-text-color;
+  background-color: $drawer-background-color;
+  transition-delay: 0s;
+  transition-timing-function: $animation-curve-default;
+  transition-duration: $animation-duration;
+  transition-property: transform;
+  transform-style: preserve-3d;
+  will-change: transform;
+}

@@ -1,0 +1,75 @@
+@import "../base";
+@import "./config";
+
+.input > [role="input"] {
+  cursor: pointer;
+}
+
+.header {
+  padding-bottom: $unit;
+  color: $datepicker-primary-contrast-color;
+  text-align: center;
+  background-color: $datepicker-primary-color;
+}
+
+.weekday {
+  display: block;
+  width: 100%;
+  font-size: $datepicker-weekday-font-size;
+  line-height: $datepicker-weekday-line-height;
+  background-color: $datepicker-primary-dark-color;
+}
+
+.month {
+  display: block;
+  padding: $unit;
+  font-size: $datepicker-month-font-size;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.day {
+  display: block;
+  font-size: $datepicker-day-font-size;
+  line-height: $datepicker-day-line-height;
+  cursor: pointer;;
+}
+
+.year {
+  display: inline-block;
+  margin-top: $unit;
+  font-size: $datepicker-year-font-size;
+  cursor: pointer;
+}
+
+.wrapper {
+  padding: $unit .5 * $unit 0;
+}
+
+.display-years {
+  .day, .month {
+    opacity: $datepicker-inactive-opacity;
+  }
+}
+
+.display-months {
+  .year {
+    opacity: $datepicker-inactive-opacity;
+  }
+}
+
+.dialog > [role="content"] {
+  width: $datepicker-dialog-width;
+  > [role="body"] {
+    padding: 0;
+  }
+  > [role="navigation"] > .button {
+    color: $datepicker-primary-color;
+    &:hover {
+      background: $datepicker-primary-hover-color;
+    }
+    &:focus:not(:active) {
+      background: $datepicker-primary-hover-color;
+    }
+  }
+}
