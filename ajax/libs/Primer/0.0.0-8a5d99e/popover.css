@@ -1,0 +1,3 @@
+.Popover{position:absolute;z-index:100}.Popover-message{position:relative;width:232px;margin-right:auto;margin-left:auto}.Popover-message--top-right,.Popover-message--bottom-right{right:-9px;margin-right:0}.Popover-message--top-left,.Popover-message--bottom-left{left:-9px;margin-left:0}@media (min-width: 544px){.Popover-message--large{min-width:320px}}
+
+/*# sourceMappingURL=popover.css.map */
