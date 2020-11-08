@@ -1,0 +1,1 @@
+import"./index-6985b341.js";import{C as e}from"./component-6415a3b1.js";export default class extends e{static get params(){return{input:!0,localized:!0,component:"datepicker",provideValue:!1,props:["value","begin","end","mode","lang","host"]}}}
