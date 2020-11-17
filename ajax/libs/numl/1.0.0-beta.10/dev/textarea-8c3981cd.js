@@ -1,0 +1,12 @@
+import './index-16504bb3.js';
+import InputBehavior from './input-ebfa2a37.js';
+
+class TextAreaBehavior extends InputBehavior {
+  static get params() {
+    return {
+      tag: 'textarea',
+    };
+  }
+}
+
+export default TextAreaBehavior;
