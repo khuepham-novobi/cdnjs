@@ -1,0 +1,12 @@
+import * as interfaces from './interfaces';
+export declare const version: string;
+export declare const _: any;
+export declare const helper: any;
+export declare const constants: any;
+export declare const exceptions: any;
+export declare const Tags: any;
+export declare const TagValues: any;
+export declare const remove: (imageBinary: string) => string;
+export declare const insert: (exifBinary: string, imageBinary: string) => string;
+export declare const load: (binary: string) => interfaces.IExif;
+export declare const dump: (originalExifObj: interfaces.IExif) => string;
