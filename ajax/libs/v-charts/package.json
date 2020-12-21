@@ -1,0 +1,1 @@
+{"autoupdate":{"source":"npm","target":"v-charts","fileMap":[{"basePath":"lib","files":["!(utils|*.common)?(.min).js"]}]},"description":"Vue Echarts Components","filename":"index.js","keywords":["vue","echarts"],"license":"MIT","name":"v-charts","repository":{"type":"git","url":"git+https://github.com/elemefe/v-charts.git"},"version":"1.19.0"}
