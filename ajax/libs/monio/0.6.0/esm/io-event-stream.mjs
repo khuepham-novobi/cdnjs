@@ -1,0 +1,5 @@
+/*! Monio: io-event-stream.mjs
+    v0.6.0 (c) 2020 Kyle Simpson
+    MIT License: http://getify.mit-license.org
+*/
+import{isFunction,curry}from"./lib/util.mjs";import IO from"./io.mjs";export default curry(ioEventStream);function ioEventStream(e,n){return IO((()=>{var r=[getDeferred()];isFunction(e.addEventListener)?e.addEventListener(n,handler,!1):isFunction(e.addListener)?e.addListener(n,handler):isFunction(e.on)&&e.on(n,handler);var t=isFunction(e.removeEventListener)?e.removeEventListener.bind(e,n,handler,!1):isFunction(e.removeListener)?e.removeListener.bind(e,n,handler):isFunction(e.off)?e.off.bind(e,n,handler):()=>{};return async function*eventStream(){try{for(;;)try{yield r[0].pr}finally{r.shift()}}finally{t(),r.length=0}}();function handler(e){var n=r[r.length-1];r.push(getDeferred()),n.next(e)}}))}function getDeferred(){var e;return{pr:new Promise((n=>e=n)),next:e}}
