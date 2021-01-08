@@ -1,0 +1,10 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+require('./index-2c61e7eb.js');
+const utils = require('./utils-f1edd7b4.js');
+
+
+
+exports.addIcons = utils.addIcons;
