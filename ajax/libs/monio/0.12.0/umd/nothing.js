@@ -1,0 +1,5 @@
+/*! Monio: nothing.js
+    v0.12.0 (c) 2021 Kyle Simpson
+    MIT License: http://getify.mit-license.org
+*/
+!function UMD(n,o,e,t){"function"==typeof define&&define.amd?(e=Object.keys(e).map((n=>n.replace(/^\.\//,""))),define(n,e,t)):"undefined"!=typeof module&&module.exports?(e=Object.keys(e).map((n=>require(n))),module.exports=t(...e)):(e=Object.values(e).map((n=>o[n])),o[n]=t(...e))}("Nothing","undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:new Function("return this")(),{},(function DEF(){"use strict";var n={};let o={};function Nothing(){var o={map:noop,chain:noop,flatMap:noop,bind:noop,ap:noop,concat:noop,_inspect:function _inspect(){return`${o[Symbol.toStringTag]}()`},_is:function _is(o){return o===n},[Symbol.toStringTag]:"Nothing"};return o;function noop(){return o}}return o=Object.assign(Nothing,{of:Nothing,pure:Nothing,unit:Nothing,is:function is(o){return o&&"function"==typeof o._is&&o._is(n)},isEmpty:function isEmpty(n){return null==n}}),o}));
