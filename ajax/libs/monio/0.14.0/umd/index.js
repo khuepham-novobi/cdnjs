@@ -1,0 +1,5 @@
+/*! Monio: index.js
+    v0.14.0 (c) 2021 Kyle Simpson
+    MIT License: http://getify.mit-license.org
+*/
+!function UMD(e,t,n,i){"function"==typeof define&&define.amd?(n=Object.keys(n).map((e=>e.replace(/^\.\//,""))),define(e,n,i)):"undefined"!=typeof module&&module.exports?(n=Object.keys(n).map((e=>require(e))),module.exports=i(...n)):(n=Object.values(n).map((e=>t[e])),t[e]=i(...n))}("Monio","undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:new Function("return this")(),{"./just.js":"Just","./nothing.js":"Nothing","./maybe.js":"Maybe","./either.js":"Either","./async-either.js":"AsyncEither","./io.js":"IO","./io-helpers.js":"IOHelpers","./io-event-stream.js":"IOEventStream"},(function DEF(e,t,n,i,s,o,r,d){"use strict";let u={};return u.Just=e,u.Nothing=t,u.Maybe=n,u.Either=i,u.AsyncEither=s,u.IO=o,u.Reader=o,u.RIO=o,u.IOHelpers=r,u.IOEventStream=d,u}));
